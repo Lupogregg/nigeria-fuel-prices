@@ -1,0 +1,647 @@
+{
+  "data_updated_at": "2026-11-10T22:00:58Z",
+  "currency": "NGN",
+  "count": 37,
+  "states": [
+    {
+      "state": "Abia",
+      "slug": "abia",
+      "zone": "South East",
+      "aliases": [],
+      "url": "/v1/prices/abia.json",
+      "latest": {
+        "pms": {
+          "period": "2026-05",
+          "price": 1653.91
+        },
+        "ago": {
+          "period": "2026-01",
+          "price": 1282.5
+        }
+      }
+    },
+    {
+      "state": "Adamawa",
+      "slug": "adamawa",
+      "zone": "North East",
+      "aliases": [],
+      "url": "/v1/prices/adamawa.json",
+      "latest": {
+        "pms": {
+          "period": "2026-05",
+          "price": 1469.83
+        },
+        "ago": {
+          "period": "2026-01",
+          "price": 1422.91
+        }
+      }
+    },
+    {
+      "state": "Akwa Ibom",
+      "slug": "akwa-ibom",
+      "zone": "South South",
+      "aliases": [],
+      "url": "/v1/prices/akwa-ibom.json",
+      "latest": {
+        "pms": {
+          "period": "2026-05",
+          "price": 1629.08
+        },
+        "ago": {
+          "period": "2026-01",
+          "price": 1558.52
+        }
+      }
+    },
+    {
+      "state": "Anambra",
+      "slug": "anambra",
+      "zone": "South East",
+      "aliases": [],
+      "url": "/v1/prices/anambra.json",
+      "latest": {
+        "pms": {
+          "period": "2026-05",
+          "price": 1519.72
+        },
+        "ago": {
+          "period": "2026-01",
+          "price": 1243.08
+        }
+      }
+    },
+    {
+      "state": "Bauchi",
+      "slug": "bauchi",
+      "zone": "North East",
+      "aliases": [],
+      "url": "/v1/prices/bauchi.json",
+      "latest": {
+        "pms": {
+          "period": "2026-05",
+          "price": 1715.47
+        },
+        "ago": {
+          "period": "2026-01",
+          "price": 1449.62
+        }
+      }
+    },
+    {
+      "state": "Bayelsa",
+      "slug": "bayelsa",
+      "zone": "South South",
+      "aliases": [],
+      "url": "/v1/prices/bayelsa.json",
+      "latest": {
+        "pms": {
+          "period": "2026-05",
+          "price": 1591.38
+        },
+        "ago": {
+          "period": "2026-01",
+          "price": 1294.51
+        }
+      }
+    },
+    {
+      "state": "Benue",
+      "slug": "benue",
+      "zone": "North Central",
+      "aliases": [],
+      "url": "/v1/prices/benue.json",
+      "latest": {
+        "pms": {
+          "period": "2026-05",
+          "price": 1698.57
+        },
+        "ago": {
+          "period": "2026-01",
+          "price": 1309.21
+        }
+      }
+    },
+    {
+      "state": "Borno",
+      "slug": "borno",
+      "zone": "North East",
+      "aliases": [],
+      "url": "/v1/prices/borno.json",
+      "latest": {
+        "pms": {
+          "period": "2026-05",
+          "price": 1551.07
+        },
+        "ago": {
+          "period": "2026-01",
+          "price": 1480.0
+        }
+      }
+    },
+    {
+      "state": "Cross River",
+      "slug": "cross-river",
+      "zone": "South South",
+      "aliases": [
+        "Cross Rivers"
+      ],
+      "url": "/v1/prices/cross-river.json",
+      "latest": {
+        "pms": {
+          "period": "2026-05",
+          "price": 1551.21
+        },
+        "ago": {
+          "period": "2026-01",
+          "price": 1295.92
+        }
+      }
+    },
+    {
+      "state": "Delta",
+      "slug": "delta",
+      "zone": "South South",
+      "aliases": [],
+      "url": "/v1/prices/delta.json",
+      "latest": {
+        "pms": {
+          "period": "2026-05",
+          "price": 1667.68
+        },
+        "ago": {
+          "period": "2026-01",
+          "price": 1323.42
+        }
+      }
+    },
+    {
+      "state": "Ebonyi",
+      "slug": "ebonyi",
+      "zone": "South East",
+      "aliases": [],
+      "url": "/v1/prices/ebonyi.json",
+      "latest": {
+        "pms": {
+          "period": "2026-05",
+          "price": 1633.38
+        },
+        "ago": {
+          "period": "2026-01",
+          "price": 1344.41
+        }
+      }
+    },
+    {
+      "state": "Edo",
+      "slug": "edo",
+      "zone": "South South",
+      "aliases": [],
+      "url": "/v1/prices/edo.json",
+      "latest": {
+        "pms": {
+          "period": "2026-05",
+          "price": 1722.91
+        },
+        "ago": {
+          "period": "2026-01",
+          "price": 1414.11
+        }
+      }
+    },
+    {
+      "state": "Ekiti",
+      "slug": "ekiti",
+      "zone": "South West",
+      "aliases": [],
+      "url": "/v1/prices/ekiti.json",
+      "latest": {
+        "pms": {
+          "period": "2026-05",
+          "price": 1598.56
+        },
+        "ago": {
+          "period": "2026-01",
+          "price": 1311.58
+        }
+      }
+    },
+    {
+      "state": "Enugu",
+      "slug": "enugu",
+      "zone": "South East",
+      "aliases": [],
+      "url": "/v1/prices/enugu.json",
+      "latest": {
+        "pms": {
+          "period": "2026-05",
+          "price": 1570.23
+        },
+        "ago": {
+          "period": "2026-01",
+          "price": 1251.69
+        }
+      }
+    },
+    {
+      "state": "FCT",
+      "slug": "fct",
+      "zone": "North Central",
+      "aliases": [
+        "Abuja",
+        "Abuja FCT",
+        "FCT Abuja",
+        "Federal Capital Territory"
+      ],
+      "url": "/v1/prices/fct.json",
+      "latest": {
+        "pms": {
+          "period": "2026-05",
+          "price": 1602.64
+        },
+        "ago": {
+          "period": "2026-01",
+          "price": 1332.37
+        }
+      }
+    },
+    {
+      "state": "Gombe",
+      "slug": "gombe",
+      "zone": "North East",
+      "aliases": [],
+      "url": "/v1/prices/gombe.json",
+      "latest": {
+        "pms": {
+          "period": "2026-05",
+          "price": 1686.37
+        },
+        "ago": {
+          "period": "2026-01",
+          "price": 1403.3
+        }
+      }
+    },
+    {
+      "state": "Imo",
+      "slug": "imo",
+      "zone": "South East",
+      "aliases": [],
+      "url": "/v1/prices/imo.json",
+      "latest": {
+        "pms": {
+          "period": "2026-05",
+          "price": 1592.34
+        },
+        "ago": {
+          "period": "2026-01",
+          "price": 1319.33
+        }
+      }
+    },
+    {
+      "state": "Jigawa",
+      "slug": "jigawa",
+      "zone": "North West",
+      "aliases": [],
+      "url": "/v1/prices/jigawa.json",
+      "latest": {
+        "pms": {
+          "period": "2026-05",
+          "price": 1650.99
+        },
+        "ago": {
+          "period": "2026-01",
+          "price": 1353.37
+        }
+      }
+    },
+    {
+      "state": "Kaduna",
+      "slug": "kaduna",
+      "zone": "North West",
+      "aliases": [],
+      "url": "/v1/prices/kaduna.json",
+      "latest": {
+        "pms": {
+          "period": "2026-05",
+          "price": 1573.46
+        },
+        "ago": {
+          "period": "2026-01",
+          "price": 1266.67
+        }
+      }
+    },
+    {
+      "state": "Kano",
+      "slug": "kano",
+      "zone": "North West",
+      "aliases": [],
+      "url": "/v1/prices/kano.json",
+      "latest": {
+        "pms": {
+          "period": "2026-05",
+          "price": 1607.27
+        },
+        "ago": {
+          "period": "2026-01",
+          "price": 1281.92
+        }
+      }
+    },
+    {
+      "state": "Katsina",
+      "slug": "katsina",
+      "zone": "North West",
+      "aliases": [],
+      "url": "/v1/prices/katsina.json",
+      "latest": {
+        "pms": {
+          "period": "2026-05",
+          "price": 1470.63
+        },
+        "ago": {
+          "period": "2026-01",
+          "price": 1310.66
+        }
+      }
+    },
+    {
+      "state": "Kebbi",
+      "slug": "kebbi",
+      "zone": "North West",
+      "aliases": [],
+      "url": "/v1/prices/kebbi.json",
+      "latest": {
+        "pms": {
+          "period": "2026-05",
+          "price": 1554.94
+        },
+        "ago": {
+          "period": "2026-01",
+          "price": 1382.33
+        }
+      }
+    },
+    {
+      "state": "Kogi",
+      "slug": "kogi",
+      "zone": "North Central",
+      "aliases": [],
+      "url": "/v1/prices/kogi.json",
+      "latest": {
+        "pms": {
+          "period": "2026-05",
+          "price": 1534.32
+        },
+        "ago": {
+          "period": "2026-01",
+          "price": 1200.0
+        }
+      }
+    },
+    {
+      "state": "Kwara",
+      "slug": "kwara",
+      "zone": "North Central",
+      "aliases": [],
+      "url": "/v1/prices/kwara.json",
+      "latest": {
+        "pms": {
+          "period": "2026-05",
+          "price": 1555.67
+        },
+        "ago": {
+          "period": "2026-01",
+          "price": 1397.76
+        }
+      }
+    },
+    {
+      "state": "Lagos",
+      "slug": "lagos",
+      "zone": "South West",
+      "aliases": [],
+      "url": "/v1/prices/lagos.json",
+      "latest": {
+        "pms": {
+          "period": "2026-05",
+          "price": 1561.22
+        },
+        "ago": {
+          "period": "2026-01",
+          "price": 1560.82
+        }
+      }
+    },
+    {
+      "state": "Nasarawa",
+      "slug": "nasarawa",
+      "zone": "North Central",
+      "aliases": [
+        "Nassarawa"
+      ],
+      "url": "/v1/prices/nasarawa.json",
+      "latest": {
+        "pms": {
+          "period": "2026-05",
+          "price": 1576.12
+        },
+        "ago": {
+          "period": "2026-01",
+          "price": 1379.35
+        }
+      }
+    },
+    {
+      "state": "Niger",
+      "slug": "niger",
+      "zone": "North Central",
+      "aliases": [],
+      "url": "/v1/prices/niger.json",
+      "latest": {
+        "pms": {
+          "period": "2026-05",
+          "price": 1538.33
+        },
+        "ago": {
+          "period": "2026-01",
+          "price": 1276.0
+        }
+      }
+    },
+    {
+      "state": "Ogun",
+      "slug": "ogun",
+      "zone": "South West",
+      "aliases": [],
+      "url": "/v1/prices/ogun.json",
+      "latest": {
+        "pms": {
+          "period": "2026-05",
+          "price": 1598.32
+        },
+        "ago": {
+          "period": "2026-01",
+          "price": 1230.52
+        }
+      }
+    },
+    {
+      "state": "Ondo",
+      "slug": "ondo",
+      "zone": "South West",
+      "aliases": [],
+      "url": "/v1/prices/ondo.json",
+      "latest": {
+        "pms": {
+          "period": "2026-05",
+          "price": 1598.7
+        },
+        "ago": {
+          "period": "2026-01",
+          "price": 1382.31
+        }
+      }
+    },
+    {
+      "state": "Osun",
+      "slug": "osun",
+      "zone": "South West",
+      "aliases": [],
+      "url": "/v1/prices/osun.json",
+      "latest": {
+        "pms": {
+          "period": "2026-05",
+          "price": 1537.0
+        },
+        "ago": {
+          "period": "2026-01",
+          "price": 1427.59
+        }
+      }
+    },
+    {
+      "state": "Oyo",
+      "slug": "oyo",
+      "zone": "South West",
+      "aliases": [],
+      "url": "/v1/prices/oyo.json",
+      "latest": {
+        "pms": {
+          "period": "2026-05",
+          "price": 1639.97
+        },
+        "ago": {
+          "period": "2026-01",
+          "price": 1459.78
+        }
+      }
+    },
+    {
+      "state": "Plateau",
+      "slug": "plateau",
+      "zone": "North Central",
+      "aliases": [],
+      "url": "/v1/prices/plateau.json",
+      "latest": {
+        "pms": {
+          "period": "2026-05",
+          "price": 1623.76
+        },
+        "ago": {
+          "period": "2026-01",
+          "price": 1449.78
+        }
+      }
+    },
+    {
+      "state": "Rivers",
+      "slug": "rivers",
+      "zone": "South South",
+      "aliases": [
+        "River"
+      ],
+      "url": "/v1/prices/rivers.json",
+      "latest": {
+        "pms": {
+          "period": "2026-05",
+          "price": 1580.76
+        },
+        "ago": {
+          "period": "2026-01",
+          "price": 1439.61
+        }
+      }
+    },
+    {
+      "state": "Sokoto",
+      "slug": "sokoto",
+      "zone": "North West",
+      "aliases": [],
+      "url": "/v1/prices/sokoto.json",
+      "latest": {
+        "pms": {
+          "period": "2026-05",
+          "price": 1489.33
+        },
+        "ago": {
+          "period": "2026-01",
+          "price": 1470.46
+        }
+      }
+    },
+    {
+      "state": "Taraba",
+      "slug": "taraba",
+      "zone": "North East",
+      "aliases": [],
+      "url": "/v1/prices/taraba.json",
+      "latest": {
+        "pms": {
+          "period": "2026-05",
+          "price": 1647.94
+        },
+        "ago": {
+          "period": "2026-01",
+          "price": 1453.5
+        }
+      }
+    },
+    {
+      "state": "Yobe",
+      "slug": "yobe",
+      "zone": "North East",
+      "aliases": [],
+      "url": "/v1/prices/yobe.json",
+      "latest": {
+        "pms": {
+          "period": "2026-05",
+          "price": 1665.91
+        },
+        "ago": {
+          "period": "2026-01",
+          "price": 1376.42
+        }
+      }
+    },
+    {
+      "state": "Zamfara",
+      "slug": "zamfara",
+      "zone": "North West",
+      "aliases": [],
+      "url": "/v1/prices/zamfara.json",
+      "latest": {
+        "pms": {
+          "period": "2026-05",
+          "price": 1602.12
+        },
+        "ago": {
+          "period": "2026-01",
+          "price": 1242.82
+        }
+      }
+    }
+  ]
+}

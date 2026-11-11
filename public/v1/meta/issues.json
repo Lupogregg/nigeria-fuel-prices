@@ -1,0 +1,788 @@
+{
+  "note": "Things the build noticed in the source workbooks. Quarantined sheets are not published.",
+  "counts": {
+    "quarantined": 3,
+    "revision": 9,
+    "sheet_skipped": 1,
+    "warning": 57
+  },
+  "issues": [
+    {
+      "kind": "quarantined",
+      "source": "legacy-diesel-november-2018",
+      "file": "DIESEL_november_2018.xlsx",
+      "sheet": "Sheet1",
+      "detail": "name says 2018-11 but the newest month column is 2018-10 - not published, because the month cannot be trusted"
+    },
+    {
+      "kind": "quarantined",
+      "source": "legacy-diesel-june-2015-october-2021",
+      "file": "DIESEL_JUNE_2015-_OCTOBER_2021.xlsx",
+      "sheet": "Diesel August 2021",
+      "detail": "name says 2021-08 but the newest month column is 2021-10 - not published, because the month cannot be trusted"
+    },
+    {
+      "kind": "quarantined",
+      "source": "legacy-ago-apr-2024",
+      "file": "AGO_APR_2024.xlsx",
+      "sheet": "DIESEL APRIL 2024",
+      "detail": "name says 2024-04 but the newest month column is 2024-03 - not published, because the month cannot be trusted"
+    },
+    {
+      "kind": "revision",
+      "fuel": "ago",
+      "period": "2018-10",
+      "states_affected": 13,
+      "max_difference_pct": 10.46,
+      "sources": [
+        "legacy-diesel-april-2019",
+        "legacy-diesel-april-2020",
+        "legacy-diesel-august-2020",
+        "legacy-diesel-dec-2019",
+        "legacy-diesel-july-2019",
+        "legacy-diesel-june-2015-april-2021",
+        "legacy-diesel-june-2015-august-2021",
+        "legacy-diesel-june-2015-august-2022",
+        "legacy-diesel-june-2015-dec-2018",
+        "legacy-diesel-june-2015-december-2020",
+        "legacy-diesel-june-2015-december-2021",
+        "legacy-diesel-june-2015-december-2022",
+        "legacy-diesel-june-2015-feb-2019",
+        "legacy-diesel-june-2015-feb-2020",
+        "legacy-diesel-june-2015-february-2022",
+        "legacy-diesel-june-2015-jan-2019",
+        "legacy-diesel-june-2015-jan-2020",
+        "legacy-diesel-june-2015-january-2021",
+        "legacy-diesel-june-2015-january-2022",
+        "legacy-diesel-june-2015-january-2023",
+        "legacy-diesel-june-2015-july-2020",
+        "legacy-diesel-june-2015-july-2021",
+        "legacy-diesel-june-2015-july-2022",
+        "legacy-diesel-june-2015-june-2021",
+        "legacy-diesel-june-2015-june-2022",
+        "legacy-diesel-june-2015-mar-2019",
+        "legacy-diesel-june-2015-mar-2020",
+        "legacy-diesel-june-2015-march-2021",
+        "legacy-diesel-june-2015-march-2022",
+        "legacy-diesel-june-2015-march-2023",
+        "legacy-diesel-june-2015-may-2020",
+        "legacy-diesel-june-2015-nov-2019",
+        "legacy-diesel-june-2015-november-2020",
+        "legacy-diesel-june-2015-november-2021",
+        "legacy-diesel-june-2015-november-2022",
+        "legacy-diesel-june-2015-october-2021",
+        "legacy-diesel-june-2015-october-2022",
+        "legacy-diesel-june-2015-sept-2019",
+        "legacy-diesel-june-2015-september-2020",
+        "legacy-diesel-june-2015-september-2021",
+        "legacy-diesel-june-2015-september-2022",
+        "legacy-diesel-june-2019",
+        "legacy-diesel-june-2020",
+        "legacy-diesel-may-2019",
+        "legacy-diesel-may-2021",
+        "legacy-diesel-november-2018",
+        "legacy-diesel-october-2020",
+        "legacy-diesel-price-watch-october-2018",
+        "legacy-diesel-prices-feb-2021"
+      ],
+      "detail": "workbooks disagree for this month; the value from the month's own report (else the newest report) was used"
+    },
+    {
+      "kind": "revision",
+      "fuel": "ago",
+      "period": "2017-01",
+      "states_affected": 19,
+      "max_difference_pct": 26.67,
+      "sources": [
+        "legacy-diesel-apr-2017",
+        "legacy-diesel-april-2018",
+        "legacy-diesel-april-2019",
+        "legacy-diesel-april-2020",
+        "legacy-diesel-aug-18",
+        "legacy-diesel-aug-2017",
+        "legacy-diesel-august-2020",
+        "legacy-diesel-dec-2017",
+        "legacy-diesel-dec-2019",
+        "legacy-diesel-feb-2017-proshare",
+        "legacy-diesel-feb-2018",
+        "legacy-diesel-jan-2018",
+        "legacy-diesel-july-2017",
+        "legacy-diesel-july-2018",
+        "legacy-diesel-july-2019",
+        "legacy-diesel-jun15-january-17-proshare",
+        "legacy-diesel-june-2015-april-2021",
+        "legacy-diesel-june-2015-august-2021",
+        "legacy-diesel-june-2015-august-2022",
+        "legacy-diesel-june-2015-dec-2018",
+        "legacy-diesel-june-2015-december-2020",
+        "legacy-diesel-june-2015-december-2021",
+        "legacy-diesel-june-2015-december-2022",
+        "legacy-diesel-june-2015-feb-2019",
+        "legacy-diesel-june-2015-feb-2020",
+        "legacy-diesel-june-2015-february-2022",
+        "legacy-diesel-june-2015-jan-2019",
+        "legacy-diesel-june-2015-jan-2020",
+        "legacy-diesel-june-2015-january-2021",
+        "legacy-diesel-june-2015-january-2022",
+        "legacy-diesel-june-2015-january-2023",
+        "legacy-diesel-june-2015-july-2020",
+        "legacy-diesel-june-2015-july-2021",
+        "legacy-diesel-june-2015-july-2022",
+        "legacy-diesel-june-2015-june-2021",
+        "legacy-diesel-june-2015-june-2022",
+        "legacy-diesel-june-2015-mar-2019",
+        "legacy-diesel-june-2015-mar-2020",
+        "legacy-diesel-june-2015-march-2021",
+        "legacy-diesel-june-2015-march-2022",
+        "legacy-diesel-june-2015-march-2023",
+        "legacy-diesel-june-2015-may-2020",
+        "legacy-diesel-june-2015-nov-2019",
+        "legacy-diesel-june-2015-november-2020",
+        "legacy-diesel-june-2015-november-2021",
+        "legacy-diesel-june-2015-november-2022",
+        "legacy-diesel-june-2015-october-2021",
+        "legacy-diesel-june-2015-october-2022",
+        "legacy-diesel-june-2015-sept-2019",
+        "legacy-diesel-june-2015-september-2020",
+        "legacy-diesel-june-2015-september-2021",
+        "legacy-diesel-june-2015-september-2022",
+        "legacy-diesel-june-2017",
+        "legacy-diesel-june-2018",
+        "legacy-diesel-june-2019",
+        "legacy-diesel-june-2020",
+        "legacy-diesel-mar-2017-proshare",
+        "legacy-diesel-march-2018",
+        "legacy-diesel-may-2017",
+        "legacy-diesel-may-2018",
+        "legacy-diesel-may-2019",
+        "legacy-diesel-may-2021",
+        "legacy-diesel-nov-2017",
+        "legacy-diesel-november-2018",
+        "legacy-diesel-oct-2017",
+        "legacy-diesel-october-2020",
+        "legacy-diesel-price-watch-october-2018",
+        "legacy-diesel-prices-feb-2021",
+        "legacy-diesel-sept-2017",
+        "legacy-diesel-sept-2018"
+      ],
+      "detail": "workbooks disagree for this month; the value from the month's own report (else the newest report) was used"
+    },
+    {
+      "kind": "revision",
+      "fuel": "ago",
+      "period": "2017-12",
+      "states_affected": 5,
+      "max_difference_pct": 26.76,
+      "sources": [
+        "legacy-diesel-april-2018",
+        "legacy-diesel-april-2019",
+        "legacy-diesel-april-2020",
+        "legacy-diesel-aug-18",
+        "legacy-diesel-august-2020",
+        "legacy-diesel-dec-2017",
+        "legacy-diesel-dec-2019",
+        "legacy-diesel-feb-2018",
+        "legacy-diesel-jan-2018",
+        "legacy-diesel-july-2018",
+        "legacy-diesel-july-2019",
+        "legacy-diesel-june-2015-april-2021",
+        "legacy-diesel-june-2015-august-2021",
+        "legacy-diesel-june-2015-august-2022",
+        "legacy-diesel-june-2015-dec-2018",
+        "legacy-diesel-june-2015-december-2020",
+        "legacy-diesel-june-2015-december-2021",
+        "legacy-diesel-june-2015-december-2022",
+        "legacy-diesel-june-2015-feb-2019",
+        "legacy-diesel-june-2015-feb-2020",
+        "legacy-diesel-june-2015-february-2022",
+        "legacy-diesel-june-2015-jan-2019",
+        "legacy-diesel-june-2015-jan-2020",
+        "legacy-diesel-june-2015-january-2021",
+        "legacy-diesel-june-2015-january-2022",
+        "legacy-diesel-june-2015-january-2023",
+        "legacy-diesel-june-2015-july-2020",
+        "legacy-diesel-june-2015-july-2021",
+        "legacy-diesel-june-2015-july-2022",
+        "legacy-diesel-june-2015-june-2021",
+        "legacy-diesel-june-2015-june-2022",
+        "legacy-diesel-june-2015-mar-2019",
+        "legacy-diesel-june-2015-mar-2020",
+        "legacy-diesel-june-2015-march-2021",
+        "legacy-diesel-june-2015-march-2022",
+        "legacy-diesel-june-2015-march-2023",
+        "legacy-diesel-june-2015-may-2020",
+        "legacy-diesel-june-2015-nov-2019",
+        "legacy-diesel-june-2015-november-2020",
+        "legacy-diesel-june-2015-november-2021",
+        "legacy-diesel-june-2015-november-2022",
+        "legacy-diesel-june-2015-october-2021",
+        "legacy-diesel-june-2015-october-2022",
+        "legacy-diesel-june-2015-sept-2019",
+        "legacy-diesel-june-2015-september-2020",
+        "legacy-diesel-june-2015-september-2021",
+        "legacy-diesel-june-2015-september-2022",
+        "legacy-diesel-june-2018",
+        "legacy-diesel-june-2019",
+        "legacy-diesel-june-2020",
+        "legacy-diesel-march-2018",
+        "legacy-diesel-may-2018",
+        "legacy-diesel-may-2019",
+        "legacy-diesel-may-2021",
+        "legacy-diesel-november-2018",
+        "legacy-diesel-october-2020",
+        "legacy-diesel-price-watch-october-2018",
+        "legacy-diesel-prices-feb-2021",
+        "legacy-diesel-sept-2018"
+      ],
+      "detail": "workbooks disagree for this month; the value from the month's own report (else the newest report) was used"
+    },
+    {
+      "kind": "revision",
+      "fuel": "pms",
+      "period": "2021-04",
+      "states_affected": 20,
+      "max_difference_pct": 11.24,
+      "sources": [
+        "legacy-pms-april-2021",
+        "legacy-pms-fuel-april-2022",
+        "legacy-pms-fuel-august-2021",
+        "legacy-pms-fuel-report-may-2022",
+        "legacy-pms-july-2021",
+        "legacy-pms-june-2021",
+        "legacy-pms-may-2021"
+      ],
+      "detail": "workbooks disagree for this month; the value from the month's own report (else the newest report) was used"
+    },
+    {
+      "kind": "revision",
+      "fuel": "pms",
+      "period": "2022-04",
+      "states_affected": 22,
+      "max_difference_pct": 20.16,
+      "sources": [
+        "legacy-pms-fuel-apr-2023",
+        "legacy-pms-fuel-april-2022",
+        "legacy-pms-fuel-report-may-2022"
+      ],
+      "detail": "workbooks disagree for this month; the value from the month's own report (else the newest report) was used"
+    },
+    {
+      "kind": "revision",
+      "fuel": "pms",
+      "period": "2021-09",
+      "states_affected": 16,
+      "max_difference_pct": 3.43,
+      "sources": [
+        "legacy-pms-fuel-october-2021",
+        "legacy-pms-fuel-report-may-2022",
+        "legacy-pms-fuel-sept-2022",
+        "legacy-pms-fuel-september-2021"
+      ],
+      "detail": "workbooks disagree for this month; the value from the month's own report (else the newest report) was used"
+    },
+    {
+      "kind": "revision",
+      "fuel": "pms",
+      "period": "2018-02",
+      "states_affected": 28,
+      "max_difference_pct": 33.43,
+      "sources": [
+        "legacy-pms-april-2020",
+        "legacy-pms-april-2021",
+        "legacy-pms-august-2020",
+        "legacy-pms-dec-2019",
+        "legacy-pms-dec-2020",
+        "legacy-pms-feb-2020",
+        "legacy-pms-feb-2021",
+        "legacy-pms-fuel-apr-2018",
+        "legacy-pms-fuel-apr-2019",
+        "legacy-pms-fuel-aug-2018",
+        "legacy-pms-fuel-aug-2019",
+        "legacy-pms-fuel-august-2021",
+        "legacy-pms-fuel-dec-2018",
+        "legacy-pms-fuel-feb-2018",
+        "legacy-pms-fuel-feb-2019",
+        "legacy-pms-fuel-jan-2019",
+        "legacy-pms-fuel-july-2018",
+        "legacy-pms-fuel-july-2019",
+        "legacy-pms-fuel-june-2018",
+        "legacy-pms-fuel-june-2019",
+        "legacy-pms-fuel-mar-2018",
+        "legacy-pms-fuel-mar-2019",
+        "legacy-pms-fuel-may-2018",
+        "legacy-pms-fuel-may-2019",
+        "legacy-pms-fuel-nov-2018",
+        "legacy-pms-fuel-oct-2018",
+        "legacy-pms-fuel-oct-2019",
+        "legacy-pms-fuel-sep-2018",
+        "legacy-pms-fuel-sep-2019",
+        "legacy-pms-jan-2020",
+        "legacy-pms-jan-2021",
+        "legacy-pms-july-2020",
+        "legacy-pms-july-2021",
+        "legacy-pms-june-2020",
+        "legacy-pms-june-2021",
+        "legacy-pms-march-2020",
+        "legacy-pms-march-2021",
+        "legacy-pms-may-2020",
+        "legacy-pms-may-2021",
+        "legacy-pms-nov-2019",
+        "legacy-pms-november-2020",
+        "legacy-pms-october-2020",
+        "legacy-pms-september-2020"
+      ],
+      "detail": "workbooks disagree for this month; the value from the month's own report (else the newest report) was used"
+    },
+    {
+      "kind": "revision",
+      "fuel": "pms",
+      "period": "2020-10",
+      "states_affected": 13,
+      "max_difference_pct": 5.13,
+      "sources": [
+        "legacy-pms-april-2021",
+        "legacy-pms-dec-2020",
+        "legacy-pms-feb-2021",
+        "legacy-pms-fuel-august-2021",
+        "legacy-pms-fuel-october-2021",
+        "legacy-pms-fuel-report-may-2022",
+        "legacy-pms-jan-2021",
+        "legacy-pms-july-2021",
+        "legacy-pms-june-2021",
+        "legacy-pms-march-2021",
+        "legacy-pms-may-2021",
+        "legacy-pms-november-2020",
+        "legacy-pms-october-2020"
+      ],
+      "detail": "workbooks disagree for this month; the value from the month's own report (else the newest report) was used"
+    },
+    {
+      "kind": "revision",
+      "fuel": "pms",
+      "period": "2020-11",
+      "states_affected": 17,
+      "max_difference_pct": 5.73,
+      "sources": [
+        "legacy-pms-april-2021",
+        "legacy-pms-dec-2020",
+        "legacy-pms-feb-2021",
+        "legacy-pms-fuel-august-2021",
+        "legacy-pms-fuel-november-2021",
+        "legacy-pms-fuel-report-may-2022",
+        "legacy-pms-jan-2021",
+        "legacy-pms-july-2021",
+        "legacy-pms-june-2021",
+        "legacy-pms-march-2021",
+        "legacy-pms-may-2021",
+        "legacy-pms-november-2020"
+      ],
+      "detail": "workbooks disagree for this month; the value from the month's own report (else the newest report) was used"
+    },
+    {
+      "kind": "warning",
+      "source": "legacy-diesel-mar-2017-proshare",
+      "file": "DIESEL_mar_2017_proshare.xlsx",
+      "sheet": "Diesel June15-march 17",
+      "detail": "ABUJA 2016-01: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "legacy-diesel-feb-2017-proshare",
+      "file": "DIESEL_feb_2017_proshare.xlsx",
+      "sheet": "Diesel June15-JANUARY 17",
+      "detail": "ADAMAWA 2016-01: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "legacy-diesel-june-2017",
+      "file": "DIESEL_june_2017.xlsx",
+      "sheet": "Diesel June15-may 17",
+      "detail": "ADAMAWA 2016-01: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "legacy-diesel-may-2017",
+      "file": "DIESEL_may_2017.xlsx",
+      "sheet": "Diesel June15-may 17",
+      "detail": "ADAMAWA 2016-01: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "legacy-diesel-may-2017",
+      "file": "DIESEL_may_2017.xlsx",
+      "sheet": "Diesel June15-may 17",
+      "detail": "ANAMBRA 2016-01: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "legacy-diesel-aug-2017",
+      "file": "DIESEL_aug_2017.xlsx",
+      "sheet": "Diesel June15-may 17",
+      "detail": "Abia 2016-01: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "legacy-diesel-july-2017",
+      "file": "DIESEL_july_2017.xlsx",
+      "sheet": "Diesel June15-may 17",
+      "detail": "Adamawa 2016-01: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "legacy-pms-fuel-july-2022",
+      "file": "PMS_Fuel_JULY_2022.xlsx",
+      "sheet": "FUEL JULY 2022",
+      "detail": "Adamawa 2022-07: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "legacy-diesel-june-2017",
+      "file": "DIESEL_june_2017.xlsx",
+      "sheet": "Diesel June15-may 17",
+      "detail": "Anambra 2016-01: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "legacy-diesel-feb-2017-proshare",
+      "file": "DIESEL_feb_2017_proshare.xlsx",
+      "sheet": "Diesel June15-JANUARY 17",
+      "detail": "BAUCHI 2016-01: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "legacy-diesel-mar-2017-proshare",
+      "file": "DIESEL_mar_2017_proshare.xlsx",
+      "sheet": "Diesel June15-march 17",
+      "detail": "BAYELSA 2016-01: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "legacy-diesel-nov-2017",
+      "file": "DIESEL_nov_2017.xlsx",
+      "sheet": "Diesel ",
+      "detail": "BAYELSA 2016-01: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "legacy-diesel-feb-2017-proshare",
+      "file": "DIESEL_feb_2017_proshare.xlsx",
+      "sheet": "Diesel June15-JANUARY 17",
+      "detail": "BORNO 2016-01: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "legacy-diesel-oct-2017",
+      "file": "DIESEL_oct_2017.xlsx",
+      "sheet": "Diesel ",
+      "detail": "BORNO 2016-01: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "legacy-pms-fuel-july-2022",
+      "file": "PMS_Fuel_JULY_2022.xlsx",
+      "sheet": "FUEL JULY 2022",
+      "detail": "Bayelsa 2022-07: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "legacy-diesel-oct-2017",
+      "file": "DIESEL_oct_2017.xlsx",
+      "sheet": "Diesel ",
+      "detail": "CROSS RIVERS 2016-01: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "legacy-diesel-may-2017",
+      "file": "DIESEL_may_2017.xlsx",
+      "sheet": "Diesel June15-may 17",
+      "detail": "DELTA 2016-01: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "legacy-diesel-nov-2017",
+      "file": "DIESEL_nov_2017.xlsx",
+      "sheet": "Diesel ",
+      "detail": "DELTA 2016-01: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "legacy-diesel-oct-2017",
+      "file": "DIESEL_oct_2017.xlsx",
+      "sheet": "Diesel ",
+      "detail": "DELTA 2016-01: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "legacy-diesel-july-2017",
+      "file": "DIESEL_july_2017.xlsx",
+      "sheet": "Diesel June15-may 17",
+      "detail": "Delta 2016-01: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "legacy-diesel-june-2017",
+      "file": "DIESEL_june_2017.xlsx",
+      "sheet": "Diesel June15-may 17",
+      "detail": "Delta 2016-01: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "legacy-diesel-feb-2017-proshare",
+      "file": "DIESEL_feb_2017_proshare.xlsx",
+      "sheet": "Diesel June15-JANUARY 17",
+      "detail": "EBONYI 2016-01: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "legacy-diesel-aug-2017",
+      "file": "DIESEL_aug_2017.xlsx",
+      "sheet": "Diesel June15-may 17",
+      "detail": "Ebonyi 2016-01: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "legacy-pms-fuel-july-2022",
+      "file": "PMS_Fuel_JULY_2022.xlsx",
+      "sheet": "FUEL JULY 2022",
+      "detail": "Edo 2022-07: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "legacy-diesel-sept-2017",
+      "file": "DIESEL_sept_2017.xlsx",
+      "sheet": "Diesel ",
+      "detail": "Gombe 2016-01: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "legacy-diesel-aug-2017",
+      "file": "DIESEL_aug_2017.xlsx",
+      "sheet": "Diesel June15-may 17",
+      "detail": "Imo 2016-01: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "legacy-pms-fuel-july-2022",
+      "file": "PMS_Fuel_JULY_2022.xlsx",
+      "sheet": "FUEL JULY 2022",
+      "detail": "Imo 2022-07: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "legacy-diesel-oct-2017",
+      "file": "DIESEL_oct_2017.xlsx",
+      "sheet": "Diesel ",
+      "detail": "JIGAWA 2016-01: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "legacy-diesel-nov-2017",
+      "file": "DIESEL_nov_2017.xlsx",
+      "sheet": "Diesel ",
+      "detail": "KEBBI 2016-01: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "legacy-diesel-mar-2017-proshare",
+      "file": "DIESEL_mar_2017_proshare.xlsx",
+      "sheet": "Diesel June15-march 17",
+      "detail": "KOGI 2016-01: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "legacy-diesel-mar-2017-proshare",
+      "file": "DIESEL_mar_2017_proshare.xlsx",
+      "sheet": "Diesel June15-march 17",
+      "detail": "KWARA 2016-01: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "legacy-diesel-june-2017",
+      "file": "DIESEL_june_2017.xlsx",
+      "sheet": "Diesel June15-may 17",
+      "detail": "Kwara 2016-01: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "legacy-diesel-sept-2017",
+      "file": "DIESEL_sept_2017.xlsx",
+      "sheet": "Diesel ",
+      "detail": "Kwara 2016-01: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "legacy-diesel-nov-2017",
+      "file": "DIESEL_nov_2017.xlsx",
+      "sheet": "Diesel ",
+      "detail": "NASSARAWA 2016-01: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "legacy-diesel-june-2017",
+      "file": "DIESEL_june_2017.xlsx",
+      "sheet": "Diesel June15-may 17",
+      "detail": "NIGER 2016-01: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "legacy-diesel-may-2017",
+      "file": "DIESEL_may_2017.xlsx",
+      "sheet": "Diesel June15-may 17",
+      "detail": "NIGER 2016-01: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "legacy-pms-fuel-july-2022",
+      "file": "PMS_Fuel_JULY_2022.xlsx",
+      "sheet": "FUEL JULY 2022",
+      "detail": "Nassarawa 2022-07: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "legacy-diesel-aug-2017",
+      "file": "DIESEL_aug_2017.xlsx",
+      "sheet": "Diesel June15-may 17",
+      "detail": "Niger 2016-01: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "legacy-pms-fuel-july-2022",
+      "file": "PMS_Fuel_JULY_2022.xlsx",
+      "sheet": "FUEL JULY 2022",
+      "detail": "Niger 2022-07: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "legacy-diesel-feb-2017-proshare",
+      "file": "DIESEL_feb_2017_proshare.xlsx",
+      "sheet": "Diesel June15-JANUARY 17",
+      "detail": "OSUN 2016-01: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "legacy-diesel-feb-2017-proshare",
+      "file": "DIESEL_feb_2017_proshare.xlsx",
+      "sheet": "Diesel June15-JANUARY 17",
+      "detail": "OYO 2016-01: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "legacy-diesel-july-2017",
+      "file": "DIESEL_july_2017.xlsx",
+      "sheet": "Diesel June15-may 17",
+      "detail": "Ogun 2016-01: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "legacy-diesel-aug-2017",
+      "file": "DIESEL_aug_2017.xlsx",
+      "sheet": "Diesel June15-may 17",
+      "detail": "Osun 2016-01: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "legacy-diesel-june-2017",
+      "file": "DIESEL_june_2017.xlsx",
+      "sheet": "Diesel June15-may 17",
+      "detail": "Osun 2016-01: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "legacy-diesel-july-2017",
+      "file": "DIESEL_july_2017.xlsx",
+      "sheet": "Diesel June15-may 17",
+      "detail": "Oyo 2016-01: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "legacy-diesel-mar-2017-proshare",
+      "file": "DIESEL_mar_2017_proshare.xlsx",
+      "sheet": "Diesel June15-march 17",
+      "detail": "PLATEAU 2016-01: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "legacy-diesel-sept-2017",
+      "file": "DIESEL_sept_2017.xlsx",
+      "sheet": "Diesel ",
+      "detail": "Plateau 2016-01: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "legacy-diesel-mar-2017-proshare",
+      "file": "DIESEL_mar_2017_proshare.xlsx",
+      "sheet": "Diesel June15-march 17",
+      "detail": "RIVERS 2016-01: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "legacy-diesel-may-2017",
+      "file": "DIESEL_may_2017.xlsx",
+      "sheet": "Diesel June15-may 17",
+      "detail": "SOKOTO 2016-01: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "legacy-diesel-nov-2017",
+      "file": "DIESEL_nov_2017.xlsx",
+      "sheet": "Diesel ",
+      "detail": "SOKOTO 2016-01: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "legacy-diesel-aug-2017",
+      "file": "DIESEL_aug_2017.xlsx",
+      "sheet": "Diesel June15-may 17",
+      "detail": "Sokoto 2016-01: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "legacy-diesel-july-2017",
+      "file": "DIESEL_july_2017.xlsx",
+      "sheet": "Diesel June15-may 17",
+      "detail": "Sokoto 2016-01: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "legacy-diesel-nov-2017",
+      "file": "DIESEL_nov_2017.xlsx",
+      "sheet": "Diesel ",
+      "detail": "TARABA 2016-01: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "legacy-diesel-july-2017",
+      "file": "DIESEL_july_2017.xlsx",
+      "sheet": "Diesel June15-may 17",
+      "detail": "Taraba 2016-01: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "legacy-diesel-sept-2017",
+      "file": "DIESEL_sept_2017.xlsx",
+      "sheet": "Diesel ",
+      "detail": "Taraba 2016-01: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "legacy-diesel-oct-2017",
+      "file": "DIESEL_oct_2017.xlsx",
+      "sheet": "Diesel ",
+      "detail": "ZAMFARA 2016-01: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "legacy-diesel-sept-2017",
+      "file": "DIESEL_sept_2017.xlsx",
+      "sheet": "Diesel ",
+      "detail": "Zamfara 2016-01: duplicate row, keeping the first"
+    },
+    {
+      "kind": "sheet_skipped",
+      "source": "legacy-diesel-sept-2023",
+      "file": "DIESEL_SEPT_2023.xlsx",
+      "sheet": "AGO SEPT 2023",
+      "detail": "no month had enough state rows"
+    }
+  ]
+}

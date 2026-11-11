@@ -1,0 +1,2700 @@
+{
+  "note": "Workbooks the current figures were read from.",
+  "sources": [
+    {
+      "key": "legacy-ago-dec-2023",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/AGO_DEC_2023.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101145",
+      "fetched_at": "2026-11-10T21:56:23Z",
+      "files": [
+        {
+          "name": "AGO_DEC_2023.xlsx",
+          "sha256": "4265a551d4300527fafc035984a4121e65fd156f1201cf5f8298f69849a74ca5"
+        }
+      ]
+    },
+    {
+      "key": "legacy-ago-feb-2024",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/AGO_FEB_2024.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120100949",
+      "fetched_at": "2026-11-10T21:56:26Z",
+      "files": [
+        {
+          "name": "AGO_FEB_2024.xlsx",
+          "sha256": "f5ab8e6a50c28e9e9a08efc677559ca9a3f0f5164d80c2a4156c738078374ca6"
+        }
+      ]
+    },
+    {
+      "key": "legacy-ago-march-2024",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/AGO_March_2024.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101240",
+      "fetched_at": "2026-11-10T21:56:29Z",
+      "files": [
+        {
+          "name": "AGO_March_2024.xlsx",
+          "sha256": "d1cdc4f31bc96fa986f09d2784ed97042a32dfd770bafceb17b00e01593c536e"
+        }
+      ]
+    },
+    {
+      "key": "legacy-ago-may-2024",
+      "origin_url": "http://www.nigerianstat.gov.ng/resource/AGO_May_2024.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20250715230342",
+      "fetched_at": "2026-11-10T21:56:31Z",
+      "files": [
+        {
+          "name": "AGO_May_2024.xlsx",
+          "sha256": "03d4c65470cd9e51d1ab12ca88f0ef7d373fac3351bfb39a10b8146490d68549"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-ago-february-2023",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL%20AGO%20FEBRUARY%202023.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101333",
+      "fetched_at": "2026-11-10T21:56:34Z",
+      "files": [
+        {
+          "name": "DIESEL_AGO_FEBRUARY_2023.xlsx",
+          "sha256": "3e65fa21f73b1b766a64073b68f5228fbe5feb707efcaa171520d59b08d2f5e3"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-apr-2017",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL_apr%202017.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20251129224517",
+      "fetched_at": "2026-11-10T21:56:36Z",
+      "files": [
+        {
+          "name": "DIESEL_apr_2017.xlsx",
+          "sha256": "046cba94e5f2eabc249124db18e3c4b0f6a07d924b87c23313ff251c4bc93325"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-april-2018",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL_%20%20april%202018.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101047",
+      "fetched_at": "2026-11-10T21:56:38Z",
+      "files": [
+        {
+          "name": "DIESEL__april_2018.xlsx",
+          "sha256": "606da8cd3c07e8f6fd773e955262a8e39e2f8322315a94713632a056e1e18bd1"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-april-2019",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL_April%202019.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101329",
+      "fetched_at": "2026-11-10T21:56:41Z",
+      "files": [
+        {
+          "name": "DIESEL_April_2019.xlsx",
+          "sha256": "5160e78552036639ddbef0c53ae36e295834cc2c5e5b0406d53feb1eac14f994"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-april-2020",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL_April%202020.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101649",
+      "fetched_at": "2026-11-10T21:56:44Z",
+      "files": [
+        {
+          "name": "DIESEL_April_2020.xlsx",
+          "sha256": "b791db87393971437611982cedadbbc50ea21377050b0701ef6da44997ae6adc"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-april-2022",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL%20APRIL%202022.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101010",
+      "fetched_at": "2026-11-10T21:56:46Z",
+      "files": [
+        {
+          "name": "DIESEL_APRIL_2022.xlsx",
+          "sha256": "a85bccf94b25e6ed4de595679f813ff73ffb432b75b6034732ec1bfd8cd845f4"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-aug-18",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL_AUG_18.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20251012093201",
+      "fetched_at": "2026-11-10T21:56:48Z",
+      "files": [
+        {
+          "name": "DIESEL_AUG_18.xlsx",
+          "sha256": "3f3e809e86aed71beac757cc43e42bb554efcce18e8dcf15df0b1bdadba3588b"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-aug-2017",
+      "origin_url": "https://nigerianstat.gov.ng/resource/DIESEL_aug%202017.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20260207053749",
+      "fetched_at": "2026-11-10T21:56:51Z",
+      "files": [
+        {
+          "name": "DIESEL_aug_2017.xlsx",
+          "sha256": "086daeacd3575aa8c681feb094ad4e3e47a0b14ddc3eba9761210fe51a099e82"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-aug-2024",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL_AUG_2024.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101504",
+      "fetched_at": "2026-11-10T21:56:53Z",
+      "files": [
+        {
+          "name": "DIESEL_AUG_2024.xlsx",
+          "sha256": "3f0f5cfc3b1a979da12f6d0f1c3bc64337d7015105fefd89b855347c33781059"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-august-2020",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL_August%202020.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20251121185223",
+      "fetched_at": "2026-11-10T21:56:56Z",
+      "files": [
+        {
+          "name": "DIESEL_August_2020.xlsx",
+          "sha256": "941c7ead0c7bb958dc0b727032dbeba56bcb244634c634dc5e1a1e06c2ed63f3"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-august-2023",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL%20AUGUST%202023.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101237",
+      "fetched_at": "2026-11-10T21:56:59Z",
+      "files": [
+        {
+          "name": "DIESEL_AUGUST_2023.xlsx",
+          "sha256": "2cefac2ea5b771ffac5dd50bbeb18f230df9abb303616de05f88beb3d6f3758f"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-dec-2017",
+      "origin_url": "https://nigerianstat.gov.ng/resource/DIESEL_dec%202017.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20260208032126",
+      "fetched_at": "2026-11-10T21:57:02Z",
+      "files": [
+        {
+          "name": "DIESEL_dec_2017.xlsx",
+          "sha256": "844ad116d801660e35897dae794d996a1eb0325dd55a5a0e41a5a7f9a090a0bf"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-dec-2019",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL_DEC_2019.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20251215031416",
+      "fetched_at": "2026-11-10T21:57:04Z",
+      "files": [
+        {
+          "name": "DIESEL_DEC_2019.xlsx",
+          "sha256": "595c9d5860387f23b3e84c198743f0b2f038fd819c6d6326f643dc14e3c44f23"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-feb-2017-proshare",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL_feb%202017%20proshare.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101208",
+      "fetched_at": "2026-11-10T21:57:07Z",
+      "files": [
+        {
+          "name": "DIESEL_feb_2017_proshare.xlsx",
+          "sha256": "8131bf75d9867a1047cadc625fad877a5cecf6accf1ca5d12cc8c1e4fd473461"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-feb-2018",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL_feb%202018.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101128",
+      "fetched_at": "2026-11-10T21:57:09Z",
+      "files": [
+        {
+          "name": "DIESEL_feb_2018.xlsx",
+          "sha256": "ed656cdaf6deabc0b3ccc9cb6fa480e4f676fd95e9c5fd54d80178da8c08480e"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-jan-2018",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL_jan%202018.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101014",
+      "fetched_at": "2026-11-10T21:57:11Z",
+      "files": [
+        {
+          "name": "DIESEL_jan_2018.xlsx",
+          "sha256": "954bfea50d8a120ea735fcb3dd3785d244834ee2cc893a3d5c994f8897759632"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-jan-2024",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL_JAN_2024.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101117",
+      "fetched_at": "2026-11-10T21:57:14Z",
+      "files": [
+        {
+          "name": "DIESEL_JAN_2024.xlsx",
+          "sha256": "655f32ed362cee276547f2f979b2dc6b416733d7f61870559c893b10c22c1b48"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-july-2017",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL_july%202017.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101458",
+      "fetched_at": "2026-11-10T21:57:16Z",
+      "files": [
+        {
+          "name": "DIESEL_july_2017.xlsx",
+          "sha256": "8aa25b0166e5fcefc129da3a2674696911303f92af31f098ddfc2ec1b1af1fa8"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-july-2018",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL%20July%202018.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101208",
+      "fetched_at": "2026-11-10T21:57:19Z",
+      "files": [
+        {
+          "name": "DIESEL_July_2018.xlsx",
+          "sha256": "b48d4858fb4f8d200e1183e60b857479480f9768d1795c77553dde9b78e18336"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-july-2019",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL_JuLY_2019.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101138",
+      "fetched_at": "2026-11-10T21:57:21Z",
+      "files": [
+        {
+          "name": "DIESEL_JuLY_2019.xlsx",
+          "sha256": "8c3bb26651c32e1877fc6446225a612a92e0d41337463204dbab2eae63bb3503"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-july-2023",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL%20JULY%202023.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101200",
+      "fetched_at": "2026-11-10T21:57:24Z",
+      "files": [
+        {
+          "name": "DIESEL_JULY_2023.xlsx",
+          "sha256": "d5dc541ff0f9acdd07587e714107821e50d6066137fb1d89ce879bca52a81213"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-july-2024",
+      "origin_url": "http://www.nigerianstat.gov.ng/resource/Diesel_July_2024.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20250730214638",
+      "fetched_at": "2026-11-10T21:57:26Z",
+      "files": [
+        {
+          "name": "Diesel_July_2024.xlsx",
+          "sha256": "fa68bcee05d9b64a0933bb2b7c1e072b23c7f82c9aecc0966d54e3350c16c250"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-jun15-january-17-proshare",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL_JUN15-JANUARY%2017%20proshare.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120100931",
+      "fetched_at": "2026-11-10T21:57:29Z",
+      "files": [
+        {
+          "name": "DIESEL_JUN15-JANUARY_17_proshare.xlsx",
+          "sha256": "afbe7a45b4a1dc3fca407a93be188c1e7cd327b748364338d2ea9c8094353586"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-june-2015-april-2021",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL_JUNE_2015-%20APRIL%202021.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120100946",
+      "fetched_at": "2026-11-10T21:57:31Z",
+      "files": [
+        {
+          "name": "DIESEL_JUNE_2015-_APRIL_2021.xlsx",
+          "sha256": "0f498f7bda65a7f91f8f5d39438ce1150040f7ee197ea4d8bcac4a7db7bd7fc7"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-june-2015-april-2023",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL%20JUNE%202015%20-%20APRIL%202023.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101112",
+      "fetched_at": "2026-11-10T21:57:34Z",
+      "files": [
+        {
+          "name": "DIESEL_JUNE_2015_-_APRIL_2023.xlsx",
+          "sha256": "a8aeebb31df500513c1a8967ede88a55fa0f979eacfe3c33788e2111345c236b"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-june-2015-august-2021",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL_JUNE_2015-%20AUGUST%202021.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101132",
+      "fetched_at": "2026-11-10T21:57:37Z",
+      "files": [
+        {
+          "name": "DIESEL_JUNE_2015-_AUGUST_2021.xlsx",
+          "sha256": "4032c989c3ad0c1a878ae323f7c7bb4db140e707be6ae4020c45053bb79c6263"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-june-2015-august-2022",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL%20JUNE%202015%20-%20AUGUST%202022.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101146",
+      "fetched_at": "2026-11-10T21:57:40Z",
+      "files": [
+        {
+          "name": "DIESEL_JUNE_2015_-_AUGUST_2022.xlsx",
+          "sha256": "77c1de33392af99e2463baceba5770f3f411bf918f351dafae09110611b0b19e"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-june-2015-dec-2018",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL_JUNE%202015-DEC%202018.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101149",
+      "fetched_at": "2026-11-10T21:57:43Z",
+      "files": [
+        {
+          "name": "DIESEL_JUNE_2015-DEC_2018.xlsx",
+          "sha256": "51d59d6de4fd0412f11934495047afca43d3446ad70b0340b189f3f6867844f0"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-june-2015-december-2020",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL_JUNE_2015-December%202020.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101055",
+      "fetched_at": "2026-11-10T21:57:45Z",
+      "files": [
+        {
+          "name": "DIESEL_JUNE_2015-December_2020.xlsx",
+          "sha256": "6dc194019b2a07fed0f8db036cd55f542ba382e29257ae9a8c4ff2eceff3341e"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-june-2015-december-2021",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL_JUNE_2015-%20DECEMBER%20%20%202021.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20251119155435",
+      "fetched_at": "2026-11-10T21:57:48Z",
+      "files": [
+        {
+          "name": "DIESEL_JUNE_2015-_DECEMBER_2021.xlsx",
+          "sha256": "2c3e1afbe4161d7907230256568235f982db8c8c57f877c88039729761b93073"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-june-2015-december-2022",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL%20JUNE%202015%20-%20DECEMBER%202022.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101333",
+      "fetched_at": "2026-11-10T21:57:51Z",
+      "files": [
+        {
+          "name": "DIESEL_JUNE_2015_-_DECEMBER_2022.xlsx",
+          "sha256": "502ce13932afc40d8242e522ecdad1f86acd452d1bf9904704bec5d3eb0ac03c"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-june-2015-feb-2019",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL_JUNE%202015-FEB%202019.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101316",
+      "fetched_at": "2026-11-10T21:57:53Z",
+      "files": [
+        {
+          "name": "DIESEL_JUNE_2015-FEB_2019.xlsx",
+          "sha256": "4b418df96e45c23dec08409207d45a548334aae86d5ddd56cba833746fffad77"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-june-2015-feb-2020",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL_JUNE_2015-FEB%202020.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101007",
+      "fetched_at": "2026-11-10T21:57:56Z",
+      "files": [
+        {
+          "name": "DIESEL_JUNE_2015-FEB_2020.xlsx",
+          "sha256": "e7f4cd295dc849821b1a500837412c33cb46cb0bbf15fe98d80ec985556841a5"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-june-2015-february-2022",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL_JUNE_2015-%20FEBRUARY%20%20%202022.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120100959",
+      "fetched_at": "2026-11-10T21:57:59Z",
+      "files": [
+        {
+          "name": "DIESEL_JUNE_2015-_FEBRUARY_2022.xlsx",
+          "sha256": "d843e98a7952f9a4b7671434865a75115449d3f6682d2314117b2170f3e74662"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-june-2015-jan-2019",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL_JUNE%202015-JAN%202019.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120100951",
+      "fetched_at": "2026-11-10T21:58:01Z",
+      "files": [
+        {
+          "name": "DIESEL_JUNE_2015-JAN_2019.xlsx",
+          "sha256": "8ba89869d849427e54de08f9e4c297147f0010e3ca9cf92d8cff6773f94e5431"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-june-2015-jan-2020",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL_JUNE_2015-JAN%202020.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101100",
+      "fetched_at": "2026-11-10T21:58:04Z",
+      "files": [
+        {
+          "name": "DIESEL_JUNE_2015-JAN_2020.xlsx",
+          "sha256": "a3d2667f358d9d4714f466b58c47fab97ae09fe0dbc74107d1d9c96de7b81192"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-june-2015-january-2021",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL_JUNE_2015-January%202021.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101019",
+      "fetched_at": "2026-11-10T21:58:06Z",
+      "files": [
+        {
+          "name": "DIESEL_JUNE_2015-January_2021.xlsx",
+          "sha256": "38d853e8c26023282b7a120c0b3b71953eea81eef66d9fc5213de3c595e6c60a"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-june-2015-january-2022",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL_JUNE_2015-%20JANUARY_2022.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20251012115207",
+      "fetched_at": "2026-11-10T21:58:09Z",
+      "files": [
+        {
+          "name": "DIESEL_JUNE_2015-_JANUARY_2022.xlsx",
+          "sha256": "3081f29379f830260e2668c41a9aa7b5b95ee9aa40a7a46950119814df256b99"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-june-2015-january-2023",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL%20JUNE%202015%20-%20JANUARY%202023.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101332",
+      "fetched_at": "2026-11-10T21:58:12Z",
+      "files": [
+        {
+          "name": "DIESEL_JUNE_2015_-_JANUARY_2023.xlsx",
+          "sha256": "83445dba74333b3b8a6b90a73d5c4f9b47ed8adc653207a22edeff7ed3744340"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-june-2015-july-2020",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL_JUNE_2015-July%202020.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241121044431",
+      "fetched_at": "2026-11-10T21:58:14Z",
+      "files": [
+        {
+          "name": "DIESEL_JUNE_2015-July_2020.xlsx",
+          "sha256": "2f6d82b9dcd2b6871891b6264358c0559ed277ecd36ea113d525ad1d1a5f9070"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-june-2015-july-2021",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL_JUNE_2015-%20JULY%202021.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101309",
+      "fetched_at": "2026-11-10T21:58:17Z",
+      "files": [
+        {
+          "name": "DIESEL_JUNE_2015-_JULY_2021.xlsx",
+          "sha256": "97dff1e470698af709bca1547379b58e75ac028c7816a0efdffc6b398cf8e4f2"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-june-2015-july-2022",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL%20JUNE%202015%20-%20JULY%202022.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20251124115042",
+      "fetched_at": "2026-11-10T21:58:20Z",
+      "files": [
+        {
+          "name": "DIESEL_JUNE_2015_-_JULY_2022.xlsx",
+          "sha256": "2ab2a4a1e3f69ad7abe8ae77a5f17cb2142695ff21ae55ac65412f3f755b2093"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-june-2015-june-2021",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL_JUNE_2015-%20June%202021.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101334",
+      "fetched_at": "2026-11-10T21:58:22Z",
+      "files": [
+        {
+          "name": "DIESEL_JUNE_2015-_June_2021.xlsx",
+          "sha256": "b37c5f409f0d64d6b4cd9cbe524b70ed58d93c50e889f1a310e25cdadc128989"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-june-2015-june-2022",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL%20JUNE%202015%20-%20JUNE%202022.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101118",
+      "fetched_at": "2026-11-10T21:58:25Z",
+      "files": [
+        {
+          "name": "DIESEL_JUNE_2015_-_JUNE_2022.xlsx",
+          "sha256": "217630585956693d8d30091f06a8e9417d7ec646839aa9d35caded0a30d27582"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-june-2015-june-2023",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL%20JUNE%202015%20-%20JUNE%202023.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101200",
+      "fetched_at": "2026-11-10T21:58:27Z",
+      "files": [
+        {
+          "name": "DIESEL_JUNE_2015_-_JUNE_2023.xlsx",
+          "sha256": "e1b9b46bab40e73bf8126cd158f2b4687b25c890da3610876322f7ed9ceafb39"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-june-2015-mar-2019",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL_JUNE%202015-MAR%202019.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101140",
+      "fetched_at": "2026-11-10T21:58:30Z",
+      "files": [
+        {
+          "name": "DIESEL_JUNE_2015-MAR_2019.xlsx",
+          "sha256": "177c054f43f6add1460ada1f2747e0bc4b5158aaf1e49ae49fa347e0fb2d6552"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-june-2015-mar-2020",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL_JUNE_2015-MAR%202020.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101230",
+      "fetched_at": "2026-11-10T21:58:32Z",
+      "files": [
+        {
+          "name": "DIESEL_JUNE_2015-MAR_2020.xlsx",
+          "sha256": "af7657bc87495c5e7ce5ea8a952730e05998ee8ae28e2dd90fd6d1fb6714fd14"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-june-2015-march-2021",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL_JUNE_2015-March%202021.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101152",
+      "fetched_at": "2026-11-10T21:58:35Z",
+      "files": [
+        {
+          "name": "DIESEL_JUNE_2015-March_2021.xlsx",
+          "sha256": "dfe6d722f41d16455da982f5c2ea366a57c2e84af1e8882f65cdcbfbc3bd3141"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-june-2015-march-2022",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL_JUNE_2015-%20MARCH%202022.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101040",
+      "fetched_at": "2026-11-10T21:58:38Z",
+      "files": [
+        {
+          "name": "DIESEL_JUNE_2015-_MARCH_2022.xlsx",
+          "sha256": "6e8f7f515173ab889cbc79843573541ed7b55487772680d66e1043e8fced1a81"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-june-2015-march-2023",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL%20JUNE%202015%20-%20MARCH%202023.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101445",
+      "fetched_at": "2026-11-10T21:58:40Z",
+      "files": [
+        {
+          "name": "DIESEL_JUNE_2015_-_MARCH_2023.xlsx",
+          "sha256": "3f592388412b48aa903c711dae0bd9a42efbef3101a96b6a9867b25772f19bec"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-june-2015-may-2020",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL_JUNE_2015-MAY%202020.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101123",
+      "fetched_at": "2026-11-10T21:58:43Z",
+      "files": [
+        {
+          "name": "DIESEL_JUNE_2015-MAY_2020.xlsx",
+          "sha256": "1cbc5902191ac4593e9a2ff877c3815c13ec7b011b3dd8ca97c63ee5e2835acc"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-june-2015-may-2023",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL%20JUNE%202015%20-%20MAY%202023.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101054",
+      "fetched_at": "2026-11-10T21:58:46Z",
+      "files": [
+        {
+          "name": "DIESEL_JUNE_2015_-_MAY_2023.xlsx",
+          "sha256": "7f8cac8e6a08b5865084800aa4cc7299e7f4822de818b8270d7341b9c77fb38e"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-june-2015-nov-2019",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL_JUNE_2015-NOV_2019.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101110",
+      "fetched_at": "2026-11-10T21:58:48Z",
+      "files": [
+        {
+          "name": "DIESEL_JUNE_2015-NOV_2019.xlsx",
+          "sha256": "1a88a34afc26f187eddab1d0854d5153a8e845ae05e49f98c178f3df9d45f41a"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-june-2015-november-2020",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL_JUNE_2015-NOVEMBER%202020.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101048",
+      "fetched_at": "2026-11-10T21:58:53Z",
+      "files": [
+        {
+          "name": "DIESEL_JUNE_2015-NOVEMBER_2020.xlsx",
+          "sha256": "c428a68e108c7726089a9f95d9a157e80e83b32583d61f21e315a6b6937a0a1f"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-june-2015-november-2021",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL_JUNE_2015-%20November%20%202021.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20251126163609",
+      "fetched_at": "2026-11-10T21:58:56Z",
+      "files": [
+        {
+          "name": "DIESEL_JUNE_2015-_November_2021.xlsx",
+          "sha256": "bb37120f2434b7b3410c5a362940f9bf00c82ec6f9b95a6c07282e72878137cd"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-june-2015-november-2022",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL%20JUNE%202015%20-%20NOVEMBER%202022.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101214",
+      "fetched_at": "2026-11-10T21:58:58Z",
+      "files": [
+        {
+          "name": "DIESEL_JUNE_2015_-_NOVEMBER_2022.xlsx",
+          "sha256": "f5e7bf4167c0a4980170ee0cfbfe544c13ef9f25f5df9696aad9092b1ea9d597"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-june-2015-october-2021",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL_JUNE_2015-%20OCTOBER%20%202021.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101004",
+      "fetched_at": "2026-11-10T21:59:01Z",
+      "files": [
+        {
+          "name": "DIESEL_JUNE_2015-_OCTOBER_2021.xlsx",
+          "sha256": "77c4a933c74980359d9348715e4a5a47d7670082a0af6e0219a4522b9c3dab09"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-june-2015-october-2022",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL%20JUNE%202015%20-%20OCTOBER%202022.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101103",
+      "fetched_at": "2026-11-10T21:59:04Z",
+      "files": [
+        {
+          "name": "DIESEL_JUNE_2015_-_OCTOBER_2022.xlsx",
+          "sha256": "03396463ceac5e624f989559a853fa29ee01c697ceab8e636dbbe644f78ab685"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-june-2015-sept-2019",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL_JUNE_2015-SEPT_2019.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101119",
+      "fetched_at": "2026-11-10T21:59:06Z",
+      "files": [
+        {
+          "name": "DIESEL_JUNE_2015-SEPT_2019.xlsx",
+          "sha256": "ed1f75fc4582b882d8d6619d4d049d981c5e44ea5f6a86cf45bf3c370aa11ac4"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-june-2015-september-2020",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL_JUNE_2015-September%202020.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101206",
+      "fetched_at": "2026-11-10T21:59:09Z",
+      "files": [
+        {
+          "name": "DIESEL_JUNE_2015-September_2020.xlsx",
+          "sha256": "9e995d9dfc95965172b2a7a187e3f6894d36fbb7c9c4aecfe0f243c85117c7ec"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-june-2015-september-2021",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL_JUNE_2015-%20SEPTEMBER%202021.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101049",
+      "fetched_at": "2026-11-10T21:59:11Z",
+      "files": [
+        {
+          "name": "DIESEL_JUNE_2015-_SEPTEMBER_2021.xlsx",
+          "sha256": "daeecfddb2d88ae89556638e5eff4874f4ec40e897d1435503abe01ca71a3d85"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-june-2015-september-2022",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL%20JUNE%202015%20-%20SEPTEMBER%202022.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101304",
+      "fetched_at": "2026-11-10T21:59:14Z",
+      "files": [
+        {
+          "name": "DIESEL_JUNE_2015_-_SEPTEMBER_2022.xlsx",
+          "sha256": "dce95c55cf6ffb72774ba07eb611591dff09f883f13f5ad1e48a5db9ab1e221d"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-june-2017",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL_june%202017.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101148",
+      "fetched_at": "2026-11-10T21:59:16Z",
+      "files": [
+        {
+          "name": "DIESEL_june_2017.xlsx",
+          "sha256": "236eb05ffc666999bf8560dfe5745de630ca7d4cda81d7fd322651240e54e539"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-june-2018",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL%20June%202018.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241121140057",
+      "fetched_at": "2026-11-10T21:59:19Z",
+      "files": [
+        {
+          "name": "DIESEL_June_2018.xlsx",
+          "sha256": "fbfe123025e4ce340651c88cf920efa68c6a5c39dc574484edd700dd78165901"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-june-2019",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL_JUNE_2019.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20251124201556",
+      "fetched_at": "2026-11-10T21:59:22Z",
+      "files": [
+        {
+          "name": "DIESEL_JUNE_2019.xlsx",
+          "sha256": "e3c70b9017af79b1870d00e7922eea37a043b3aaf3b13f2bdc496af818dcc667"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-june-2020",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL_JUNe%202020.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101148",
+      "fetched_at": "2026-11-10T21:59:24Z",
+      "files": [
+        {
+          "name": "DIESEL_JUNe_2020.xlsx",
+          "sha256": "64e5ed1d9d0204159419772c02a4a7ce6300045ce4c548f28298d3bdbc27f5de"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-june-2024",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/Diesel_June_2024.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101019",
+      "fetched_at": "2026-11-10T21:59:29Z",
+      "files": [
+        {
+          "name": "Diesel_June_2024.xlsx",
+          "sha256": "b7eedc225c9fbfe333367293378faf91e69075d5f652b054e00b17bd822c5ecc"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-mar-2017-proshare",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL_mar%202017%20proshare.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101649",
+      "fetched_at": "2026-11-10T21:59:32Z",
+      "files": [
+        {
+          "name": "DIESEL_mar_2017_proshare.xlsx",
+          "sha256": "d51ae356a9e38c54dce4bfa940909f1df66bf282e5a1438844ddff462b6fe681"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-march-2018",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL_March%202018.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20251012123723",
+      "fetched_at": "2026-11-10T21:59:34Z",
+      "files": [
+        {
+          "name": "DIESEL_March_2018.xlsx",
+          "sha256": "94f308b27423491d6d5b9c16db88272dea1dd1aa8fd4e146eba349f3b68b3687"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-may-2017",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL_may%202017.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101312",
+      "fetched_at": "2026-11-10T21:59:37Z",
+      "files": [
+        {
+          "name": "DIESEL_may_2017.xlsx",
+          "sha256": "0079d70ea7391c3957578b8006722c9ed23e6cebbea508fb13b432c147250afe"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-may-2018",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL_MAY%202018.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101125",
+      "fetched_at": "2026-11-10T21:59:39Z",
+      "files": [
+        {
+          "name": "DIESEL_MAY_2018.xlsx",
+          "sha256": "954d8f1112d539e4f83d298c80d97bb1303b1efadd5c3b07bba113d2f13992f6"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-may-2019",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL%20may%202019.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101208",
+      "fetched_at": "2026-11-10T21:59:42Z",
+      "files": [
+        {
+          "name": "DIESEL_may_2019.xlsx",
+          "sha256": "0125b5bffb5a9b615953979a8ae0a6b7a460414b88974377a316fbc6a3658380"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-may-2021",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL_may_2021.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101724",
+      "fetched_at": "2026-11-10T21:59:44Z",
+      "files": [
+        {
+          "name": "DIESEL_may_2021.xlsx",
+          "sha256": "0bad0fb6622504d881baf402e09b94c85aebd2fce562f6cf59a8ddfafc61648d"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-may-2022",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL%20MAY%20%202022.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101641",
+      "fetched_at": "2026-11-10T21:59:47Z",
+      "files": [
+        {
+          "name": "DIESEL_MAY_2022.xlsx",
+          "sha256": "ad1952a208e23884177fa87adcae15e44d65d1d75cdd3d74186a1ba556948db9"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-nov-2017",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL_nov%202017.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101527",
+      "fetched_at": "2026-11-10T21:59:49Z",
+      "files": [
+        {
+          "name": "DIESEL_nov_2017.xlsx",
+          "sha256": "437aa2532fe7379b768ea3da7e3f0827a383d156695262e289adad10e2b64f1f"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-november-2018",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL_november%202018.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101330",
+      "fetched_at": "2026-11-10T21:59:52Z",
+      "files": [
+        {
+          "name": "DIESEL_november_2018.xlsx",
+          "sha256": "e48e70c3d2e518da28b2e3518cfab62de8906b1d55f606a269270630952c7cb4"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-november-2023",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL%20NOVEMBER%202023.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101135",
+      "fetched_at": "2026-11-10T21:59:55Z",
+      "files": [
+        {
+          "name": "DIESEL_NOVEMBER_2023.xlsx",
+          "sha256": "89e8471873d620e9b1dc4e88fda365df7374128c68281dcd880b652cbd1463d4"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-oct-2017",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL_oct%202017.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101444",
+      "fetched_at": "2026-11-10T21:59:59Z",
+      "files": [
+        {
+          "name": "DIESEL_oct_2017.xlsx",
+          "sha256": "064fce78c196cab6b81a6d5694c6732ed52fe62c1a971f9e0b48e82f1953d269"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-oct-2024-report",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL_OCT_2024_REPORT.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101031",
+      "fetched_at": "2026-11-10T22:00:01Z",
+      "files": [
+        {
+          "name": "DIESEL_OCT_2024_REPORT.xlsx",
+          "sha256": "a5d4e57eb8dcc7e59d0b7c64cb6121eca7c6b1cff7c904d57195ed0a5b75a155"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-october-2020",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/diesel%20october%202020.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101106",
+      "fetched_at": "2026-11-10T22:00:04Z",
+      "files": [
+        {
+          "name": "diesel_october_2020.xlsx",
+          "sha256": "d623ffc96b54630ecc525de58652e7f723a013b6778a7fba9fbd02df0f35a857"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-october-2023",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL_OCTOBER_2023.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101350",
+      "fetched_at": "2026-11-10T22:00:07Z",
+      "files": [
+        {
+          "name": "DIESEL_OCTOBER_2023.xlsx",
+          "sha256": "c395308664439e7be264f14eda731b1af4ef51476770e0f5ec8b4270b9744b34"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-price-watch-october-2018",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/diesel%20price%20watch%20october%202018.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101157",
+      "fetched_at": "2026-11-10T22:00:09Z",
+      "files": [
+        {
+          "name": "diesel_price_watch_october_2018.xlsx",
+          "sha256": "bd76456268874cd1512f52b260a8d3022500fb33581687a905620dd2ae6dc03a"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-prices-feb-2021",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/diesel%20prices%20%20feb%202021.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101703",
+      "fetched_at": "2026-11-10T22:00:12Z",
+      "files": [
+        {
+          "name": "diesel_prices_feb_2021.xlsx",
+          "sha256": "453b368784b37b89c30cb5538a3a2e9c6fc663c2418372e03b908bf5fa2de241"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-sept-2017",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL_sept%202017.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20251126163658",
+      "fetched_at": "2026-11-10T22:00:15Z",
+      "files": [
+        {
+          "name": "DIESEL_sept_2017.xlsx",
+          "sha256": "c96717184fed0c68dd085fe037d542c3869cb13374be6174cedb886f65138894"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-sept-2018",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL_sept%202018.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101032",
+      "fetched_at": "2026-11-10T22:00:17Z",
+      "files": [
+        {
+          "name": "DIESEL_sept_2018.xlsx",
+          "sha256": "25acb8f096eec9abdfdf399784393dcdaa6fb58e9259bde4db687dd6c6c64b2e"
+        }
+      ]
+    },
+    {
+      "key": "legacy-diesel-sept-2024-report",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/DIESEL_SEPT_2024_REPORT.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101101",
+      "fetched_at": "2026-11-10T22:00:22Z",
+      "files": [
+        {
+          "name": "DIESEL_SEPT_2024_REPORT.xlsx",
+          "sha256": "2a3739336a218105579db9637f70677afb8aaa4f57dba47ba668e2e5ef0d0c05"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-apr-2024",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/PMS_APR_2024.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101337",
+      "fetched_at": "2026-11-10T21:47:31Z",
+      "files": [
+        {
+          "name": "PMS_APR_2024.xlsx",
+          "sha256": "107cb2d9fe5e99faab7687223aea6019aa201f4e02699562dfeeccd2279c1e96"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-april-2020",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/pms%20april%202020.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101138",
+      "fetched_at": "2026-11-10T21:47:33Z",
+      "files": [
+        {
+          "name": "pms_april_2020.xlsx",
+          "sha256": "d4b0d40357af72fd38c873dbf6a00fc863150d1ccc637b8bea9930e35cdaf5c7"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-april-2021",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/pms%20april%202021.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101526",
+      "fetched_at": "2026-11-10T21:47:36Z",
+      "files": [
+        {
+          "name": "pms_april_2021.xlsx",
+          "sha256": "eaae64ae78ef8a9d1fd0a54161b795394176a8a679cbe8c39e854c5ce1cc530d"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-aug-2024",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/PMS_AUG_2024.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101042",
+      "fetched_at": "2026-11-10T21:47:38Z",
+      "files": [
+        {
+          "name": "PMS_AUG_2024.xlsx",
+          "sha256": "e479d9cb1711d29ea91c05ea08fd93dda5e856e0eed622d457bfcc8d25414b44"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-august-2020",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/pms%20august%202020.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101102",
+      "fetched_at": "2026-11-10T21:47:41Z",
+      "files": [
+        {
+          "name": "pms_august_2020.xlsx",
+          "sha256": "edcd4e54069502c9a05bb51ad35ca0b8a22393ee0437e1c05c1381a3358cdd12"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-dec-2019",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/pms%20dec%202019.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101103",
+      "fetched_at": "2026-11-10T21:47:43Z",
+      "files": [
+        {
+          "name": "pms_dec_2019.xlsx",
+          "sha256": "51daaf54c976a600dbb82dcd452903bf48eb16188d01e69fd6b15f3a0b0b5fdb"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-dec-2020",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/pms%20dec%202020.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101700",
+      "fetched_at": "2026-11-10T21:47:46Z",
+      "files": [
+        {
+          "name": "pms_dec_2020.xlsx",
+          "sha256": "5703b850511ceb735851d874f4c10bc3fbe61360ed24d63b38f9eb328385a8de"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-dec-2023",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/PMS_DEC_2023.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101558",
+      "fetched_at": "2026-11-10T21:47:50Z",
+      "files": [
+        {
+          "name": "PMS_DEC_2023.xlsx",
+          "sha256": "d5541333f66815c56bbee843cf74e9af129260d8104a245fdfdcbd62f793b3da"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-feb-2020",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/pms%20feb%202020.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101132",
+      "fetched_at": "2026-11-10T21:47:53Z",
+      "files": [
+        {
+          "name": "pms_feb_2020.xlsx",
+          "sha256": "64dbbf73ffa96c5b3bcdfadebceb8941d05c605d138ffeb68c7e2a030554f797"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-feb-2021",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/pms%20feb%202021.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101142",
+      "fetched_at": "2026-11-10T21:47:56Z",
+      "files": [
+        {
+          "name": "pms_feb_2021.xlsx",
+          "sha256": "e892d3c64b349486bedd59076d665c0f11038880b5cf9feb44cc775fbb108ac6"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-feb-2024",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/PMS_FEB_2024.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120100953",
+      "fetched_at": "2026-11-10T21:47:58Z",
+      "files": [
+        {
+          "name": "PMS_FEB_2024.xlsx",
+          "sha256": "3ce55106c4164fc16eaae6de46d17d3073250625b8de84dca2b855b56e7b744b"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-fuel-apr-2018",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/PMS%20Fuel%20apr%202018.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101137",
+      "fetched_at": "2026-11-10T21:48:01Z",
+      "files": [
+        {
+          "name": "PMS_Fuel_apr_2018.xlsx",
+          "sha256": "817afdb8096b0f0918fabdf6e82d70b358fd219ded38ed1644d7fde7f37cd959"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-fuel-apr-2019",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/PMS%20Fuel%20apr%202019.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101329",
+      "fetched_at": "2026-11-10T21:48:03Z",
+      "files": [
+        {
+          "name": "PMS_Fuel_apr_2019.xlsx",
+          "sha256": "8125846571b6ed9b5b95824492228ebcee60dce9aae3bc1dee405c80c20cf00e"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-fuel-apr-2023",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/PMS%20Fuel%20APR%202023.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101152",
+      "fetched_at": "2026-11-10T21:48:06Z",
+      "files": [
+        {
+          "name": "PMS_Fuel_APR_2023.xlsx",
+          "sha256": "eb2fa8a7061efc60e7a936129613f95399e0a82d81b55dc6263b175eb1281670"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-fuel-april-2017",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/PMS%20Fuel%20april%202017%20.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101200",
+      "fetched_at": "2026-11-10T21:48:08Z",
+      "files": [
+        {
+          "name": "PMS_Fuel_april_2017_.xlsx",
+          "sha256": "c28a4986030fa80d9366a484b9ff59c049a51471d57997053daf01d82fa4b5ed"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-fuel-april-2022",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/PMS_Fuel%20april%202022.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101422",
+      "fetched_at": "2026-11-10T21:48:11Z",
+      "files": [
+        {
+          "name": "PMS_Fuel_april_2022.xlsx",
+          "sha256": "882b3f4cde9674ff6c6422778aa3286c7deb0993e46b223b23e4a8cfb6691742"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-fuel-aug-2017",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/PMS%20Fuel%20aug%202017.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101101",
+      "fetched_at": "2026-11-10T21:48:13Z",
+      "files": [
+        {
+          "name": "PMS_Fuel_aug_2017.xlsx",
+          "sha256": "6115674104a4004e5a079af8e7a78fcd5ee259e6a9282b965daf50aba409a4a8"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-fuel-aug-2018",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/PMS%20Fuel%20aug%202018.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101420",
+      "fetched_at": "2026-11-10T21:48:15Z",
+      "files": [
+        {
+          "name": "PMS_Fuel_aug_2018.xlsx",
+          "sha256": "bba04ab1fdf08e51ff8da2942527095d7a7a0e12fd2fcf41cb160a3f82ae6a40"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-fuel-aug-2019",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/PMS%20Fuel%20aug%202019.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101028",
+      "fetched_at": "2026-11-10T21:48:18Z",
+      "files": [
+        {
+          "name": "PMS_Fuel_aug_2019.xlsx",
+          "sha256": "44157a07113713c6ba34f4fd72a573a83b2dc3f1dc4d2a58d8a433b8e1aa5fe8"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-fuel-august-2021",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/PMS_Fuel%20AUGUST%202021.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101349",
+      "fetched_at": "2026-11-10T21:48:21Z",
+      "files": [
+        {
+          "name": "PMS_Fuel_AUGUST_2021.xlsx",
+          "sha256": "1ee7a5870f4c2a59226c2263e8db71980d465463d98a6e5dd9b04bd0279abf43"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-fuel-august-2022",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/PMS_Fuel%20AUGUST%202022.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101051",
+      "fetched_at": "2026-11-10T21:48:24Z",
+      "files": [
+        {
+          "name": "PMS_Fuel_AUGUST_2022.xlsx",
+          "sha256": "cbecc0516d70b33be09c04f0c3e34facafb7a2bf6062a1e6a51c45e363d56f74"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-fuel-august-2023",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/PMS%20Fuel%20AUGUST%202023.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101059",
+      "fetched_at": "2026-11-10T21:48:26Z",
+      "files": [
+        {
+          "name": "PMS_Fuel_AUGUST_2023.xlsx",
+          "sha256": "adcd3c2b39c995d3a2d8301a05741c6a7b99989c287534f3846360c67b435508"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-fuel-dec-2017",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/PMS%20Fuel%20dec%202017.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101301",
+      "fetched_at": "2026-11-10T21:48:29Z",
+      "files": [
+        {
+          "name": "PMS_Fuel_dec_2017.xlsx",
+          "sha256": "23099707dd8f6100a3f6062cd3ab72346619ec77416cba16c269ec162f4ad7ac"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-fuel-dec-2018",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/PMS%20Fuel%20dec%202018.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101141",
+      "fetched_at": "2026-11-10T21:48:31Z",
+      "files": [
+        {
+          "name": "PMS_Fuel_dec_2018.xlsx",
+          "sha256": "6d59fd5b4cc7e6f1482405a5b3c84a473786f1a62aecfa5925f69043b51a76d6"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-fuel-dec-2022",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/PMS_Fuel%20DEC%202022.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101114",
+      "fetched_at": "2026-11-10T21:48:33Z",
+      "files": [
+        {
+          "name": "PMS_Fuel_DEC_2022.xlsx",
+          "sha256": "7dd782daa94ec73b514c998e5a02995d2f1a4f88b8bfd95e382f39f3cb8d6c03"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-fuel-december-2021",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/PMS_Fuel%20DECEMBER%202021.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101009",
+      "fetched_at": "2026-11-10T21:48:36Z",
+      "files": [
+        {
+          "name": "PMS_Fuel_DECEMBER_2021.xlsx",
+          "sha256": "0bdd806ab9f219428222773d9806ceef40aa04999f670d05804c1740388a080d"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-fuel-feb-2017-proshare",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/PMS%20Fuel%20feb%202017%20PROSHARE.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101212",
+      "fetched_at": "2026-11-10T21:48:38Z",
+      "files": [
+        {
+          "name": "PMS_Fuel_feb_2017_PROSHARE.xlsx",
+          "sha256": "cfe61ad3df6843184d7b1d5f1a3988733c052b977f3a38176c39e2ee450a5463"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-fuel-feb-2018",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/PMS%20Fuel%20feb%202018.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120100942",
+      "fetched_at": "2026-11-10T21:48:41Z",
+      "files": [
+        {
+          "name": "PMS_Fuel_feb_2018.xlsx",
+          "sha256": "1655bf58b9028004bd1988a04a050125ebbc4374c932f6cf1d38adf960c91a96"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-fuel-feb-2019",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/PMS%20Fuel%20feb%202019.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101425",
+      "fetched_at": "2026-11-10T21:48:43Z",
+      "files": [
+        {
+          "name": "PMS_Fuel_feb_2019.xlsx",
+          "sha256": "3b6baf7415ad0554e20299eaad32c9a2211f569e8fae786b7d3760ee2dea481b"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-fuel-feb-2023",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/PMS_Fuel%20FEB%202023.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101120",
+      "fetched_at": "2026-11-10T21:48:46Z",
+      "files": [
+        {
+          "name": "PMS_Fuel_FEB_2023.xlsx",
+          "sha256": "6e8eed76a9f021470391d09213ac34b0660d24f94d053f5c535fe86fafa007a2"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-fuel-jan-2018",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/PMS%20Fuel%20jan%202018.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101230",
+      "fetched_at": "2026-11-10T21:48:50Z",
+      "files": [
+        {
+          "name": "PMS_Fuel_jan_2018.xlsx",
+          "sha256": "5d8458b42a70bda404708e9368ad8fd1f27fb38c3de503e9aca97fde243c9427"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-fuel-jan-2019",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/PMS%20Fuel%20jan%202019.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101224",
+      "fetched_at": "2026-11-10T21:48:52Z",
+      "files": [
+        {
+          "name": "PMS_Fuel_jan_2019.xlsx",
+          "sha256": "7f8db25babada73fdf373421bb24b4429d39cb34720998ef74dff9982a29d43d"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-fuel-jan-2023",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/PMS_Fuel%20JAN%202023.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101210",
+      "fetched_at": "2026-11-10T21:48:55Z",
+      "files": [
+        {
+          "name": "PMS_Fuel_JAN_2023.xlsx",
+          "sha256": "57ba108c76a94027851e812d13b9f0f2a93b42a56b085122c746b0c012629906"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-fuel-january-2017-proshare",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/PMS%20Fuel%20JANUARY%202017%20PROSHARE.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101011",
+      "fetched_at": "2026-11-10T21:48:57Z",
+      "files": [
+        {
+          "name": "PMS_Fuel_JANUARY_2017_PROSHARE.xlsx",
+          "sha256": "25dc3bcbcd619ab99106ddc975b20c5ff808b5f95837af65d8c729f092322a1e"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-fuel-january-2022",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/PMS_Fuel%20JANUARY%202022.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101654",
+      "fetched_at": "2026-11-10T21:48:59Z",
+      "files": [
+        {
+          "name": "PMS_Fuel_JANUARY_2022.xlsx",
+          "sha256": "d7d5806ae22eb85f78d04db48bfeec191b1d44b22862c85faa3ae21ee38da739"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-fuel-jul-2017",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/PMS%20Fuel%20jul%202017.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101258",
+      "fetched_at": "2026-11-10T21:49:02Z",
+      "files": [
+        {
+          "name": "PMS_Fuel_jul_2017.xlsx",
+          "sha256": "451600671a43ac6fc895ac4e6116f73178c78c5ada41ed8e034a8ab8185e2b0d"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-fuel-july-2018",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/PMS%20Fuel%20july%202018.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101205",
+      "fetched_at": "2026-11-10T21:49:04Z",
+      "files": [
+        {
+          "name": "PMS_Fuel_july_2018.xlsx",
+          "sha256": "e37e4875efbfdf5a3ac08ac4c445f1e83c37858a5cdc7aa50ff951c9a23c7035"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-fuel-july-2019",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/PMS%20Fuel%20july%202019.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120100958",
+      "fetched_at": "2026-11-10T21:49:07Z",
+      "files": [
+        {
+          "name": "PMS_Fuel_july_2019.xlsx",
+          "sha256": "6797d655d790ccf32d59dd08ec53c213bcb44226778aa279a3e92a4558dc9edd"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-fuel-july-2022",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/PMS_Fuel%20JULY%202022.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101137",
+      "fetched_at": "2026-11-10T21:49:09Z",
+      "files": [
+        {
+          "name": "PMS_Fuel_JULY_2022.xlsx",
+          "sha256": "bd99fe1ebac8834eb317ee11296da32fabd4487dfdb88a35767831b2c6a6cf1b"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-fuel-july-2023",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/PMS%20Fuel%20JULY%202023.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101150",
+      "fetched_at": "2026-11-10T21:49:12Z",
+      "files": [
+        {
+          "name": "PMS_Fuel_JULY_2023.xlsx",
+          "sha256": "89feb9edd45c89cb9197b9557aced88fce66cc3416687c63656dda76cdc57c1b"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-fuel-june-2017",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/PMS%20Fuel%20june%202017.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101148",
+      "fetched_at": "2026-11-10T21:49:14Z",
+      "files": [
+        {
+          "name": "PMS_Fuel_june_2017.xlsx",
+          "sha256": "7741e01a119f96ced35a866775462ed46b817a20c99cef67e10410a8590f8b26"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-fuel-june-2018",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/PMS%20Fuel%20june%202018.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101035",
+      "fetched_at": "2026-11-10T21:49:16Z",
+      "files": [
+        {
+          "name": "PMS_Fuel_june_2018.xlsx",
+          "sha256": "6da54596e014c1d10a3ba801eed382db36036b24b72d4c808e727f44367ab445"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-fuel-june-2019",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/PMS%20Fuel%20june%202019.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101123",
+      "fetched_at": "2026-11-10T21:49:19Z",
+      "files": [
+        {
+          "name": "PMS_Fuel_june_2019.xlsx",
+          "sha256": "d33bf39aa331dcf5300888e9e087146357d5b53a476c447a518a1314a362806b"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-fuel-june-2022",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/PMS_Fuel%20JUNE%202022.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101050",
+      "fetched_at": "2026-11-10T21:49:22Z",
+      "files": [
+        {
+          "name": "PMS_Fuel_JUNE_2022.xlsx",
+          "sha256": "ce5c34eda3d1eae2bf89731a466ee7fc31bd111cd198cd9a0ab06182f744f996"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-fuel-june-2023",
+      "origin_url": "https://nigerianstat.gov.ng/resource/PMS%20Fuel%20JUNE%202023.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20261102215740",
+      "fetched_at": "2026-11-10T21:49:24Z",
+      "files": [
+        {
+          "name": "PMS_Fuel_JUNE_2023.xlsx",
+          "sha256": "8839ce07908b5e79857bcdf3255727610fb3dcbb352bcf3043dbbd24e3bfdb88"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-fuel-mar-2018",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/PMS%20Fuel%20mar%202018.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101002",
+      "fetched_at": "2026-11-10T21:49:27Z",
+      "files": [
+        {
+          "name": "PMS_Fuel_mar_2018.xlsx",
+          "sha256": "9fa0daa07d3979c55025546dacd38b7aa7507f4ceeef3cdfce371c64f95fc551"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-fuel-mar-2019",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/PMS%20Fuel%20mar%202019.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101131",
+      "fetched_at": "2026-11-10T21:49:29Z",
+      "files": [
+        {
+          "name": "PMS_Fuel_mar_2019.xlsx",
+          "sha256": "9a0c374c37f5aa0a96dc8ed02007b37ddaa63522f95e93156dcef0d953d12c77"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-fuel-march-2017-proshare",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/PMS%20Fuel%20march%202017%20PROSHARE.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101122",
+      "fetched_at": "2026-11-10T21:49:31Z",
+      "files": [
+        {
+          "name": "PMS_Fuel_march_2017_PROSHARE.xlsx",
+          "sha256": "c92b6cfe4211510692013e535db4ddc8129afe0ee600b7c0ce1c53dedeb9f27a"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-fuel-march-2022",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/PMS_Fuel%20MARCH%202022.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20250412080008",
+      "fetched_at": "2026-11-10T21:49:33Z",
+      "files": [
+        {
+          "name": "PMS_Fuel_MARCH_2022.xlsx",
+          "sha256": "38a00c640e737eca4122510257b92f1ede76435021450feb8e059737e4cb8ca9"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-fuel-march-2023",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/PMS%20Fuel%20MARCH%202023.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101133",
+      "fetched_at": "2026-11-10T21:49:36Z",
+      "files": [
+        {
+          "name": "PMS_Fuel_MARCH_2023.xlsx",
+          "sha256": "12b48ea1164405ba241594f9c0b8bcf02fa0a1fe141cbc4a5bbc7018aec9f93c"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-fuel-may-2017",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/PMS%20Fuel%20may%202017.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101118",
+      "fetched_at": "2026-11-10T21:49:39Z",
+      "files": [
+        {
+          "name": "PMS_Fuel_may_2017.xlsx",
+          "sha256": "5b1f9835ec673465bf77935c62928e6357813f4f1c499bfc4cd158c3f722a11f"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-fuel-may-2018",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/PMS%20Fuel%20may%202018.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101300",
+      "fetched_at": "2026-11-10T21:49:41Z",
+      "files": [
+        {
+          "name": "PMS_Fuel_may_2018.xlsx",
+          "sha256": "2bd007f9c3cdcf56367e6ae635722cf85b5d8e8b927a5d5ec935b31516a871be"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-fuel-may-2019",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/PMS%20Fuel%20may%202019.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101206",
+      "fetched_at": "2026-11-10T21:49:44Z",
+      "files": [
+        {
+          "name": "PMS_Fuel_may_2019.xlsx",
+          "sha256": "415895d45dc8ca8c224bd0cb395465c6c604eed2e1318b414c5dc90277ac8dfb"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-fuel-may-2023",
+      "origin_url": "https://nigerianstat.gov.ng/resource/PMS%20Fuel%20MAY%202023.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20261102215547",
+      "fetched_at": "2026-11-10T21:49:46Z",
+      "files": [
+        {
+          "name": "PMS_Fuel_MAY_2023.xlsx",
+          "sha256": "b292e46cddfc6af534a4af2d2ee51d61ec261212b3e971c840f9fd30f9c84fec"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-fuel-nov-2017",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/PMS%20Fuel%20nov%202017.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101042",
+      "fetched_at": "2026-11-10T21:49:49Z",
+      "files": [
+        {
+          "name": "PMS_Fuel_nov_2017.xlsx",
+          "sha256": "04ec7626f6460248ab9110cea73555d98d87d91ff67d5d8394c4c88d857dfc60"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-fuel-nov-2018",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/PMS%20Fuel%20nov%202018.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101100",
+      "fetched_at": "2026-11-10T21:49:51Z",
+      "files": [
+        {
+          "name": "PMS_Fuel_nov_2018.xlsx",
+          "sha256": "a20b46333b93972d14cd0f7d59474e191e9da3a5bad7db260b505c7840a1fc11"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-fuel-nov-2022",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/PMS_Fuel%20NOV%202022.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101729",
+      "fetched_at": "2026-11-10T21:49:53Z",
+      "files": [
+        {
+          "name": "PMS_Fuel_NOV_2022.xlsx",
+          "sha256": "a48e9f902578cb444a3b99efa4b17b0a926e7f7904d5a0d0fffe46773146da7b"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-fuel-november-2021",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/PMS_Fuel%20NOVEMBER%202021.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101627",
+      "fetched_at": "2026-11-10T21:49:56Z",
+      "files": [
+        {
+          "name": "PMS_Fuel_NOVEMBER_2021.xlsx",
+          "sha256": "1637b86a231798ed5ffa901530409dfdf62a4970b003d97d179b3c090d3292ae"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-fuel-november-2023",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/PMS%20Fuel%20NOVEMBER%202023.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101427",
+      "fetched_at": "2026-11-10T21:49:58Z",
+      "files": [
+        {
+          "name": "PMS_Fuel_NOVEMBER_2023.xlsx",
+          "sha256": "beafdad843b3dbd04dfce09515e4a6a62f72379f1d8a22215d519be245e815c2"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-fuel-oct-2017",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/PMS%20Fuel%20oct%202017.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101037",
+      "fetched_at": "2026-11-10T21:50:01Z",
+      "files": [
+        {
+          "name": "PMS_Fuel_oct_2017.xlsx",
+          "sha256": "4e17c5670903608144596fdf603ae823cfd2e3d8eabeadd2a53f66aa6c31472c"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-fuel-oct-2018",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/PMS%20Fuel%20oct%202018.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101214",
+      "fetched_at": "2026-11-10T21:50:03Z",
+      "files": [
+        {
+          "name": "PMS_Fuel_oct_2018.xlsx",
+          "sha256": "4b9608cc2451eeeb74dcec35c587895611340f2503446ddc3e4da3d2ae6eb2a6"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-fuel-oct-2019",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/PMS%20Fuel%20oct%202019.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101114",
+      "fetched_at": "2026-11-10T21:50:06Z",
+      "files": [
+        {
+          "name": "PMS_Fuel_oct_2019.xlsx",
+          "sha256": "9723965428fe2401795be709894d61aa193ef49d81e19d6ae8cc425009acfc4a"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-fuel-oct-2022",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/PMS_Fuel%20OCT%202022.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101059",
+      "fetched_at": "2026-11-10T21:50:08Z",
+      "files": [
+        {
+          "name": "PMS_Fuel_OCT_2022.xlsx",
+          "sha256": "8c988b7a487137dfbd04a7adb69db9bce5bf0d0b9b16aa7a34cbcfaa1be89b41"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-fuel-october-2021",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/PMS_Fuel%20OCTOBER%202021.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101250",
+      "fetched_at": "2026-11-10T21:50:11Z",
+      "files": [
+        {
+          "name": "PMS_Fuel_OCTOBER_2021.xlsx",
+          "sha256": "d48aa3e3a8afd5f608cbb44e639c7ed434fea8b3d387c07c438a7bb80850a2b0"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-fuel-october-2023",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/PMS_Fuel_OCTOBER_2023.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101232",
+      "fetched_at": "2026-11-10T21:50:13Z",
+      "files": [
+        {
+          "name": "PMS_Fuel_OCTOBER_2023.xlsx",
+          "sha256": "3950256b8defaf82c3128e1c71fd963352b001798ab2060a97468ea3da9580b9"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-fuel-report-may-2022",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/PMS_Fuel%20Report%20May%202022.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101053",
+      "fetched_at": "2026-11-10T21:50:15Z",
+      "files": [
+        {
+          "name": "PMS_Fuel_Report_May_2022.xlsx",
+          "sha256": "dff50b1fe183fe0dc472cdde5ad59a9c1ae99047787672b46088b19bd5d3ffa9"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-fuel-sep-2018",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/PMS%20Fuel%20sep%202018.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101052",
+      "fetched_at": "2026-11-10T21:50:17Z",
+      "files": [
+        {
+          "name": "PMS_Fuel_sep_2018.xlsx",
+          "sha256": "9f4b5a09d2c7178896ab6befb4c0e5d02a2d34a3ce55bfa311f71b402a563c8b"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-fuel-sep-2019",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/PMS%20Fuel%20sep%202019.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101317",
+      "fetched_at": "2026-11-10T21:50:20Z",
+      "files": [
+        {
+          "name": "PMS_Fuel_sep_2019.xlsx",
+          "sha256": "81daac240b08fe0af36284fb35c1cb4e3d7726fbc8d1740681b77e31c1046f5a"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-fuel-sept-2017",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/PMS%20Fuel%20sept%202017.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101232",
+      "fetched_at": "2026-11-10T21:50:23Z",
+      "files": [
+        {
+          "name": "PMS_Fuel_sept_2017.xlsx",
+          "sha256": "b0722f5b919046174e16a0f502cef13aa7a19097008cb1a5d0c787a29ad76276"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-fuel-sept-2022",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/PMS_Fuel%20SEPT%202022.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101316",
+      "fetched_at": "2026-11-10T21:50:25Z",
+      "files": [
+        {
+          "name": "PMS_Fuel_SEPT_2022.xlsx",
+          "sha256": "b8cf9a4374f30e0696d374e96f5b37b4ada71c920c19d0f4e0df4c1adfae5a5b"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-fuel-september-2021",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/PMS_Fuel%20SEPTEMBER%202021.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101210",
+      "fetched_at": "2026-11-10T21:50:27Z",
+      "files": [
+        {
+          "name": "PMS_Fuel_SEPTEMBER_2021.xlsx",
+          "sha256": "1aa4bd982c1fbca4e6060eaebcf79385be302d163da5efbc25455f77bfc5d8b5"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-fuel-september-2023",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/PMS%20Fuel%20SEPTEMBER%202023.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101402",
+      "fetched_at": "2026-11-10T21:50:30Z",
+      "files": [
+        {
+          "name": "PMS_Fuel_SEPTEMBER_2023.xlsx",
+          "sha256": "8afe74d3280347f9da1365e3fbfd18d1fa8ec1dd813e5ceb81af1c3536b9550a"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-jan-2020",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/pms%20jan%202020.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101144",
+      "fetched_at": "2026-11-10T21:50:32Z",
+      "files": [
+        {
+          "name": "pms_jan_2020.xlsx",
+          "sha256": "13d96bdef284c112e057fce0bb4b0916e03b306944e76afb75bbfd2dd3d15b85"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-jan-2021",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/pms%20jan%202021.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101305",
+      "fetched_at": "2026-11-10T21:50:35Z",
+      "files": [
+        {
+          "name": "pms_jan_2021.xlsx",
+          "sha256": "a12670bb8b4ad0cf480d18f068e82e60eb61b5eb55bced871c0dc6245ddf8fe1"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-jan-2024",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/pms_jan_2024.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101109",
+      "fetched_at": "2026-11-10T21:50:37Z",
+      "files": [
+        {
+          "name": "pms_jan_2024.xlsx",
+          "sha256": "e280737faddbc0b81384b09aa7a4712c213b2be111c826b8796e664c7fcaa98a"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-july-2020",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/pms%20july%202020.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101215",
+      "fetched_at": "2026-11-10T21:50:40Z",
+      "files": [
+        {
+          "name": "pms_july_2020.xlsx",
+          "sha256": "8667b41599bf6f4cdfc71b5f2d842dcdf80ad4650c37b4bbc32391db57ad4e61"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-july-2021",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/pms%20july%202021.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101009",
+      "fetched_at": "2026-11-10T21:50:42Z",
+      "files": [
+        {
+          "name": "pms_july_2021.xlsx",
+          "sha256": "63d0b353cdfbb331842ef70b7ed5358d397c8daad8e8997df00e104e97d2598d"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-june-2020",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/pms%20june%202020.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101700",
+      "fetched_at": "2026-11-10T21:50:45Z",
+      "files": [
+        {
+          "name": "pms_june_2020.xlsx",
+          "sha256": "b57b521e98b83d498c40b2cdbaedd05267b7c0caf70a6ec884303aaa76f3c25b"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-june-2021",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/pms%20june%202021.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101232",
+      "fetched_at": "2026-11-10T21:50:48Z",
+      "files": [
+        {
+          "name": "pms_june_2021.xlsx",
+          "sha256": "9d690decd68937004137fa33bc533faf3822fc3cbe0f5f0c9bb619efed612047"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-june-2024",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/PMS_June_2024.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101049",
+      "fetched_at": "2026-11-10T21:50:50Z",
+      "files": [
+        {
+          "name": "PMS_June_2024.xlsx",
+          "sha256": "bed2f849d9ce1502f05069db6d27eea475473a853e537a3a0580cca7ee74b866"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-march-2020",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/pms%20march%202020.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101207",
+      "fetched_at": "2026-11-10T21:50:52Z",
+      "files": [
+        {
+          "name": "pms_march_2020.xlsx",
+          "sha256": "7ac27ae7d018d1668af7fc7c40fff1118efe7fa46ff6cebbf9292a5e1c92c769"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-march-2021",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/pms%20march%202021.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101227",
+      "fetched_at": "2026-11-10T21:50:55Z",
+      "files": [
+        {
+          "name": "pms_march_2021.xlsx",
+          "sha256": "be87e17acef0e8935231e29d9e35e9d19f976bee739927209dee40b97607f057"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-march-2024",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/PMS_March_2024.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101045",
+      "fetched_at": "2026-11-10T21:50:57Z",
+      "files": [
+        {
+          "name": "PMS_March_2024.xlsx",
+          "sha256": "641b8ce2454c360d308f2a2ab76e5edf7a11548f86ee1b61607ffd690097aebd"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-may-2020",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/pms%20may%202020.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101017",
+      "fetched_at": "2026-11-10T21:51:00Z",
+      "files": [
+        {
+          "name": "pms_may_2020.xlsx",
+          "sha256": "ed76c3d6ebe98af0b48c406a312bdfba941e482bd86aa4da834a94f7e799734c"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-may-2021",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/pms%20may%202021.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101037",
+      "fetched_at": "2026-11-10T21:51:03Z",
+      "files": [
+        {
+          "name": "pms_may_2021.xlsx",
+          "sha256": "1b12101f50837267d09359c8a77cefc24c7e91b93c5e2d0f4f33fff5e9105159"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-nov-2019",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/pms%20nov%202019.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120100932",
+      "fetched_at": "2026-11-10T21:51:05Z",
+      "files": [
+        {
+          "name": "pms_nov_2019.xlsx",
+          "sha256": "68354263ef7df182e444de32297fdd15296dc49b5eeabf92262f0e2fcd696478"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-november-2020",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/pms%20november%202020.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101305",
+      "fetched_at": "2026-11-10T21:51:08Z",
+      "files": [
+        {
+          "name": "pms_november_2020.xlsx",
+          "sha256": "43073656e4bf58ba561476b67647c302dca47712053199755f5940309fd1ac86"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-oct-2024-report",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/PMS_OCT_2024_REPORT.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101023",
+      "fetched_at": "2026-11-10T21:51:11Z",
+      "files": [
+        {
+          "name": "PMS_OCT_2024_REPORT.xlsx",
+          "sha256": "d42c469b1eff4ed605027084d819aba25d21bd94da6064eb2055b2e12b5036e2"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-october-2020",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/pms%20october%202020.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101144",
+      "fetched_at": "2026-11-10T21:51:14Z",
+      "files": [
+        {
+          "name": "pms_october_2020.xlsx",
+          "sha256": "3e47f08d5fce6791c6d562a46dc0e6500ebffd351bdfdcc3a8dfc411a81e5ef9"
+        }
+      ]
+    },
+    {
+      "key": "legacy-pms-september-2020",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/pms%20september%202020.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101302",
+      "fetched_at": "2026-11-10T21:51:16Z",
+      "files": [
+        {
+          "name": "pms_september_2020.xlsx",
+          "sha256": "1b571246cccec523b5766caa758f702a60c38058837477dfc26cc074677c902b"
+        }
+      ]
+    },
+    {
+      "key": "microdata-157-1129",
+      "origin_url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/157/download/1129",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20260711213115",
+      "fetched_at": "2026-11-10T21:51:19Z",
+      "files": [
+        {
+          "name": "PMS_NOV_2024_REPORT.xlsx",
+          "sha256": "c6ac797a3868c065c082fd6a8c42554b32908e10c97de6774a760b24e36482db"
+        }
+      ]
+    },
+    {
+      "key": "microdata-157-1137",
+      "origin_url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/157/download/1137",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20260711212839",
+      "fetched_at": "2026-11-10T21:51:22Z",
+      "files": [
+        {
+          "name": "PMS_DECEMBER_2024.xlsx",
+          "sha256": "867601856d29280d1dfc56b67b46e5c35cd89c6cc59301e73de525a02726ba6c"
+        }
+      ]
+    },
+    {
+      "key": "microdata-157-1164",
+      "origin_url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/157/download/1164",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20260711215738",
+      "fetched_at": "2026-11-10T21:51:24Z",
+      "files": [
+        {
+          "name": "PMS_Jan_2025.xlsx",
+          "sha256": "166a687292b1d729a0c23f38fa5f505af008936349196ccc6bf6e66bbcfbc792"
+        }
+      ]
+    },
+    {
+      "key": "microdata-157-1166",
+      "origin_url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/157/download/1166",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20260714163253",
+      "fetched_at": "2026-11-10T21:51:27Z",
+      "files": [
+        {
+          "name": "PMS_FEB_2025.xlsx",
+          "sha256": "850a76dcd56ced74da8470a7a01d7286de1eaf77b6aa6f5ed2d79c5d5c517324"
+        }
+      ]
+    },
+    {
+      "key": "microdata-157-1203",
+      "origin_url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/157/download/1203",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20260711215826",
+      "fetched_at": "2026-11-10T21:51:29Z",
+      "files": [
+        {
+          "name": "PMS_Report_March_2025.xlsx",
+          "sha256": "c7be2f3bc1220432cae450aef4d834403dff578bf3e44b2b9c3b0878cdf4aee0"
+        }
+      ]
+    },
+    {
+      "key": "microdata-157-1215",
+      "origin_url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/157/download/1215",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20260711215942",
+      "fetched_at": "2026-11-10T21:51:32Z",
+      "files": [
+        {
+          "name": "Fuel_Report_April_2025.xlsx",
+          "sha256": "26f18603202a96c5335daee249b3ec63dd6ebb614b56e3a2c0d5c26d179dab02"
+        }
+      ]
+    },
+    {
+      "key": "microdata-157-1246",
+      "origin_url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/157/download/1246",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20260714160335",
+      "fetched_at": "2026-11-10T21:51:35Z",
+      "files": [
+        {
+          "name": "Fuel_Report_May_2025.xlsx",
+          "sha256": "123b958d92f8ba7d59de33c8a52da143b823b3196a78e0354afd9da6a495d2a3"
+        }
+      ]
+    },
+    {
+      "key": "microdata-157-1261",
+      "origin_url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/157/download/1261",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20260512073643",
+      "fetched_at": "2026-11-10T21:51:37Z",
+      "files": [
+        {
+          "name": "PMS_Report_June_2025.xlsx",
+          "sha256": "6d5023bfafea37753809fca76f138280e274879f09502ce5c26d9a287efbf6bf"
+        }
+      ]
+    },
+    {
+      "key": "microdata-157-1277",
+      "origin_url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/157/download/1277",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20260512051858",
+      "fetched_at": "2026-11-10T21:51:43Z",
+      "files": [
+        {
+          "name": "Fuel_Report_July_2025.xlsx",
+          "sha256": "c68093f6aa2000c9eb3749f6a3c135d7251723bb47a9c748e56df05263ad6fc2"
+        }
+      ]
+    },
+    {
+      "key": "microdata-157-1314",
+      "origin_url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/157/download/1314",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20260512042754",
+      "fetched_at": "2026-11-10T21:51:48Z",
+      "files": [
+        {
+          "name": "PMS_OCT_2025.xlsx",
+          "sha256": "306ebfe19ef7b04b4ff2477ed248e0d54a052a85c51dd471b26439873d53f7ae"
+        }
+      ]
+    },
+    {
+      "key": "microdata-157-1328",
+      "origin_url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/157/download/1328",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20251224153142",
+      "fetched_at": "2026-11-10T21:51:52Z",
+      "files": [
+        {
+          "name": "Fuel_NOV_2025.xlsx",
+          "sha256": "15dfc740c88f739049af8d12a5de2c1b46d4082ab1c200099720add478809744"
+        }
+      ]
+    },
+    {
+      "key": "microdata-157-1345",
+      "origin_url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/157/download/1345",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20260512141726",
+      "fetched_at": "2026-11-10T21:51:59Z",
+      "files": [
+        {
+          "name": "PMS_DECEMBER_2025.xlsx",
+          "sha256": "58088ffadbbb159a94b10bf3351ef08cb0498f4caa642a7211b059f1e6662bb3"
+        }
+      ]
+    },
+    {
+      "key": "microdata-157-1357",
+      "origin_url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/157/download/1357",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20260512055001",
+      "fetched_at": "2026-11-10T21:52:05Z",
+      "files": [
+        {
+          "name": "PMS_SEPTEMBER_2025.xlsx",
+          "sha256": "d59779e6d1f4e7ff5ef079b64d0b3e26c02e1b105698a532adeb97ee89b3e42b"
+        },
+        {
+          "name": "PMS_AUGUST_2025.xlsx",
+          "sha256": "f37ca29d933625a7734120c6119acb96048d194de1a1687485a6869049de1b10"
+        }
+      ]
+    },
+    {
+      "key": "microdata-157-1358",
+      "origin_url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/157/download/1358",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20260226180353",
+      "fetched_at": "2026-11-10T21:52:09Z",
+      "files": [
+        {
+          "name": "PMS_JANUARY_2025.xlsx",
+          "sha256": "1475d0ab2ae85f4fd2c1a8c309542807ef61a740f5865fe640be3df1c3b80785"
+        }
+      ]
+    },
+    {
+      "key": "microdata-157-1374",
+      "origin_url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/157/download/1374",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20260512072717",
+      "fetched_at": "2026-11-10T21:52:14Z",
+      "files": [
+        {
+          "name": "PMS_FEBRUARY__2026.xlsx",
+          "sha256": "0fd4d88aae0b3a6706af93a5111af2d460e3fb38b85f41b8986682e45af70920"
+        }
+      ]
+    },
+    {
+      "key": "microdata-157-1398",
+      "origin_url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/157/download/1398",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20260506081019",
+      "fetched_at": "2026-11-10T21:52:17Z",
+      "files": [
+        {
+          "name": "PMS_March__2026.xlsx",
+          "sha256": "6847710e9890ce11e7592b729c2cd43f31e0fd55d15eb93e38f1fc760d329f06"
+        }
+      ]
+    },
+    {
+      "key": "microdata-157-1424",
+      "origin_url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/157/download/1424",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20261013080152",
+      "fetched_at": "2026-11-10T21:52:20Z",
+      "files": [
+        {
+          "name": "Fuel_MAY_2026.xlsx",
+          "sha256": "1d35221e5b34a333ad697ac3390a24ade8925861cb79e88a393d2ab80280098f"
+        }
+      ]
+    },
+    {
+      "key": "microdata-158-1131",
+      "origin_url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/158/download/1131",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20260114103901",
+      "fetched_at": "2026-11-10T22:00:25Z",
+      "files": [
+        {
+          "name": "AGO_NOV_2024_REPORT.xlsx",
+          "sha256": "e1901be86f27b1d968411ee0584a2ae4c7ca4f26a97f32511686dbf3c72546ed"
+        }
+      ]
+    },
+    {
+      "key": "microdata-158-1139",
+      "origin_url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/158/download/1139",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20260116025040",
+      "fetched_at": "2026-11-10T22:00:28Z",
+      "files": [
+        {
+          "name": "AGO_DECEMBER_2024.xlsx",
+          "sha256": "d79344931c5528bd8bc96e8e2ee6438eff1890fc5391c432081abfcb5f7018bc"
+        }
+      ]
+    },
+    {
+      "key": "microdata-158-1168",
+      "origin_url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/158/download/1168",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20260121164804",
+      "fetched_at": "2026-11-10T22:00:31Z",
+      "files": [
+        {
+          "name": "AGO_JAN_2025.xlsx",
+          "sha256": "bdbb973d4ffc490013c37cba880d3ed50f5ebe6546d0ab5e0b30bdae795f4886"
+        }
+      ]
+    },
+    {
+      "key": "microdata-158-1170",
+      "origin_url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/158/download/1170",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20260110080449",
+      "fetched_at": "2026-11-10T22:00:33Z",
+      "files": [
+        {
+          "name": "AGO_FEB_2025.xlsx",
+          "sha256": "aa4e9cb618b67e095273033a1108d0c09d4e0512f46b1152a74d2786a1eaf5e7"
+        }
+      ]
+    },
+    {
+      "key": "microdata-158-1201",
+      "origin_url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/158/download/1201",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20260123005439",
+      "fetched_at": "2026-11-10T22:00:36Z",
+      "files": [
+        {
+          "name": "Diesel_Report_March_2025.xlsx",
+          "sha256": "7582c9103ce8ceddaa492124dfdc70236b1a90d52352fa7b601447bc5fc2ed4b"
+        }
+      ]
+    },
+    {
+      "key": "microdata-158-1217",
+      "origin_url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/158/download/1217",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20260110114641",
+      "fetched_at": "2026-11-10T22:00:39Z",
+      "files": [
+        {
+          "name": "Diesel_Report_April_2025.xlsx",
+          "sha256": "ecabe11a1c22095bbb46cd1039cb79705e38d86f74f3eb59f7a39ada8ae22df1"
+        }
+      ]
+    },
+    {
+      "key": "microdata-158-1248",
+      "origin_url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/158/download/1248",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20260115190705",
+      "fetched_at": "2026-11-10T22:00:45Z",
+      "files": [
+        {
+          "name": "Diesel_Report_May_2025.xlsx",
+          "sha256": "e1504dc1ab640f2bb051ae1a8ec40907f12321a3d3d98ee6aa72a583cc2e1620"
+        }
+      ]
+    },
+    {
+      "key": "microdata-158-1263",
+      "origin_url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/158/download/1263",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20260115193802",
+      "fetched_at": "2026-11-10T22:00:48Z",
+      "files": [
+        {
+          "name": "Diesel_Report_June_2025.xlsx",
+          "sha256": "190be8676f7880fb9c1a3b1231151cd6f28396255b7c5ce0a50bfd9785cd8aab"
+        }
+      ]
+    },
+    {
+      "key": "microdata-158-1315",
+      "origin_url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/158/download/1315",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20260119123234",
+      "fetched_at": "2026-11-10T22:00:52Z",
+      "files": [
+        {
+          "name": "AGO_OCT_2025.xlsx",
+          "sha256": "2052a11650a196c6e4fe76e38f50cbef79ca34b17959201aab63017182f51878"
+        }
+      ]
+    },
+    {
+      "key": "microdata-158-1360",
+      "origin_url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/158/download/1360",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20260227152542",
+      "fetched_at": "2026-11-10T22:00:58Z",
+      "files": [
+        {
+          "name": "AGO_JANUARY_2026.xlsx",
+          "sha256": "36fff2e696aaae0dabd2946941744a33373daff86164a9e7ffb393f40327a219"
+        }
+      ]
+    }
+  ]
+}

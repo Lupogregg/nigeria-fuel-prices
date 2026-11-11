@@ -1,0 +1,87 @@
+name: Update prices
+
+on:
+  schedule:
+    # Every six hours. NBS publishes monthly on no fixed day; news feeds only
+    # hold a few days of stories; community reports expire after 72 hours.
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+    inputs:
+      backfill:
+        description: "Also fetch every archived NBS workbook back to 2017"
+        type: boolean
+        default: false
+  push:
+    branches: [main]
+    paths: ["fuelapi/**", "public/**", "tests/**", "bot/**", ".github/workflows/update.yml"]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: update-prices
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+
+      - run: pip install -r requirements-dev.txt
+
+      - name: Test
+        run: |
+          python -m pytest -q
+          cd bot && node --test
+
+      - name: Ingest new NBS workbooks
+        # NBS's servers are often unreachable; the ingester then falls back to
+        # the Internet Archive. Neither being available is not a failure: the
+        # site is simply rebuilt from what is already in the repository.
+        run: python -m fuelapi ingest ${{ inputs.backfill && '--backfill' || '' }}
+
+      - name: Fetch news headlines
+        run: python -m fuelapi news
+
+      - name: Pull accepted community reports from the bot
+        # Skipped until both values exist. Settings -> Secrets and variables -> Actions:
+        #   variable COMMUNITY_EXPORT_URL   = https://<your-worker>.workers.dev
+        #   secret   COMMUNITY_EXPORT_TOKEN = the Worker's EXPORT_TOKEN
+        env:
+          COMMUNITY_EXPORT_URL: ${{ vars.COMMUNITY_EXPORT_URL }}
+          COMMUNITY_EXPORT_TOKEN: ${{ secrets.COMMUNITY_EXPORT_TOKEN }}
+        run: python -m fuelapi community
+
+      - name: Build static API
+        run: python -m fuelapi build
+
+      - name: Commit data changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data public
+          if git diff --cached --quiet; then
+            echo "No data changes."
+          else
+            git commit -m "data: update fuel prices"
+            git push
+          fi
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+      - uses: actions/deploy-pages@v4

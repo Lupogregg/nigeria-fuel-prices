@@ -1,0 +1,19 @@
+name = "nigeria-fuel-prices-bot"
+main = "src/index.js"
+compatibility_date = "2026-10-01"
+
+[vars]
+# Base URL of the static NBS API (GitHub Pages or Cloudflare Pages), no trailing slash.
+# Used to sanity-check reported prices against the last official state average.
+BASELINE_URL = "https://lupogregg.github.io/nigeria-fuel-prices"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "fuel-reports"
+# Paste the id printed by: npx wrangler d1 create fuel-reports
+database_id = "REPLACE-WITH-D1-DATABASE-ID"
+
+# Secrets (set each with `npx wrangler secret put NAME`, never commit them):
+#   TELEGRAM_WEBHOOK_SECRET   random string, also passed to Telegram's setWebhook
+#   REPORTER_SALT             random string; keep it stable or reporter history resets
+#   EXPORT_TOKEN              random string for /export/reports

@@ -1,0 +1,5 @@
+# Cloudflare Pages headers (GitHub Pages ignores this file and already sends
+# Access-Control-Allow-Origin: *).
+/v1/*
+  Access-Control-Allow-Origin: *
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400

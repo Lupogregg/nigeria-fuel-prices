@@ -1,0 +1,18 @@
+{
+  "name": "nigeria-fuel-prices-bot",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "db:init": "wrangler d1 execute fuel-reports --remote --file=schema.sql",
+    "db:init:local": "wrangler d1 execute fuel-reports --local --file=schema.sql"
+  },
+  "engines": {
+    "node": ">=22.13"
+  },
+  "devDependencies": {
+    "wrangler": "^4"
+  }
+}

@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nigeria Fuel Prices API</title>
+<style>
+  :root { --bg:#fbfaf7; --fg:#1c1b19; --muted:#6b6862; --line:#e4e1da; --accent:#0b6b3a; --card:#fff; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#151614; --fg:#ecebe6; --muted:#9d9a92; --line:#2c2d2a; --accent:#5fd08f; --card:#1c1d1b; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.55 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 40px 16px 64px; }
+  h1 { font-size: 1.7rem; margin: 0 0 6px; }
+  h2 { font-size: 1.05rem; margin: 36px 0 10px; }
+  p { margin: 0 0 12px; }
+  .muted { color: var(--muted); }
+  code, pre { font: 0.9em ui-monospace, Consolas, monospace; }
+  pre { background: var(--card); border:1px solid var(--line); border-radius:8px; padding:12px 14px; overflow-x:auto; }
+  a { color: var(--accent); }
+  .tiles { display:grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap:12px; margin: 20px 0; }
+  .tile { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:14px 16px; }
+  .tile .k { font-size:.8rem; color:var(--muted); }
+  .tile .v { font-size:1.6rem; font-weight:650; font-variant-numeric: tabular-nums; }
+  .tile .s { font-size:.85rem; color:var(--muted); }
+  .warn { border-left: 3px solid var(--accent); padding: 8px 12px; background: var(--card); border-radius: 0 8px 8px 0; }
+  table { border-collapse: collapse; width: 100%; }
+  td { border-top:1px solid var(--line); padding: 8px 6px; vertical-align: top; }
+  td:first-child { white-space: nowrap; }
+  .scroll { overflow-x:auto; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Nigeria Fuel Prices API</h1>
+  <p class="muted">Free, static JSON. State-by-state petrol and diesel prices from the National Bureau of Statistics.</p>
+
+  <div class="tiles" id="tiles"><div class="tile"><div class="k">Loading latest figures…</div></div></div>
+
+  <p class="warn" id="note">These are monthly state averages published by NBS a few weeks after each month ends.
+  They are a baseline, not live pump prices. Every response carries the <code>period</code> it describes.</p>
+
+  <h2>Endpoints</h2>
+  <div class="scroll"><table>
+    <tr><td><a href="v1/index.json">/v1/index.json</a></td><td>Coverage and the list of endpoints</td></tr>
+    <tr><td><a href="v1/national.json">/v1/national.json</a></td><td>National average, highest and lowest states, zone averages</td></tr>
+    <tr><td><a href="v1/states.json">/v1/states.json</a></td><td>All 36 states + FCT with their latest price</td></tr>
+    <tr><td><a href="v1/prices/lagos.json">/v1/prices/{state}.json</a></td><td>One state: latest figure, rank, change, full history</td></tr>
+    <tr><td><a href="v1/fuels/pms/latest.json">/v1/fuels/{fuel}/latest.json</a></td><td>Every state for the latest month (<code>pms</code> or <code>ago</code>)</td></tr>
+    <tr><td><a href="v1/fuels/pms/history.json">/v1/fuels/{fuel}/history.json</a></td><td>Full monthly series, also as <a href="v1/fuels/pms/history.csv">CSV</a></td></tr>
+    <tr><td><a href="v1/news.json">/v1/news.json</a></td><td>Prices stated in recent news headlines. Leads, not measurements; never mixed into the NBS figures</td></tr>
+    <tr><td>/v1/community.json</td><td>Pump prices reported through the Telegram bot in the last 72 hours (appears once the bot is connected)</td></tr>
+    <tr><td><a href="v1/meta/sources.json">/v1/meta/sources.json</a></td><td>The NBS workbooks behind the numbers</td></tr>
+    <tr><td><a href="v1/meta/issues.json">/v1/meta/issues.json</a></td><td>Problems found in the source files, and what was left out</td></tr>
+  </table></div>
+
+  <h2>Example</h2>
+  <pre>const r = await fetch("v1/prices/lagos.json");
+const { fuels } = await r.json();
+console.log(fuels.pms.latest.price, fuels.pms.latest.period);</pre>
+  <p class="muted">State slugs are lowercase with hyphens: <code>akwa-ibom</code>, <code>cross-river</code>, <code>fct</code> (also <code>abuja</code>).</p>
+</main>
+<script>
+(async () => {
+  const el = document.getElementById("tiles");
+  try {
+    const d = await (await fetch("v1/national.json")).json();
+    const month = p => new Date(p + "-01T00:00:00Z").toLocaleDateString("en-GB", { month: "long", year: "numeric", timeZone: "UTC" });
+    const naira = n => "₦" + n.toLocaleString("en-NG", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+    el.textContent = "";
+    for (const f of Object.values(d.fuels)) {
+      const t = document.createElement("div"); t.className = "tile";
+      const k = document.createElement("div"); k.className = "k"; k.textContent = f.label;
+      const v = document.createElement("div"); v.className = "v"; v.textContent = naira(f.national_average);
+      const s = document.createElement("div"); s.className = "s";
+      s.textContent = "National average, " + month(f.period) + " · per litre";
+      t.append(k, v, s); el.append(t);
+    }
+  } catch (e) {
+    el.textContent = "";
+  }
+})();
+</script>
+</body>
+</html>

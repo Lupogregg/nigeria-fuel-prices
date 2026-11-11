@@ -1,0 +1,1063 @@
+{
+  "state": "Benue",
+  "slug": "benue",
+  "zone": "North Central",
+  "currency": "NGN",
+  "data_updated_at": "2026-11-10T22:00:58Z",
+  "freshness_note": "These are NBS monthly state averages, usually published three to six weeks after the month ends. They are a baseline, not live pump prices: compare `period` with today's date before relying on a figure.",
+  "fuels": {
+    "pms": {
+      "label": "Premium Motor Spirit (petrol)",
+      "unit": "NGN/litre",
+      "latest": {
+        "period": "2026-05",
+        "period_end": "2026-05-31",
+        "price": 1698.57,
+        "granularity": "monthly state average",
+        "source": {
+          "name": "National Bureau of Statistics (NBS), Nigeria",
+          "series": "Premium Motor Spirit (petrol) Price Watch (monthly state average retail prices)",
+          "url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/157"
+        },
+        "is_latest_national_period": true,
+        "national_average": 1596.25,
+        "difference_vs_national_pct": 6.41,
+        "rank_cheapest": 35,
+        "states_ranked": 37,
+        "mom_change_pct": 7.32,
+        "yoy_change_pct": 68.29
+      },
+      "history": [
+        {
+          "period": "2016-01",
+          "price": 121.7
+        },
+        {
+          "period": "2016-02",
+          "price": 104.8
+        },
+        {
+          "period": "2016-03",
+          "price": 131.7
+        },
+        {
+          "period": "2016-04",
+          "price": 134.5
+        },
+        {
+          "period": "2016-05",
+          "price": 162.3
+        },
+        {
+          "period": "2016-06",
+          "price": 146.0
+        },
+        {
+          "period": "2016-07",
+          "price": 148.3
+        },
+        {
+          "period": "2016-08",
+          "price": 145.0
+        },
+        {
+          "period": "2016-09",
+          "price": 146.4
+        },
+        {
+          "period": "2016-10",
+          "price": 145.9
+        },
+        {
+          "period": "2016-11",
+          "price": 148.7
+        },
+        {
+          "period": "2016-12",
+          "price": 145.0
+        },
+        {
+          "period": "2017-01",
+          "price": 145.5
+        },
+        {
+          "period": "2017-02",
+          "price": 157.5
+        },
+        {
+          "period": "2017-03",
+          "price": 152.5
+        },
+        {
+          "period": "2017-04",
+          "price": 155.0
+        },
+        {
+          "period": "2017-05",
+          "price": 158.18
+        },
+        {
+          "period": "2017-06",
+          "price": 151.25
+        },
+        {
+          "period": "2017-07",
+          "price": 159.09
+        },
+        {
+          "period": "2017-08",
+          "price": 143.5
+        },
+        {
+          "period": "2017-09",
+          "price": 143.62
+        },
+        {
+          "period": "2017-10",
+          "price": 150.83
+        },
+        {
+          "period": "2017-11",
+          "price": 145.5
+        },
+        {
+          "period": "2017-12",
+          "price": 172.67
+        },
+        {
+          "period": "2018-01",
+          "price": 223.33
+        },
+        {
+          "period": "2018-02",
+          "price": 200.29
+        },
+        {
+          "period": "2018-03",
+          "price": 153.53
+        },
+        {
+          "period": "2018-04",
+          "price": 156.25
+        },
+        {
+          "period": "2018-05",
+          "price": 160.31
+        },
+        {
+          "period": "2018-06",
+          "price": 146.43
+        },
+        {
+          "period": "2018-07",
+          "price": 146.3
+        },
+        {
+          "period": "2018-08",
+          "price": 145.5
+        },
+        {
+          "period": "2018-09",
+          "price": 150.4
+        },
+        {
+          "period": "2018-10",
+          "price": 153.33
+        },
+        {
+          "period": "2018-11",
+          "price": 150.43
+        },
+        {
+          "period": "2018-12",
+          "price": 146.6
+        },
+        {
+          "period": "2019-01",
+          "price": 150.09
+        },
+        {
+          "period": "2019-02",
+          "price": 146.09
+        },
+        {
+          "period": "2019-03",
+          "price": 144.75
+        },
+        {
+          "period": "2019-04",
+          "price": 145.83
+        },
+        {
+          "period": "2019-05",
+          "price": 143.6
+        },
+        {
+          "period": "2019-06",
+          "price": 144.0
+        },
+        {
+          "period": "2019-07",
+          "price": 145.17
+        },
+        {
+          "period": "2019-08",
+          "price": 145.16
+        },
+        {
+          "period": "2019-09",
+          "price": 147.17
+        },
+        {
+          "period": "2019-10",
+          "price": 146.75
+        },
+        {
+          "period": "2019-11",
+          "price": 144.17
+        },
+        {
+          "period": "2019-12",
+          "price": 148.5
+        },
+        {
+          "period": "2020-01",
+          "price": 146.14
+        },
+        {
+          "period": "2020-02",
+          "price": 146.27
+        },
+        {
+          "period": "2020-03",
+          "price": 146.22
+        },
+        {
+          "period": "2020-04",
+          "price": 130.56
+        },
+        {
+          "period": "2020-05",
+          "price": 128.36
+        },
+        {
+          "period": "2020-06",
+          "price": 129.53
+        },
+        {
+          "period": "2020-07",
+          "price": 143.0
+        },
+        {
+          "period": "2020-08",
+          "price": 150.38
+        },
+        {
+          "period": "2020-09",
+          "price": 161.65
+        },
+        {
+          "period": "2020-10",
+          "price": 161.5
+        },
+        {
+          "period": "2020-11",
+          "price": 167.35
+        },
+        {
+          "period": "2020-12",
+          "price": 165.22
+        },
+        {
+          "period": "2021-01",
+          "price": 162.89
+        },
+        {
+          "period": "2021-02",
+          "price": 163.29
+        },
+        {
+          "period": "2021-03",
+          "price": 170.43
+        },
+        {
+          "period": "2021-04",
+          "price": 166.71
+        },
+        {
+          "period": "2021-05",
+          "price": 180.83
+        },
+        {
+          "period": "2021-06",
+          "price": 183.29
+        },
+        {
+          "period": "2021-07",
+          "price": 164.5
+        },
+        {
+          "period": "2021-08",
+          "price": 163.71
+        },
+        {
+          "period": "2021-09",
+          "price": 166.21
+        },
+        {
+          "period": "2021-10",
+          "price": 169.0
+        },
+        {
+          "period": "2021-11",
+          "price": 166.75
+        },
+        {
+          "period": "2021-12",
+          "price": 165.2
+        },
+        {
+          "period": "2022-01",
+          "price": 166.43
+        },
+        {
+          "period": "2022-02",
+          "price": 165.36
+        },
+        {
+          "period": "2022-03",
+          "price": 165.5
+        },
+        {
+          "period": "2022-04",
+          "price": 168.33
+        },
+        {
+          "period": "2022-05",
+          "price": 165.5
+        },
+        {
+          "period": "2022-06",
+          "price": 165.0
+        },
+        {
+          "period": "2022-07",
+          "price": 185.15
+        },
+        {
+          "period": "2022-08",
+          "price": 202.5
+        },
+        {
+          "period": "2022-09",
+          "price": 200.0
+        },
+        {
+          "period": "2022-10",
+          "price": 200.13
+        },
+        {
+          "period": "2022-11",
+          "price": 210.44
+        },
+        {
+          "period": "2022-12",
+          "price": 209.0
+        },
+        {
+          "period": "2023-01",
+          "price": 202.5
+        },
+        {
+          "period": "2023-02",
+          "price": 200.0
+        },
+        {
+          "period": "2023-03",
+          "price": 195.0
+        },
+        {
+          "period": "2023-04",
+          "price": 198.12
+        },
+        {
+          "period": "2023-05",
+          "price": 208.12
+        },
+        {
+          "period": "2023-06",
+          "price": 540.0
+        },
+        {
+          "period": "2023-07",
+          "price": 537.0
+        },
+        {
+          "period": "2023-08",
+          "price": 649.14
+        },
+        {
+          "period": "2023-09",
+          "price": 641.29
+        },
+        {
+          "period": "2023-10",
+          "price": 642.0
+        },
+        {
+          "period": "2023-11",
+          "price": 668.75
+        },
+        {
+          "period": "2023-12",
+          "price": 658.89
+        },
+        {
+          "period": "2024-01",
+          "price": 632.84
+        },
+        {
+          "period": "2024-02",
+          "price": 652.73
+        },
+        {
+          "period": "2024-03",
+          "price": 700.7
+        },
+        {
+          "period": "2024-04",
+          "price": 713.64
+        },
+        {
+          "period": "2024-05",
+          "price": 882.22
+        },
+        {
+          "period": "2024-06",
+          "price": 854.55
+        },
+        {
+          "period": "2024-07",
+          "price": 846.95
+        },
+        {
+          "period": "2024-08",
+          "price": 941.24
+        },
+        {
+          "period": "2024-09",
+          "price": 1032.88
+        },
+        {
+          "period": "2024-10",
+          "price": 1127.37
+        },
+        {
+          "period": "2024-11",
+          "price": 1365.16
+        },
+        {
+          "period": "2024-12",
+          "price": 1234.55
+        },
+        {
+          "period": "2025-01",
+          "price": 1411.11
+        },
+        {
+          "period": "2025-02",
+          "price": 1450.0
+        },
+        {
+          "period": "2025-03",
+          "price": 1451.69
+        },
+        {
+          "period": "2025-04",
+          "price": 1341.34
+        },
+        {
+          "period": "2025-05",
+          "price": 1009.31
+        },
+        {
+          "period": "2025-06",
+          "price": 1016.08
+        },
+        {
+          "period": "2025-07",
+          "price": 1021.08
+        },
+        {
+          "period": "2025-08",
+          "price": 1031.53
+        },
+        {
+          "period": "2025-09",
+          "price": 1096.97
+        },
+        {
+          "period": "2025-10",
+          "price": 1071.38
+        },
+        {
+          "period": "2025-11",
+          "price": 1080.92
+        },
+        {
+          "period": "2025-12",
+          "price": 1034.43
+        },
+        {
+          "period": "2026-01",
+          "price": 1059.49
+        },
+        {
+          "period": "2026-02",
+          "price": 1069.4
+        },
+        {
+          "period": "2026-03",
+          "price": 1303.68
+        },
+        {
+          "period": "2026-04",
+          "price": 1582.75
+        },
+        {
+          "period": "2026-05",
+          "price": 1698.57
+        }
+      ]
+    },
+    "ago": {
+      "label": "Automotive Gas Oil (diesel)",
+      "unit": "NGN/litre",
+      "latest": {
+        "period": "2026-01",
+        "period_end": "2026-01-31",
+        "price": 1309.21,
+        "granularity": "monthly state average",
+        "source": {
+          "name": "National Bureau of Statistics (NBS), Nigeria",
+          "series": "Automotive Gas Oil (diesel) Price Watch (monthly state average retail prices)",
+          "url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/158"
+        },
+        "is_latest_national_period": true,
+        "national_average": 1361.57,
+        "difference_vs_national_pct": -3.85,
+        "rank_cheapest": 12,
+        "states_ranked": 37,
+        "mom_change_pct": -4.86,
+        "yoy_change_pct": -31.99
+      },
+      "history": [
+        {
+          "period": "2015-06",
+          "price": 225.0
+        },
+        {
+          "period": "2015-07",
+          "price": 158.75
+        },
+        {
+          "period": "2015-08",
+          "price": 193.33
+        },
+        {
+          "period": "2015-09",
+          "price": 205.0
+        },
+        {
+          "period": "2015-10",
+          "price": 151.86
+        },
+        {
+          "period": "2015-11",
+          "price": 156.0
+        },
+        {
+          "period": "2015-12",
+          "price": 160.83
+        },
+        {
+          "period": "2016-01",
+          "price": 160.0
+        },
+        {
+          "period": "2016-02",
+          "price": 152.0
+        },
+        {
+          "period": "2016-03",
+          "price": 135.0
+        },
+        {
+          "period": "2016-04",
+          "price": 167.0
+        },
+        {
+          "period": "2016-05",
+          "price": 150.0
+        },
+        {
+          "period": "2016-06",
+          "price": 166.67
+        },
+        {
+          "period": "2016-07",
+          "price": 202.86
+        },
+        {
+          "period": "2016-08",
+          "price": 210.0
+        },
+        {
+          "period": "2016-09",
+          "price": 210.0
+        },
+        {
+          "period": "2016-10",
+          "price": 189.17
+        },
+        {
+          "period": "2016-11",
+          "price": 202.14
+        },
+        {
+          "period": "2016-12",
+          "price": 190.0
+        },
+        {
+          "period": "2017-01",
+          "price": 254.17
+        },
+        {
+          "period": "2017-02",
+          "price": 255.71
+        },
+        {
+          "period": "2017-03",
+          "price": 246.0
+        },
+        {
+          "period": "2017-04",
+          "price": 245.35
+        },
+        {
+          "period": "2017-05",
+          "price": 231.43
+        },
+        {
+          "period": "2017-06",
+          "price": 213.33
+        },
+        {
+          "period": "2017-07",
+          "price": 213.0
+        },
+        {
+          "period": "2017-08",
+          "price": 213.33
+        },
+        {
+          "period": "2017-09",
+          "price": 186.25
+        },
+        {
+          "period": "2017-10",
+          "price": 193.33
+        },
+        {
+          "period": "2017-11",
+          "price": 210.83
+        },
+        {
+          "period": "2017-12",
+          "price": 192.5
+        },
+        {
+          "period": "2018-01",
+          "price": 200.0
+        },
+        {
+          "period": "2018-02",
+          "price": 202.12
+        },
+        {
+          "period": "2018-03",
+          "price": 213.64
+        },
+        {
+          "period": "2018-04",
+          "price": 205.0
+        },
+        {
+          "period": "2018-05",
+          "price": 207.5
+        },
+        {
+          "period": "2018-06",
+          "price": 200.0
+        },
+        {
+          "period": "2018-07",
+          "price": 206.0
+        },
+        {
+          "period": "2018-08",
+          "price": 218.0
+        },
+        {
+          "period": "2018-09",
+          "price": 206.45
+        },
+        {
+          "period": "2018-10",
+          "price": 218.33
+        },
+        {
+          "period": "2018-11",
+          "price": 205.0
+        },
+        {
+          "period": "2018-12",
+          "price": 226.0
+        },
+        {
+          "period": "2019-01",
+          "price": 227.86
+        },
+        {
+          "period": "2019-02",
+          "price": 216.25
+        },
+        {
+          "period": "2019-03",
+          "price": 225.0
+        },
+        {
+          "period": "2019-04",
+          "price": 228.21
+        },
+        {
+          "period": "2019-05",
+          "price": 203.33
+        },
+        {
+          "period": "2019-06",
+          "price": 224.0
+        },
+        {
+          "period": "2019-07",
+          "price": 231.25
+        },
+        {
+          "period": "2019-08",
+          "price": 231.25
+        },
+        {
+          "period": "2019-09",
+          "price": 241.75
+        },
+        {
+          "period": "2019-10",
+          "price": 265.0
+        },
+        {
+          "period": "2019-11",
+          "price": 258.75
+        },
+        {
+          "period": "2019-12",
+          "price": 266.25
+        },
+        {
+          "period": "2020-01",
+          "price": 251.67
+        },
+        {
+          "period": "2020-02",
+          "price": 246.12
+        },
+        {
+          "period": "2020-03",
+          "price": 241.67
+        },
+        {
+          "period": "2020-04",
+          "price": 232.5
+        },
+        {
+          "period": "2020-05",
+          "price": 213.57
+        },
+        {
+          "period": "2020-06",
+          "price": 223.0
+        },
+        {
+          "period": "2020-07",
+          "price": 233.0
+        },
+        {
+          "period": "2020-08",
+          "price": 232.0
+        },
+        {
+          "period": "2020-09",
+          "price": 229.0
+        },
+        {
+          "period": "2020-10",
+          "price": 240.51
+        },
+        {
+          "period": "2020-11",
+          "price": 263.33
+        },
+        {
+          "period": "2020-12",
+          "price": 246.67
+        },
+        {
+          "period": "2021-01",
+          "price": 247.5
+        },
+        {
+          "period": "2021-02",
+          "price": 232.87
+        },
+        {
+          "period": "2021-03",
+          "price": 264.91
+        },
+        {
+          "period": "2021-04",
+          "price": 264.75
+        },
+        {
+          "period": "2021-05",
+          "price": 256.17
+        },
+        {
+          "period": "2021-06",
+          "price": 253.33
+        },
+        {
+          "period": "2021-07",
+          "price": 266.67
+        },
+        {
+          "period": "2021-08",
+          "price": 246.8
+        },
+        {
+          "period": "2021-09",
+          "price": 239.06
+        },
+        {
+          "period": "2021-10",
+          "price": 246.0
+        },
+        {
+          "period": "2021-11",
+          "price": 251.8
+        },
+        {
+          "period": "2021-12",
+          "price": 302.5
+        },
+        {
+          "period": "2022-01",
+          "price": 248.33
+        },
+        {
+          "period": "2022-02",
+          "price": 303.33
+        },
+        {
+          "period": "2022-03",
+          "price": 518.0
+        },
+        {
+          "period": "2022-04",
+          "price": 662.5
+        },
+        {
+          "period": "2022-05",
+          "price": 635.0
+        },
+        {
+          "period": "2022-06",
+          "price": 728.57
+        },
+        {
+          "period": "2022-07",
+          "price": 745.0
+        },
+        {
+          "period": "2022-08",
+          "price": 780.0
+        },
+        {
+          "period": "2022-09",
+          "price": 750.0
+        },
+        {
+          "period": "2022-10",
+          "price": 750.0
+        },
+        {
+          "period": "2022-11",
+          "price": 772.0
+        },
+        {
+          "period": "2022-12",
+          "price": 777.5
+        },
+        {
+          "period": "2023-01",
+          "price": 885.71
+        },
+        {
+          "period": "2023-02",
+          "price": 870.0
+        },
+        {
+          "period": "2023-03",
+          "price": 876.98
+        },
+        {
+          "period": "2023-04",
+          "price": 852.08
+        },
+        {
+          "period": "2023-05",
+          "price": 841.67
+        },
+        {
+          "period": "2023-06",
+          "price": 840.0
+        },
+        {
+          "period": "2023-07",
+          "price": 852.0
+        },
+        {
+          "period": "2023-08",
+          "price": 900.55
+        },
+        {
+          "period": "2023-09",
+          "price": 900.42
+        },
+        {
+          "period": "2023-10",
+          "price": 1091.67
+        },
+        {
+          "period": "2023-11",
+          "price": 1280.0
+        },
+        {
+          "period": "2023-12",
+          "price": 1180.0
+        },
+        {
+          "period": "2024-01",
+          "price": 1183.89
+        },
+        {
+          "period": "2024-02",
+          "price": 1230.0
+        },
+        {
+          "period": "2024-03",
+          "price": 1244.69
+        },
+        {
+          "period": "2024-04",
+          "price": 1456.25
+        },
+        {
+          "period": "2024-05",
+          "price": 1500.0
+        },
+        {
+          "period": "2024-06",
+          "price": 1375.0
+        },
+        {
+          "period": "2024-07",
+          "price": 1348.94
+        },
+        {
+          "period": "2024-08",
+          "price": 1395.05
+        },
+        {
+          "period": "2024-09",
+          "price": 1508.33
+        },
+        {
+          "period": "2024-10",
+          "price": 1792.0
+        },
+        {
+          "period": "2024-11",
+          "price": 1770.59
+        },
+        {
+          "period": "2024-12",
+          "price": 1780.0
+        },
+        {
+          "period": "2025-01",
+          "price": 1925.0
+        },
+        {
+          "period": "2025-02",
+          "price": 1975.0
+        },
+        {
+          "period": "2025-03",
+          "price": 2115.47
+        },
+        {
+          "period": "2025-04",
+          "price": 2419.3
+        },
+        {
+          "period": "2025-05",
+          "price": 2441.46
+        },
+        {
+          "period": "2025-06",
+          "price": 2541.46
+        },
+        {
+          "period": "2025-09",
+          "price": 1227.86
+        },
+        {
+          "period": "2025-10",
+          "price": 1357.79
+        },
+        {
+          "period": "2025-12",
+          "price": 1376.02
+        },
+        {
+          "period": "2026-01",
+          "price": 1309.21
+        }
+      ]
+    }
+  },
+  "news_signals": {
+    "as_of": "2026-11-10",
+    "note": "Prices stated in news headlines, extracted by rule. They are leads, not measurements: a headline may quote one station, one city or a wholesale price. Several outlets carrying the same figure often means one story was republished. Never blended with the NBS averages.",
+    "signals": []
+  }
+}

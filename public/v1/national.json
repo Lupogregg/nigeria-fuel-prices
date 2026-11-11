@@ -1,0 +1,189 @@
+{
+  "data_updated_at": "2026-11-10T22:00:58Z",
+  "currency": "NGN",
+  "freshness_note": "These are NBS monthly state averages, usually published three to six weeks after the month ends. They are a baseline, not live pump prices: compare `period` with today's date before relying on a figure.",
+  "fuels": {
+    "pms": {
+      "fuel": "pms",
+      "label": "Premium Motor Spirit (petrol)",
+      "unit": "NGN/litre",
+      "period": "2026-05",
+      "period_end": "2026-05-31",
+      "granularity": "monthly state average",
+      "source": {
+        "name": "National Bureau of Statistics (NBS), Nigeria",
+        "series": "Premium Motor Spirit (petrol) Price Watch (monthly state average retail prices)",
+        "url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/157"
+      },
+      "national_average": 1596.25,
+      "national_average_basis": "as reported by NBS",
+      "mean_of_states": 1596.25,
+      "states_reported": 37,
+      "mom_change_pct": 4.13,
+      "yoy_change_pct": 55.31,
+      "highest": [
+        {
+          "state": "Edo",
+          "slug": "edo",
+          "price": 1722.91
+        },
+        {
+          "state": "Bauchi",
+          "slug": "bauchi",
+          "price": 1715.47
+        },
+        {
+          "state": "Benue",
+          "slug": "benue",
+          "price": 1698.57
+        }
+      ],
+      "lowest": [
+        {
+          "state": "Adamawa",
+          "slug": "adamawa",
+          "price": 1469.83
+        },
+        {
+          "state": "Katsina",
+          "slug": "katsina",
+          "price": 1470.63
+        },
+        {
+          "state": "Sokoto",
+          "slug": "sokoto",
+          "price": 1489.33
+        }
+      ],
+      "zones": [
+        {
+          "zone": "North Central",
+          "slug": "north-central",
+          "average": 1589.92,
+          "states": 7
+        },
+        {
+          "zone": "North East",
+          "slug": "north-east",
+          "average": 1622.76,
+          "states": 6
+        },
+        {
+          "zone": "North West",
+          "slug": "north-west",
+          "average": 1564.11,
+          "states": 7
+        },
+        {
+          "zone": "South East",
+          "slug": "south-east",
+          "average": 1593.91,
+          "states": 5
+        },
+        {
+          "zone": "South South",
+          "slug": "south-south",
+          "average": 1623.84,
+          "states": 6
+        },
+        {
+          "zone": "South West",
+          "slug": "south-west",
+          "average": 1588.96,
+          "states": 6
+        }
+      ]
+    },
+    "ago": {
+      "fuel": "ago",
+      "label": "Automotive Gas Oil (diesel)",
+      "unit": "NGN/litre",
+      "period": "2026-01",
+      "period_end": "2026-01-31",
+      "granularity": "monthly state average",
+      "source": {
+        "name": "National Bureau of Statistics (NBS), Nigeria",
+        "series": "Automotive Gas Oil (diesel) Price Watch (monthly state average retail prices)",
+        "url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/158"
+      },
+      "national_average": 1361.57,
+      "national_average_basis": "as reported by NBS",
+      "mean_of_states": 1361.57,
+      "states_reported": 37,
+      "mom_change_pct": -2.86,
+      "yoy_change_pct": -9.32,
+      "highest": [
+        {
+          "state": "Lagos",
+          "slug": "lagos",
+          "price": 1560.82
+        },
+        {
+          "state": "Akwa Ibom",
+          "slug": "akwa-ibom",
+          "price": 1558.52
+        },
+        {
+          "state": "Borno",
+          "slug": "borno",
+          "price": 1480.0
+        }
+      ],
+      "lowest": [
+        {
+          "state": "Kogi",
+          "slug": "kogi",
+          "price": 1200.0
+        },
+        {
+          "state": "Ogun",
+          "slug": "ogun",
+          "price": 1230.52
+        },
+        {
+          "state": "Zamfara",
+          "slug": "zamfara",
+          "price": 1242.82
+        }
+      ],
+      "zones": [
+        {
+          "zone": "North Central",
+          "slug": "north-central",
+          "average": 1334.92,
+          "states": 7
+        },
+        {
+          "zone": "North East",
+          "slug": "north-east",
+          "average": 1430.96,
+          "states": 6
+        },
+        {
+          "zone": "North West",
+          "slug": "north-west",
+          "average": 1329.75,
+          "states": 7
+        },
+        {
+          "zone": "South East",
+          "slug": "south-east",
+          "average": 1288.2,
+          "states": 5
+        },
+        {
+          "zone": "South South",
+          "slug": "south-south",
+          "average": 1387.68,
+          "states": 6
+        },
+        {
+          "zone": "South West",
+          "slug": "south-west",
+          "average": 1395.43,
+          "states": 6
+        }
+      ]
+    }
+  }
+}

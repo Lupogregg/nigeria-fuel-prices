@@ -1,0 +1,488 @@
+[
+  {
+    "name": "two reporters corroborate one brand; a repeating reporter does not",
+    "reports": [
+      {
+        "id": 1,
+        "reporter_id": "aaaaaaaa01",
+        "area": "lagos",
+        "state": "lagos",
+        "brand": "nnpc",
+        "brand_label": "NNPC",
+        "brand_category": "nnpc",
+        "fuel": "pms",
+        "price": 1250,
+        "created_at": "2026-11-10T08:00:00.000Z"
+      },
+      {
+        "id": 2,
+        "reporter_id": "aaaaaaaa02",
+        "area": "lagos",
+        "state": "lagos",
+        "brand": "nnpc",
+        "brand_label": "NNPC",
+        "brand_category": "nnpc",
+        "fuel": "pms",
+        "price": 1255,
+        "created_at": "2026-11-10T09:00:00.000Z"
+      },
+      {
+        "id": 3,
+        "reporter_id": "aaaaaaaa03",
+        "area": "lagos",
+        "state": "lagos",
+        "brand": "totalenergies",
+        "brand_label": "TOTALENERGIES",
+        "brand_category": "major",
+        "fuel": "pms",
+        "price": 1300,
+        "created_at": "2026-11-10T01:00:00.000Z"
+      },
+      {
+        "id": 4,
+        "reporter_id": "aaaaaaaa03",
+        "area": "lagos",
+        "state": "lagos",
+        "brand": "totalenergies",
+        "brand_label": "TOTALENERGIES",
+        "brand_category": "major",
+        "fuel": "pms",
+        "price": 1300,
+        "created_at": "2026-11-10T02:00:00.000Z"
+      },
+      {
+        "id": 5,
+        "reporter_id": "aaaaaaaa03",
+        "area": "lagos",
+        "state": "lagos",
+        "brand": "totalenergies",
+        "brand_label": "TOTALENERGIES",
+        "brand_category": "major",
+        "fuel": "pms",
+        "price": 1300,
+        "created_at": "2026-11-10T03:00:00.000Z"
+      }
+    ],
+    "expected": {
+      "lagos": {
+        "pms": {
+          "status": "corroborated",
+          "unit": "NGN/litre",
+          "median": 1277.5,
+          "min": 1255,
+          "max": 1300,
+          "reports": 3,
+          "reporters": 3,
+          "oldest_report_at": "2026-11-10T03:00:00.000Z",
+          "newest_report_at": "2026-11-10T09:00:00.000Z",
+          "brands": [
+            {
+              "brand": "nnpc",
+              "label": "NNPC",
+              "category": "nnpc",
+              "price": 1255,
+              "status": "corroborated",
+              "reporters_agreeing": 2,
+              "reporters_total": 2,
+              "reported_at": "2026-11-10T09:00:00.000Z"
+            },
+            {
+              "brand": "totalenergies",
+              "label": "TOTALENERGIES",
+              "category": "major",
+              "price": 1300,
+              "status": "unverified",
+              "reporters_agreeing": 1,
+              "reporters_total": 1,
+              "reported_at": "2026-11-10T03:00:00.000Z"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "disagreement: the newest price leads, nothing is corroborated",
+    "reports": [
+      {
+        "id": 6,
+        "reporter_id": "aaaaaaaa01",
+        "area": "kano",
+        "state": "kano",
+        "brand": "mrs",
+        "brand_label": "MRS",
+        "brand_category": "major",
+        "fuel": "pms",
+        "price": 1250,
+        "created_at": "2026-11-10T08:00:00.000Z"
+      },
+      {
+        "id": 7,
+        "reporter_id": "aaaaaaaa02",
+        "area": "kano",
+        "state": "kano",
+        "brand": "mrs",
+        "brand_label": "MRS",
+        "brand_category": "major",
+        "fuel": "pms",
+        "price": 1400,
+        "created_at": "2026-11-10T09:00:00.000Z"
+      }
+    ],
+    "expected": {
+      "kano": {
+        "pms": {
+          "status": "unverified",
+          "unit": "NGN/litre",
+          "median": 1400,
+          "min": 1400,
+          "max": 1400,
+          "reports": 2,
+          "reporters": 2,
+          "oldest_report_at": "2026-11-10T08:00:00.000Z",
+          "newest_report_at": "2026-11-10T09:00:00.000Z",
+          "brands": [
+            {
+              "brand": "mrs",
+              "label": "MRS",
+              "category": "major",
+              "price": 1400,
+              "status": "unverified",
+              "reporters_agreeing": 1,
+              "reporters_total": 2,
+              "reported_at": "2026-11-10T09:00:00.000Z"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "a correction replaces the reporter's earlier report",
+    "reports": [
+      {
+        "id": 8,
+        "reporter_id": "aaaaaaaa01",
+        "area": "abuja",
+        "state": "fct",
+        "brand": "conoil",
+        "brand_label": "CONOIL",
+        "brand_category": "major",
+        "fuel": "pms",
+        "price": 1520,
+        "created_at": "2026-11-10T08:00:00.000Z"
+      },
+      {
+        "id": 9,
+        "reporter_id": "aaaaaaaa01",
+        "area": "abuja",
+        "state": "fct",
+        "brand": "conoil",
+        "brand_label": "CONOIL",
+        "brand_category": "major",
+        "fuel": "pms",
+        "price": 1250,
+        "created_at": "2026-11-10T08:02:00.000Z"
+      },
+      {
+        "id": 10,
+        "reporter_id": "aaaaaaaa02",
+        "area": "abuja",
+        "state": "fct",
+        "brand": "conoil",
+        "brand_label": "CONOIL",
+        "brand_category": "major",
+        "fuel": "pms",
+        "price": 1250,
+        "created_at": "2026-11-10T07:00:00.000Z"
+      }
+    ],
+    "expected": {
+      "abuja": {
+        "pms": {
+          "status": "corroborated",
+          "unit": "NGN/litre",
+          "median": 1250,
+          "min": 1250,
+          "max": 1250,
+          "reports": 2,
+          "reporters": 2,
+          "oldest_report_at": "2026-11-10T07:00:00.000Z",
+          "newest_report_at": "2026-11-10T08:02:00.000Z",
+          "brands": [
+            {
+              "brand": "conoil",
+              "label": "CONOIL",
+              "category": "major",
+              "price": 1250,
+              "status": "corroborated",
+              "reporters_agreeing": 2,
+              "reporters_total": 2,
+              "reported_at": "2026-11-10T08:02:00.000Z"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "areas and fuels stay apart; even count takes the mean of the middle two",
+    "reports": [
+      {
+        "id": 11,
+        "reporter_id": "aaaaaaaa01",
+        "area": "lagos",
+        "state": "lagos",
+        "brand": "nnpc",
+        "brand_label": "NNPC",
+        "brand_category": "nnpc",
+        "fuel": "pms",
+        "price": 1250,
+        "created_at": "2026-11-10T08:00:00.000Z"
+      },
+      {
+        "id": 12,
+        "reporter_id": "aaaaaaaa01",
+        "area": "lagos",
+        "state": "lagos",
+        "brand": "mrs",
+        "brand_label": "MRS",
+        "brand_category": "major",
+        "fuel": "pms",
+        "price": 1275.55,
+        "created_at": "2026-11-10T08:05:00.000Z"
+      },
+      {
+        "id": 13,
+        "reporter_id": "aaaaaaaa01",
+        "area": "lagos",
+        "state": "lagos",
+        "brand": "nnpc",
+        "brand_label": "NNPC",
+        "brand_category": "nnpc",
+        "fuel": "ago",
+        "price": 1700,
+        "created_at": "2026-11-10T08:10:00.000Z"
+      },
+      {
+        "id": 14,
+        "reporter_id": "aaaaaaaa02",
+        "area": "port-harcourt",
+        "state": "rivers",
+        "brand": "rainoil",
+        "brand_label": "RAINOIL",
+        "brand_category": "independent",
+        "fuel": "pms",
+        "price": 1450,
+        "created_at": "2026-11-10T08:00:00.000Z"
+      },
+      {
+        "id": 15,
+        "reporter_id": "aaaaaaaa03",
+        "area": "port-harcourt",
+        "state": "rivers",
+        "brand": "other-danmarna-oil",
+        "brand_label": "Danmarna Oil",
+        "brand_category": "independent",
+        "fuel": "pms",
+        "price": 1440,
+        "created_at": "2026-11-10T08:30:00.000Z"
+      }
+    ],
+    "expected": {
+      "lagos": {
+        "pms": {
+          "status": "unverified",
+          "unit": "NGN/litre",
+          "median": 1262.78,
+          "min": 1250,
+          "max": 1275.55,
+          "reports": 2,
+          "reporters": 1,
+          "oldest_report_at": "2026-11-10T08:00:00.000Z",
+          "newest_report_at": "2026-11-10T08:05:00.000Z",
+          "brands": [
+            {
+              "brand": "nnpc",
+              "label": "NNPC",
+              "category": "nnpc",
+              "price": 1250,
+              "status": "unverified",
+              "reporters_agreeing": 1,
+              "reporters_total": 1,
+              "reported_at": "2026-11-10T08:00:00.000Z"
+            },
+            {
+              "brand": "mrs",
+              "label": "MRS",
+              "category": "major",
+              "price": 1275.55,
+              "status": "unverified",
+              "reporters_agreeing": 1,
+              "reporters_total": 1,
+              "reported_at": "2026-11-10T08:05:00.000Z"
+            }
+          ]
+        },
+        "ago": {
+          "status": "unverified",
+          "unit": "NGN/litre",
+          "median": 1700,
+          "min": 1700,
+          "max": 1700,
+          "reports": 1,
+          "reporters": 1,
+          "oldest_report_at": "2026-11-10T08:10:00.000Z",
+          "newest_report_at": "2026-11-10T08:10:00.000Z",
+          "brands": [
+            {
+              "brand": "nnpc",
+              "label": "NNPC",
+              "category": "nnpc",
+              "price": 1700,
+              "status": "unverified",
+              "reporters_agreeing": 1,
+              "reporters_total": 1,
+              "reported_at": "2026-11-10T08:10:00.000Z"
+            }
+          ]
+        }
+      },
+      "port-harcourt": {
+        "pms": {
+          "status": "unverified",
+          "unit": "NGN/litre",
+          "median": 1445,
+          "min": 1440,
+          "max": 1450,
+          "reports": 2,
+          "reporters": 2,
+          "oldest_report_at": "2026-11-10T08:00:00.000Z",
+          "newest_report_at": "2026-11-10T08:30:00.000Z",
+          "brands": [
+            {
+              "brand": "other-danmarna-oil",
+              "label": "Danmarna Oil",
+              "category": "independent",
+              "price": 1440,
+              "status": "unverified",
+              "reporters_agreeing": 1,
+              "reporters_total": 1,
+              "reported_at": "2026-11-10T08:30:00.000Z"
+            },
+            {
+              "brand": "rainoil",
+              "label": "RAINOIL",
+              "category": "independent",
+              "price": 1450,
+              "status": "unverified",
+              "reporters_agreeing": 1,
+              "reporters_total": 1,
+              "reported_at": "2026-11-10T08:00:00.000Z"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "identical timestamps: the higher id is the newer report; equal prices sort by brand id",
+    "reports": [
+      {
+        "id": 16,
+        "reporter_id": "aaaaaaaa01",
+        "area": "kano",
+        "state": "kano",
+        "brand": "aa-rano",
+        "brand_label": "AA-RANO",
+        "brand_category": "independent",
+        "fuel": "pms",
+        "price": 1300,
+        "created_at": "2026-11-10T08:00:00.000Z"
+      },
+      {
+        "id": 17,
+        "reporter_id": "aaaaaaaa01",
+        "area": "kano",
+        "state": "kano",
+        "brand": "aa-rano",
+        "brand_label": "AA-RANO",
+        "brand_category": "independent",
+        "fuel": "pms",
+        "price": 1310,
+        "created_at": "2026-11-10T08:00:00.000Z"
+      },
+      {
+        "id": 18,
+        "reporter_id": "aaaaaaaa02",
+        "area": "kano",
+        "state": "kano",
+        "brand": "ab",
+        "brand_label": "AB",
+        "brand_category": "independent",
+        "fuel": "pms",
+        "price": 1310,
+        "created_at": "2026-11-10T08:00:00.000Z"
+      },
+      {
+        "id": 19,
+        "reporter_id": "aaaaaaaa03",
+        "area": "kano",
+        "state": "kano",
+        "brand": "a-z",
+        "brand_label": "A-Z",
+        "brand_category": "independent",
+        "fuel": "pms",
+        "price": 1310,
+        "created_at": "2026-11-10T08:00:00.000Z"
+      }
+    ],
+    "expected": {
+      "kano": {
+        "pms": {
+          "status": "unverified",
+          "unit": "NGN/litre",
+          "median": 1310,
+          "min": 1310,
+          "max": 1310,
+          "reports": 3,
+          "reporters": 3,
+          "oldest_report_at": "2026-11-10T08:00:00.000Z",
+          "newest_report_at": "2026-11-10T08:00:00.000Z",
+          "brands": [
+            {
+              "brand": "a-z",
+              "label": "A-Z",
+              "category": "independent",
+              "price": 1310,
+              "status": "unverified",
+              "reporters_agreeing": 1,
+              "reporters_total": 1,
+              "reported_at": "2026-11-10T08:00:00.000Z"
+            },
+            {
+              "brand": "aa-rano",
+              "label": "AA-RANO",
+              "category": "independent",
+              "price": 1310,
+              "status": "unverified",
+              "reporters_agreeing": 1,
+              "reporters_total": 1,
+              "reported_at": "2026-11-10T08:00:00.000Z"
+            },
+            {
+              "brand": "ab",
+              "label": "AB",
+              "category": "independent",
+              "price": 1310,
+              "status": "unverified",
+              "reporters_agreeing": 1,
+              "reporters_total": 1,
+              "reported_at": "2026-11-10T08:00:00.000Z"
+            }
+          ]
+        }
+      }
+    }
+  }
+]
