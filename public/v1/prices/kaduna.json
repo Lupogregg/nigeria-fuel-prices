@@ -1086,6 +1086,48 @@
   "news_signals": {
     "as_of": "2026-11-11",
     "note": "Prices stated in news headlines, extracted by rule. They are leads, not measurements: a headline may quote one station, one city or a wholesale price. Several outlets carrying the same figure often means one story was republished. Never blended with the NBS averages.",
-    "signals": []
+    "signals": [
+      {
+        "fuel": "pms",
+        "price": 1329.0,
+        "unit": "NGN/litre",
+        "price_type": "pump",
+        "price_type_inferred": false,
+        "state": "Kaduna",
+        "state_slug": "kaduna",
+        "place": "Kaduna",
+        "marketer": "nnpc",
+        "marketer_label": "NNPC",
+        "direction": null,
+        "previous_price": null,
+        "first_reported_at": "2026-11-11T18:42:19Z",
+        "last_reported_at": "2026-11-11T18:53:00Z",
+        "outlets": 3,
+        "nbs_reference": {
+          "price": 1573.46,
+          "period": "2026-05"
+        },
+        "headlines": [
+          {
+            "outlet": "LEADERSHIP Newspapers",
+            "title": "Kaduna Motorists, Transporters Get Relief As NNPC Mega Station Sells Petrol At N1,329",
+            "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSWdSdmJQb2pYYWZYWG1rUWhZbWJ2YXB5blNFSG5vZ04tYXhfTFNnSDZyc0RibnJ6aVYwWWJ1dlhMWW5ubzRTZm1va0EwbXZaajZJd2FBVDU5MkdhS3pkUU96OF9tQkpIbWdlUDFLUmVZZF9sVFRZV0E2M0JTSEpZeWozMWRtM1ByZ2w2UjFrOUJXTWJ4RnZacU1DU3MyQVBoQU9KdWVRWERWZw?oc=5",
+            "published_at": "2026-11-11T18:42:19Z"
+          },
+          {
+            "outlet": "Leadership",
+            "title": "Kaduna Motorists, Transporters Get Relief As NNPC Mega Station Sells Petrol At N1,329",
+            "link": "https://leadership.ng/kaduna-motorists-transporters-get-relief-as-nnpc-mega-station-sells-petrol-at-n1329/",
+            "published_at": "2026-11-11T18:42:19Z"
+          },
+          {
+            "outlet": "Head Topics",
+            "title": "Kaduna Motorists, Transporters Get Relief As NNPC Mega Station Sells Petrol At N1,329",
+            "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNOFFXblozY3A3emNUTTJhcldNODRiVjNZYUZpcWNHdldidTNRUkdvSklZMUxtTTRrSlZ0cTkybk5YTVo5bk9BRTlaTm83OEdEc1Z4R1I5U0pGT2VYVkdxVUVLbFRkZ1BkVEdGSDFEVHU1TFctSXVWNkduU2JUbFZnc0VsQURQWFZMMnVNTWdWUTRWOFhaVHNnRA?oc=5",
+            "published_at": "2026-11-11T18:53:00Z"
+          }
+        ]
+      }
+    ]
   }
 }
