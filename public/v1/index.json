@@ -1,7 +1,7 @@
 {
   "name": "Nigeria Fuel Prices API",
   "version": "v1",
-  "data_updated_at": "2026-11-10T22:00:58Z",
+  "data_updated_at": "2026-11-11T10:12:46Z",
   "currency": "NGN",
   "freshness_note": "These are NBS monthly state averages, usually published three to six weeks after the month ends. They are a baseline, not live pump prices: compare `period` with today's date before relying on a figure.",
   "publisher": "National Bureau of Statistics (NBS), Nigeria",
@@ -28,13 +28,9 @@
         "url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/158"
       },
       "first_period": "2015-06",
-      "latest_period": "2026-01",
-      "months": 125,
-      "missing_periods": [
-        "2025-07",
-        "2025-08",
-        "2025-11"
-      ]
+      "latest_period": "2026-05",
+      "months": 132,
+      "missing_periods": []
     }
   },
   "endpoints": {

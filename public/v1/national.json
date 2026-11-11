@@ -1,5 +1,5 @@
 {
-  "data_updated_at": "2026-11-10T22:00:58Z",
+  "data_updated_at": "2026-11-11T10:12:46Z",
   "currency": "NGN",
   "freshness_note": "These are NBS monthly state averages, usually published three to six weeks after the month ends. They are a baseline, not live pump prices: compare `period` with today's date before relying on a figure.",
   "fuels": {
@@ -98,89 +98,89 @@
       "fuel": "ago",
       "label": "Automotive Gas Oil (diesel)",
       "unit": "NGN/litre",
-      "period": "2026-01",
-      "period_end": "2026-01-31",
+      "period": "2026-05",
+      "period_end": "2026-05-31",
       "granularity": "monthly state average",
       "source": {
         "name": "National Bureau of Statistics (NBS), Nigeria",
         "series": "Automotive Gas Oil (diesel) Price Watch (monthly state average retail prices)",
         "url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/158"
       },
-      "national_average": 1361.57,
+      "national_average": 3277.47,
       "national_average_basis": "as reported by NBS",
-      "mean_of_states": 1361.57,
+      "mean_of_states": 3277.47,
       "states_reported": 37,
-      "mom_change_pct": -2.86,
-      "yoy_change_pct": -9.32,
+      "mom_change_pct": 32.44,
+      "yoy_change_pct": 86.4,
       "highest": [
         {
-          "state": "Lagos",
-          "slug": "lagos",
-          "price": 1560.82
+          "state": "Nasarawa",
+          "slug": "nasarawa",
+          "price": 3785.84
         },
         {
-          "state": "Akwa Ibom",
-          "slug": "akwa-ibom",
-          "price": 1558.52
+          "state": "Plateau",
+          "slug": "plateau",
+          "price": 3576.4
         },
         {
-          "state": "Borno",
-          "slug": "borno",
-          "price": 1480.0
+          "state": "Ebonyi",
+          "slug": "ebonyi",
+          "price": 3574.75
         }
       ],
       "lowest": [
         {
           "state": "Kogi",
           "slug": "kogi",
-          "price": 1200.0
+          "price": 2823.85
         },
         {
-          "state": "Ogun",
-          "slug": "ogun",
-          "price": 1230.52
+          "state": "Benue",
+          "slug": "benue",
+          "price": 2961.33
         },
         {
-          "state": "Zamfara",
-          "slug": "zamfara",
-          "price": 1242.82
+          "state": "Kebbi",
+          "slug": "kebbi",
+          "price": 3016.14
         }
       ],
       "zones": [
         {
           "zone": "North Central",
           "slug": "north-central",
-          "average": 1334.92,
+          "average": 3252.92,
           "states": 7
         },
         {
           "zone": "North East",
           "slug": "north-east",
-          "average": 1430.96,
+          "average": 3289.74,
           "states": 6
         },
         {
           "zone": "North West",
           "slug": "north-west",
-          "average": 1329.75,
+          "average": 3313.6,
           "states": 7
         },
         {
           "zone": "South East",
           "slug": "south-east",
-          "average": 1288.2,
+          "average": 3297.0,
           "states": 5
         },
         {
           "zone": "South South",
           "slug": "south-south",
-          "average": 1387.68,
+          "average": 3285.36,
           "states": 6
         },
         {
           "zone": "South West",
           "slug": "south-west",
-          "average": 1395.43,
+          "average": 3227.55,
           "states": 6
         }
       ]

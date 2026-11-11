@@ -1,16 +1,45 @@
 {
-  "as_of": "2026-11-10",
+  "as_of": "2026-11-11",
   "window_days": 45,
   "note": "Prices stated in news headlines, extracted by rule. They are leads, not measurements: a headline may quote one station, one city or a wholesale price. Several outlets carrying the same figure often means one story was republished. Never blended with the NBS averages.",
   "method": "rule-based extraction from headlines; only high-confidence claims are published",
   "counts": {
-    "headlines_stored": 48,
-    "headlines_in_window": 48,
-    "claims_published": 15,
+    "headlines_stored": 49,
+    "headlines_in_window": 49,
+    "claims_published": 16,
     "claims_withheld_low_confidence": 5,
     "claims_rejected_implausible": 0
   },
   "signals": [
+    {
+      "fuel": "pms",
+      "price": 1250.0,
+      "unit": "NGN/litre",
+      "price_type": "ex_depot",
+      "price_type_inferred": true,
+      "state": null,
+      "state_slug": null,
+      "place": null,
+      "marketer": "dangote",
+      "marketer_label": "Dangote Refinery",
+      "direction": "down",
+      "previous_price": null,
+      "first_reported_at": "2026-11-11T07:06:16Z",
+      "last_reported_at": "2026-11-11T07:06:16Z",
+      "outlets": 1,
+      "nbs_reference": {
+        "price": 1596.25,
+        "period": "2026-05"
+      },
+      "headlines": [
+        {
+          "outlet": "Legit News",
+          "title": "Dangote Refinery Cuts Petrol Price to ₦1,250/L, Changes Pricing System, Names 25 Marketers",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOVkxmSHhWMkYwZFAwazRCTVFVa3ROeDEyVVZ6WUxwTTB3U3lPanhoRUV1dGVGUDFLdF9sNElaVk1VMGd4MEU3ZlpFVGFMc2dteUVVQWFTcTBvSk1FdG1PZGJuWU5zRWFXdm1nRll2QmRvTEl4cHlfWjhZQzVhWmFmYVlWWTdmUXYtX2Q3cWtvaVpSVlpBVnpsc191eTRYQU9Ia016SDlGSHlFNDFfUG1kcERjQklKUGNtdF81MTVLN280OFBJTGEwMA?oc=5",
+          "published_at": "2026-11-11T07:06:16Z"
+        }
+      ]
+    },
     {
       "fuel": "pms",
       "price": 1355.0,

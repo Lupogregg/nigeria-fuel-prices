@@ -3,7 +3,7 @@
   "slug": "adamawa",
   "zone": "North East",
   "currency": "NGN",
-  "data_updated_at": "2026-11-10T22:00:58Z",
+  "data_updated_at": "2026-11-11T10:12:46Z",
   "freshness_note": "These are NBS monthly state averages, usually published three to six weeks after the month ends. They are a baseline, not live pump prices: compare `period` with today's date before relying on a figure.",
   "fuels": {
     "pms": {
@@ -534,9 +534,9 @@
       "label": "Automotive Gas Oil (diesel)",
       "unit": "NGN/litre",
       "latest": {
-        "period": "2026-01",
-        "period_end": "2026-01-31",
-        "price": 1422.91,
+        "period": "2026-05",
+        "period_end": "2026-05-31",
+        "price": 3275.43,
         "granularity": "monthly state average",
         "source": {
           "name": "National Bureau of Statistics (NBS), Nigeria",
@@ -544,12 +544,12 @@
           "url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/158"
         },
         "is_latest_national_period": true,
-        "national_average": 1361.57,
-        "difference_vs_national_pct": 4.51,
-        "rank_cheapest": 27,
+        "national_average": 3277.47,
+        "difference_vs_national_pct": -0.06,
+        "rank_cheapest": 21,
         "states_ranked": 37,
-        "mom_change_pct": 0.2,
-        "yoy_change_pct": -20.95
+        "mom_change_pct": 21.99,
+        "yoy_change_pct": 39.36
       },
       "history": [
         {
@@ -1037,6 +1037,14 @@
           "price": 2355.32
         },
         {
+          "period": "2025-07",
+          "price": 2163.88
+        },
+        {
+          "period": "2025-08",
+          "price": 1765.44
+        },
+        {
           "period": "2025-09",
           "price": 1517.93
         },
@@ -1045,18 +1053,38 @@
           "price": 1402.78
         },
         {
+          "period": "2025-11",
+          "price": 1428.85
+        },
+        {
           "period": "2025-12",
           "price": 1420.04
         },
         {
           "period": "2026-01",
           "price": 1422.91
+        },
+        {
+          "period": "2026-02",
+          "price": 1492.92
+        },
+        {
+          "period": "2026-03",
+          "price": 1757.45
+        },
+        {
+          "period": "2026-04",
+          "price": 2684.95
+        },
+        {
+          "period": "2026-05",
+          "price": 3275.43
         }
       ]
     }
   },
   "news_signals": {
-    "as_of": "2026-11-10",
+    "as_of": "2026-11-11",
     "note": "Prices stated in news headlines, extracted by rule. They are leads, not measurements: a headline may quote one station, one city or a wholesale price. Several outlets carrying the same figure often means one story was republished. Never blended with the NBS averages.",
     "signals": []
   }

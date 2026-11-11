@@ -2,276 +2,276 @@
   "fuel": "ago",
   "label": "Automotive Gas Oil (diesel)",
   "unit": "NGN/litre",
-  "period": "2026-01",
-  "period_end": "2026-01-31",
+  "period": "2026-05",
+  "period_end": "2026-05-31",
   "granularity": "monthly state average",
   "source": {
     "name": "National Bureau of Statistics (NBS), Nigeria",
     "series": "Automotive Gas Oil (diesel) Price Watch (monthly state average retail prices)",
     "url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/158"
   },
-  "data_updated_at": "2026-11-10T22:00:58Z",
+  "data_updated_at": "2026-11-11T10:12:46Z",
   "currency": "NGN",
-  "national_average": 1361.57,
+  "national_average": 3277.47,
   "states": [
     {
       "state": "Abia",
       "slug": "abia",
       "zone": "South East",
-      "price": 1282.5,
-      "rank_cheapest": 9
+      "price": 3215.38,
+      "rank_cheapest": 16
     },
     {
       "state": "Adamawa",
       "slug": "adamawa",
       "zone": "North East",
-      "price": 1422.91,
-      "rank_cheapest": 27
+      "price": 3275.43,
+      "rank_cheapest": 21
     },
     {
       "state": "Akwa Ibom",
       "slug": "akwa-ibom",
       "zone": "South South",
-      "price": 1558.52,
-      "rank_cheapest": 36
+      "price": 3249.96,
+      "rank_cheapest": 19
     },
     {
       "state": "Anambra",
       "slug": "anambra",
       "zone": "South East",
-      "price": 1243.08,
-      "rank_cheapest": 4
+      "price": 3365.49,
+      "rank_cheapest": 26
     },
     {
       "state": "Bauchi",
       "slug": "bauchi",
       "zone": "North East",
-      "price": 1449.62,
-      "rank_cheapest": 30
+      "price": 3160.04,
+      "rank_cheapest": 10
     },
     {
       "state": "Bayelsa",
       "slug": "bayelsa",
       "zone": "South South",
-      "price": 1294.51,
-      "rank_cheapest": 10
+      "price": 3131.63,
+      "rank_cheapest": 5
     },
     {
       "state": "Benue",
       "slug": "benue",
       "zone": "North Central",
-      "price": 1309.21,
-      "rank_cheapest": 12
+      "price": 2961.33,
+      "rank_cheapest": 2
     },
     {
       "state": "Borno",
       "slug": "borno",
       "zone": "North East",
-      "price": 1480.0,
-      "rank_cheapest": 35
+      "price": 3226.67,
+      "rank_cheapest": 17
     },
     {
       "state": "Cross River",
       "slug": "cross-river",
       "zone": "South South",
-      "price": 1295.92,
-      "rank_cheapest": 11
+      "price": 3388.85,
+      "rank_cheapest": 27
     },
     {
       "state": "Delta",
       "slug": "delta",
       "zone": "South South",
-      "price": 1323.42,
-      "rank_cheapest": 16
+      "price": 3198.64,
+      "rank_cheapest": 14
     },
     {
       "state": "Ebonyi",
       "slug": "ebonyi",
       "zone": "South East",
-      "price": 1344.41,
-      "rank_cheapest": 18
+      "price": 3574.75,
+      "rank_cheapest": 35
     },
     {
       "state": "Edo",
       "slug": "edo",
       "zone": "South South",
-      "price": 1414.11,
-      "rank_cheapest": 26
+      "price": 3314.35,
+      "rank_cheapest": 24
     },
     {
       "state": "Ekiti",
       "slug": "ekiti",
       "zone": "South West",
-      "price": 1311.58,
-      "rank_cheapest": 14
+      "price": 3208.23,
+      "rank_cheapest": 15
     },
     {
       "state": "Enugu",
       "slug": "enugu",
       "zone": "South East",
-      "price": 1251.69,
-      "rank_cheapest": 5
+      "price": 3157.44,
+      "rank_cheapest": 9
     },
     {
       "state": "FCT",
       "slug": "fct",
       "zone": "North Central",
-      "price": 1332.37,
-      "rank_cheapest": 17
+      "price": 3319.39,
+      "rank_cheapest": 25
     },
     {
       "state": "Gombe",
       "slug": "gombe",
       "zone": "North East",
-      "price": 1403.3,
-      "rank_cheapest": 25
+      "price": 3192.08,
+      "rank_cheapest": 13
     },
     {
       "state": "Imo",
       "slug": "imo",
       "zone": "South East",
-      "price": 1319.33,
-      "rank_cheapest": 15
+      "price": 3171.96,
+      "rank_cheapest": 12
     },
     {
       "state": "Jigawa",
       "slug": "jigawa",
       "zone": "North West",
-      "price": 1353.37,
-      "rank_cheapest": 19
+      "price": 3442.98,
+      "rank_cheapest": 31
     },
     {
       "state": "Kaduna",
       "slug": "kaduna",
       "zone": "North West",
-      "price": 1266.67,
-      "rank_cheapest": 6
+      "price": 3535.84,
+      "rank_cheapest": 34
     },
     {
       "state": "Kano",
       "slug": "kano",
       "zone": "North West",
-      "price": 1281.92,
-      "rank_cheapest": 8
+      "price": 3302.96,
+      "rank_cheapest": 22
     },
     {
       "state": "Katsina",
       "slug": "katsina",
       "zone": "North West",
-      "price": 1310.66,
-      "rank_cheapest": 13
+      "price": 3131.71,
+      "rank_cheapest": 6
     },
     {
       "state": "Kebbi",
       "slug": "kebbi",
       "zone": "North West",
-      "price": 1382.33,
-      "rank_cheapest": 23
+      "price": 3016.14,
+      "rank_cheapest": 3
     },
     {
       "state": "Kogi",
       "slug": "kogi",
       "zone": "North Central",
-      "price": 1200.0,
+      "price": 2823.85,
       "rank_cheapest": 1
     },
     {
       "state": "Kwara",
       "slug": "kwara",
       "zone": "North Central",
-      "price": 1397.76,
-      "rank_cheapest": 24
+      "price": 3136.14,
+      "rank_cheapest": 7
     },
     {
       "state": "Lagos",
       "slug": "lagos",
       "zone": "South West",
-      "price": 1560.82,
-      "rank_cheapest": 37
+      "price": 3150.45,
+      "rank_cheapest": 8
     },
     {
       "state": "Nasarawa",
       "slug": "nasarawa",
       "zone": "North Central",
-      "price": 1379.35,
-      "rank_cheapest": 21
+      "price": 3785.84,
+      "rank_cheapest": 37
     },
     {
       "state": "Niger",
       "slug": "niger",
       "zone": "North Central",
-      "price": 1276.0,
-      "rank_cheapest": 7
+      "price": 3167.46,
+      "rank_cheapest": 11
     },
     {
       "state": "Ogun",
       "slug": "ogun",
       "zone": "South West",
-      "price": 1230.52,
-      "rank_cheapest": 2
+      "price": 3249.56,
+      "rank_cheapest": 18
     },
     {
       "state": "Ondo",
       "slug": "ondo",
       "zone": "South West",
-      "price": 1382.31,
-      "rank_cheapest": 22
+      "price": 3028.6,
+      "rank_cheapest": 4
     },
     {
       "state": "Osun",
       "slug": "osun",
       "zone": "South West",
-      "price": 1427.59,
-      "rank_cheapest": 28
+      "price": 3421.32,
+      "rank_cheapest": 29
     },
     {
       "state": "Oyo",
       "slug": "oyo",
       "zone": "South West",
-      "price": 1459.78,
-      "rank_cheapest": 33
+      "price": 3307.16,
+      "rank_cheapest": 23
     },
     {
       "state": "Plateau",
       "slug": "plateau",
       "zone": "North Central",
-      "price": 1449.78,
-      "rank_cheapest": 31
+      "price": 3576.4,
+      "rank_cheapest": 36
     },
     {
       "state": "Rivers",
       "slug": "rivers",
       "zone": "South South",
-      "price": 1439.61,
-      "rank_cheapest": 29
+      "price": 3428.72,
+      "rank_cheapest": 30
     },
     {
       "state": "Sokoto",
       "slug": "sokoto",
       "zone": "North West",
-      "price": 1470.46,
-      "rank_cheapest": 34
+      "price": 3514.16,
+      "rank_cheapest": 33
     },
     {
       "state": "Taraba",
       "slug": "taraba",
       "zone": "North East",
-      "price": 1453.5,
+      "price": 3489.2,
       "rank_cheapest": 32
     },
     {
       "state": "Yobe",
       "slug": "yobe",
       "zone": "North East",
-      "price": 1376.42,
-      "rank_cheapest": 20
+      "price": 3395.0,
+      "rank_cheapest": 28
     },
     {
       "state": "Zamfara",
       "slug": "zamfara",
       "zone": "North West",
-      "price": 1242.82,
-      "rank_cheapest": 3
+      "price": 3251.43,
+      "rank_cheapest": 20
     }
   ]
 }

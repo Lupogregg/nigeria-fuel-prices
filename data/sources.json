@@ -3570,6 +3570,24 @@
     "fetched_at": "2026-11-10T21:52:17Z"
   },
   {
+    "key": "microdata-157-1410",
+    "origin_url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/157/download/1410",
+    "via": "nbs",
+    "wayback_timestamp": null,
+    "filename": "PMS_APRIL_2026.zip",
+    "title": "PMS Report April 2026",
+    "status": "ok",
+    "files": [
+      {
+        "path": "raw/nbs/microdata-157-1410__Fuel_APRIL_2026.xlsx",
+        "name": "Fuel_APRIL_2026.xlsx",
+        "sha256": "058f05d47157a4f2af9da690650b69f1546b3f8ddbec489d2db92f7962c43425",
+        "bytes": 16660
+      }
+    ],
+    "fetched_at": "2026-11-11T10:12:27Z"
+  },
+  {
     "key": "microdata-157-1424",
     "origin_url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/157/download/1424",
     "via": "wayback",
@@ -3732,6 +3750,24 @@
     "fetched_at": "2026-11-10T22:00:48Z"
   },
   {
+    "key": "microdata-158-1278",
+    "origin_url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/158/download/1278",
+    "via": "nbs",
+    "wayback_timestamp": null,
+    "filename": "AGO_Report_JULY_2025.zip",
+    "title": "AGO Report July 2025",
+    "status": "ok",
+    "files": [
+      {
+        "path": "raw/nbs/microdata-158-1278__Diesel_Report_July_2025.xlsx",
+        "name": "Diesel_Report_July_2025.xlsx",
+        "sha256": "d650a5aa592331d35695392a62ce5f535051baa8c1a43bca481bf90190552566",
+        "bytes": 19181
+      }
+    ],
+    "fetched_at": "2026-11-11T10:12:29Z"
+  },
+  {
     "key": "microdata-158-1315",
     "origin_url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/158/download/1315",
     "via": "wayback",
@@ -3750,6 +3786,66 @@
     "fetched_at": "2026-11-10T22:00:52Z"
   },
   {
+    "key": "microdata-158-1327",
+    "origin_url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/158/download/1327",
+    "via": "nbs",
+    "wayback_timestamp": null,
+    "filename": "AGO_REPORT_NOV_2025.zip",
+    "title": "AGO Report November 2025",
+    "status": "ok",
+    "files": [
+      {
+        "path": "raw/nbs/microdata-158-1327__DIESEL_NOV_2025.xlsx",
+        "name": "DIESEL_NOV_2025.xlsx",
+        "sha256": "54977ce2a74210076b7e0ee24a700060b3ae2a4960c80c74dc4923c1f8f2feb7",
+        "bytes": 14443
+      }
+    ],
+    "fetched_at": "2026-11-11T10:12:32Z"
+  },
+  {
+    "key": "microdata-158-1346",
+    "origin_url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/158/download/1346",
+    "via": "nbs",
+    "wayback_timestamp": null,
+    "filename": "AGO_DECEMBER_2025.zip",
+    "title": "AGO Report December 2025",
+    "status": "ok",
+    "files": [
+      {
+        "path": "raw/nbs/microdata-158-1346__DIESEL_DECEMBER_2025.xlsx",
+        "name": "DIESEL_DECEMBER_2025.xlsx",
+        "sha256": "18e6999661c857449a642c175ebba6c43e9ea0207f38c556697d873e8735ab69",
+        "bytes": 14496
+      }
+    ],
+    "fetched_at": "2026-11-11T10:12:34Z"
+  },
+  {
+    "key": "microdata-158-1359",
+    "origin_url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/158/download/1359",
+    "via": "nbs",
+    "wayback_timestamp": null,
+    "filename": "AGO_Report_AUGUST_SEPTEMBER_2025.zip",
+    "title": "AGO Report August-September 2025",
+    "status": "ok",
+    "files": [
+      {
+        "path": "raw/nbs/microdata-158-1359__DIESEL_SEPTEMBER_2025.xlsx",
+        "name": "DIESEL_SEPTEMBER_2025.xlsx",
+        "sha256": "80ab4bfbbcf4d7000ed52e85de05b6c6d378e21876a3e981d6549c2c6f3fef9c",
+        "bytes": 14556
+      },
+      {
+        "path": "raw/nbs/microdata-158-1359__DIESEL_AUGUST_2025.xlsx",
+        "name": "DIESEL_AUGUST_2025.xlsx",
+        "sha256": "cdcf60d6e0c6c5a18ff17d6c530b11d7c034182f075bbc587c31ec02834267ce",
+        "bytes": 13828
+      }
+    ],
+    "fetched_at": "2026-11-11T10:12:37Z"
+  },
+  {
     "key": "microdata-158-1360",
     "origin_url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/158/download/1360",
     "via": "wayback",
@@ -3766,5 +3862,77 @@
       }
     ],
     "fetched_at": "2026-11-10T22:00:58Z"
+  },
+  {
+    "key": "microdata-158-1375",
+    "origin_url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/158/download/1375",
+    "via": "nbs",
+    "wayback_timestamp": null,
+    "filename": "AGO_Report_FEBRUARY_2026.zip",
+    "title": "AGO Report February 2026",
+    "status": "ok",
+    "files": [
+      {
+        "path": "raw/nbs/microdata-158-1375__AGO_FEBRUARY_2026.xlsx",
+        "name": "AGO_FEBRUARY_2026.xlsx",
+        "sha256": "93dba76be7de62c86da939af30eae61473305609732feb94b45841b37bd0abde",
+        "bytes": 14875
+      }
+    ],
+    "fetched_at": "2026-11-11T10:12:39Z"
+  },
+  {
+    "key": "microdata-158-1399",
+    "origin_url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/158/download/1399",
+    "via": "nbs",
+    "wayback_timestamp": null,
+    "filename": "AGO_Report_March_2026.zip",
+    "title": "AGO Report March 2026",
+    "status": "ok",
+    "files": [
+      {
+        "path": "raw/nbs/microdata-158-1399__AGO_MARCH_2026.xlsx",
+        "name": "AGO_MARCH_2026.xlsx",
+        "sha256": "902fcdb564c83a2613a20dc762a1e15b441d0f1ed60413b194528c2d8e95c951",
+        "bytes": 19378
+      }
+    ],
+    "fetched_at": "2026-11-11T10:12:41Z"
+  },
+  {
+    "key": "microdata-158-1411",
+    "origin_url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/158/download/1411",
+    "via": "nbs",
+    "wayback_timestamp": null,
+    "filename": "AGO_APRIL_2026.zip",
+    "title": "AGO Report April 2026",
+    "status": "ok",
+    "files": [
+      {
+        "path": "raw/nbs/microdata-158-1411__Diesel_APRIL_2026.xlsx",
+        "name": "Diesel_APRIL_2026.xlsx",
+        "sha256": "3b58d6d799103f4d971a2c54f0f87bfec27898e3e412955f7a007a69ec46507a",
+        "bytes": 19971
+      }
+    ],
+    "fetched_at": "2026-11-11T10:12:43Z"
+  },
+  {
+    "key": "microdata-158-1425",
+    "origin_url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/158/download/1425",
+    "via": "nbs",
+    "wayback_timestamp": null,
+    "filename": "AGO_Report_MAY_2026.zip",
+    "title": "AGO Report May 2026",
+    "status": "ok",
+    "files": [
+      {
+        "path": "raw/nbs/microdata-158-1425__DIESEL_MAY_2026.xlsx",
+        "name": "DIESEL_MAY_2026.xlsx",
+        "sha256": "04f395bf3a1f79fa74d0009e87507235f535cad0ad0a856963bcfc0d921f81f0",
+        "bytes": 14857
+      }
+    ],
+    "fetched_at": "2026-11-11T10:12:46Z"
   }
 ]
