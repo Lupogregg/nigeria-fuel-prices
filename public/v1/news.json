@@ -4,13 +4,42 @@
   "note": "Prices stated in news headlines, extracted by rule. They are leads, not measurements: a headline may quote one station, one city or a wholesale price. Several outlets carrying the same figure often means one story was republished. Never blended with the NBS averages.",
   "method": "rule-based extraction from headlines; only high-confidence claims are published",
   "counts": {
-    "headlines_stored": 53,
-    "headlines_in_window": 53,
-    "claims_published": 19,
-    "claims_withheld_low_confidence": 6,
+    "headlines_stored": 55,
+    "headlines_in_window": 55,
+    "claims_published": 20,
+    "claims_withheld_low_confidence": 7,
     "claims_rejected_implausible": 0
   },
   "signals": [
+    {
+      "fuel": "pms",
+      "price": 1215.0,
+      "unit": "NGN/litre",
+      "price_type": "ex_depot",
+      "price_type_inferred": false,
+      "state": null,
+      "state_slug": null,
+      "place": null,
+      "marketer": "dangote",
+      "marketer_label": "Dangote Refinery",
+      "direction": "down",
+      "previous_price": null,
+      "first_reported_at": "2026-11-12T14:45:18Z",
+      "last_reported_at": "2026-11-12T14:45:18Z",
+      "outlets": 1,
+      "nbs_reference": {
+        "price": 1596.25,
+        "period": "2026-05"
+      },
+      "headlines": [
+        {
+          "outlet": "Business News Nigeria",
+          "title": "Dangote refinery consortium marketers cut petrol gantry price to N1,215/litre",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPdlZMRWdJbjJwR2xGdmZjTmdkbERTVFdMVm9CT2c5VzNhZ3pYQlRyZ3kzRWxVUW41RU5yZk0tSnBGWDBjNTZQR3lzZlNZSEszMmFGSkNLa00xc3JkOTBKVjNJZjdTOG9kNkN6Y3lITFRqNWRzUU9rLXNUem54dnFxT2dzZlU1NHNuR1JJR3Bqc0RNQklVMlFCWnZleDB5YkZPNXRMNUkxUFlKNXdxbVVqSDVlNEVwdG56UHFz?oc=5",
+          "published_at": "2026-11-12T14:45:18Z"
+        }
+      ]
+    },
     {
       "fuel": "pms",
       "price": 1329.0,
