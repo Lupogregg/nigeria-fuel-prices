@@ -4,9 +4,9 @@
   "note": "Prices stated in news headlines, extracted by rule. They are leads, not measurements: a headline may quote one station, one city or a wholesale price. Several outlets carrying the same figure often means one story was republished. Never blended with the NBS averages.",
   "method": "rule-based extraction from headlines; only high-confidence claims are published",
   "counts": {
-    "headlines_stored": 55,
-    "headlines_in_window": 55,
-    "claims_published": 20,
+    "headlines_stored": 58,
+    "headlines_in_window": 58,
+    "claims_published": 22,
     "claims_withheld_low_confidence": 7,
     "claims_rejected_implausible": 0
   },
@@ -125,12 +125,18 @@
       "previous_price": null,
       "first_reported_at": "2026-11-09T15:48:51Z",
       "last_reported_at": "2026-11-09T15:48:51Z",
-      "outlets": 1,
+      "outlets": 2,
       "nbs_reference": {
         "price": 1561.22,
         "period": "2026-05"
       },
       "headlines": [
+        {
+          "outlet": "The Trumpet Newspaper",
+          "title": "NNPC Cuts Petrol Price to ₦1,325 in Abuja, ₦1,355 in Lagos as Pump Prices Vary Across Stations",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE82bVlSbHRWNTFkYmQ3aFIybTRSMDZtZ2NBRm5BalRWV3NIRHdZVFVxTUxEaXNSSzBIR2hqaURRQ0NXN0VsU3V2VnhibTRrUGV1cTJFRjkzQ1hxTEh0SVJWV1JhUUc4Qk9SRi04WUhhUTlFS3E0UnROWA?oc=5",
+          "published_at": "2026-11-09T15:48:51Z"
+        },
         {
           "outlet": "The Trumpet Newspaper Nigeria",
           "title": "NNPC Cuts Petrol Price to ₦1,325 in Abuja, ₦1,355 in Lagos as Pump Prices Vary Across Stations",
@@ -154,12 +160,18 @@
       "previous_price": null,
       "first_reported_at": "2026-11-09T15:48:51Z",
       "last_reported_at": "2026-11-09T15:48:51Z",
-      "outlets": 1,
+      "outlets": 2,
       "nbs_reference": {
         "price": 1602.64,
         "period": "2026-05"
       },
       "headlines": [
+        {
+          "outlet": "The Trumpet Newspaper",
+          "title": "NNPC Cuts Petrol Price to ₦1,325 in Abuja, ₦1,355 in Lagos as Pump Prices Vary Across Stations",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE82bVlSbHRWNTFkYmQ3aFIybTRSMDZtZ2NBRm5BalRWV3NIRHdZVFVxTUxEaXNSSzBIR2hqaURRQ0NXN0VsU3V2VnhibTRrUGV1cTJFRjkzQ1hxTEh0SVJWV1JhUUc4Qk9SRi04WUhhUTlFS3E0UnROWA?oc=5",
+          "published_at": "2026-11-09T15:48:51Z"
+        },
         {
           "outlet": "The Trumpet Newspaper Nigeria",
           "title": "NNPC Cuts Petrol Price to ₦1,325 in Abuja, ₦1,355 in Lagos as Pump Prices Vary Across Stations",
