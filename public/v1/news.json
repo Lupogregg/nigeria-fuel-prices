@@ -4,13 +4,42 @@
   "note": "Prices stated in news headlines, extracted by rule. They are leads, not measurements: a headline may quote one station, one city or a wholesale price. Several outlets carrying the same figure often means one story was republished. Never blended with the NBS averages.",
   "method": "rule-based extraction from headlines; only high-confidence claims are published",
   "counts": {
-    "headlines_stored": 60,
-    "headlines_in_window": 60,
-    "claims_published": 22,
+    "headlines_stored": 61,
+    "headlines_in_window": 61,
+    "claims_published": 23,
     "claims_withheld_low_confidence": 7,
     "claims_rejected_implausible": 0
   },
   "signals": [
+    {
+      "fuel": "pms",
+      "price": 1159.0,
+      "unit": "NGN/litre",
+      "price_type": "ex_depot",
+      "price_type_inferred": true,
+      "state": null,
+      "state_slug": null,
+      "place": null,
+      "marketer": "dangote",
+      "marketer_label": "Dangote Refinery",
+      "direction": "down",
+      "previous_price": null,
+      "first_reported_at": "2026-11-16T07:16:12Z",
+      "last_reported_at": "2026-11-16T07:16:12Z",
+      "outlets": 1,
+      "nbs_reference": {
+        "price": 1596.25,
+        "period": "2026-05"
+      },
+      "headlines": [
+        {
+          "outlet": "The Gazelle News",
+          "title": "Dangote Refinery Reduces Petrol Price to N1,159 per litre",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQdFMzRTBsVExkbktGSXc0LVdEQ3k3TEZSUnoyNXZ2ODJlTFhibWtFaGdTU3hVSDhieGEwTHBZWjhSb3hhYlpxb09lenRzcm1ldnJHY2pDbXVvbjNKcmJORTNxZEZMWC1MMmE3UDhIYUl5MlN2VXRjX2hrMFR3dl83NnJmbF9JUHdLOHdXdVZ1b3kxdw?oc=5",
+          "published_at": "2026-11-16T07:16:12Z"
+        }
+      ]
+    },
     {
       "fuel": "pms",
       "price": 1215.0,
