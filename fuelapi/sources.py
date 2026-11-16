@@ -3,7 +3,8 @@
 Where the data lives (verified November 2026):
 
 * Since November 2024 NBS publishes the Price Watch series in its microdata
-  catalog: entry 157 is petrol (PMS), entry 158 is diesel (AGO). Each month is
+  catalog: entry 157 is petrol (PMS), 158 diesel (AGO), 159 household
+  kerosene (DPK) and 160 cooking gas (LPG). Each month is
   a ZIP (PDF report + Excel tables), or in older months a bare .xlsx next to a
   .pdf.
 * Before that, tables were served from nigerianstat.gov.ng/resource/ as
@@ -37,12 +38,15 @@ log = logging.getLogger("fuelapi.sources")
 USER_AGENT = os.environ.get(
     "FUELAPI_USER_AGENT", "nigeria-fuel-prices-ingester/0.1 (open-data script)"
 )
-CATALOGS = {157: "pms", 158: "ago"}  # NBS microdata catalog entry -> fuel
+CATALOGS = {157: "pms", 158: "ago", 159: "dpk", 160: "lpg"}  # NBS microdata catalog entry -> fuel
 MICRODATA_HOST = "microdata.nigerianstat.gov.ng"
 LEGACY_RESOURCES = (
     "nigerianstat.gov.ng/resource/pms*",
     "nigerianstat.gov.ng/resource/diesel*",
     "nigerianstat.gov.ng/resource/ago*",
+    "nigerianstat.gov.ng/resource/nhk*",
+    "nigerianstat.gov.ng/resource/kerosene*",
+    "nigerianstat.gov.ng/resource/lpg*",
 )
 CDX_API = "https://web.archive.org/cdx/search/cdx"
 
@@ -174,7 +178,7 @@ def discover_wayback_microdata(session: requests.Session) -> list[Candidate]:
 
 
 def discover_wayback_legacy(session: requests.Session) -> list[Candidate]:
-    """List pre-2025 petrol and diesel workbooks from the old NBS eLibrary."""
+    """List pre-2025 Price Watch workbooks from the old NBS eLibrary."""
     best: dict[str, dict] = {}
     rows = [row for pattern in LEGACY_RESOURCES for row in _cdx(session, pattern)]
     for row in rows:

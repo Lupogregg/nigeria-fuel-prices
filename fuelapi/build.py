@@ -25,6 +25,9 @@ from . import community, nbs_parse, news, sources, states
 FUELS = {
     "pms": {"label": "Premium Motor Spirit (petrol)", "unit": "NGN/litre", "catalog": 157},
     "ago": {"label": "Automotive Gas Oil (diesel)", "unit": "NGN/litre", "catalog": 158},
+    "dpk": {"label": "Household Kerosene", "unit": "NGN/litre", "catalog": 159},
+    "lpg": {"label": "Liquefied Petroleum Gas (cooking gas)", "unit": "NGN/12.5kg cylinder",
+            "catalog": 160},
 }
 PUBLISHER = "National Bureau of Statistics (NBS), Nigeria"
 
@@ -284,7 +287,7 @@ def build(data_dir: Path, out_dir: Path) -> dict:
         csv_path = v1 / "fuels" / fuel / "history.csv"
         with csv_path.open("w", newline="", encoding="utf-8") as fh:
             w = csv.writer(fh, lineterminator="\n")
-            w.writerow(["period", "state", "slug", "zone", "price_ngn_per_litre"])
+            w.writerow(["period", "state", "slug", "zone", "price_" + FUELS[fuel]["unit"].lower().replace("/", "_per_").replace(" ", "_").replace(".", "_")])
             for p in periods:
                 for st in states.STATES:
                     price = series[fuel].get(st.slug, {}).get(p)

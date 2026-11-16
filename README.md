@@ -1,12 +1,13 @@
 # Nigeria Fuel Prices API
 
-Free, static JSON for petrol (PMS) and diesel (AGO) prices in Nigeria.
+Free, static JSON for petrol (PMS), diesel (AGO), household kerosene (DPK) and
+cooking gas (LPG) prices in Nigeria.
 
 Three kinds of evidence are published side by side and **never blended**:
 
 | Layer | What it is | Freshness | Strength |
 |---|---|---|---|
-| **NBS baseline** | Official state averages for all 36 states + FCT: petrol monthly since January 2016, diesel since June 2015 | Monthly, published 3–6 weeks after month end | Official, complete, slow |
+| **NBS baseline** | Official state averages for all 36 states + FCT: petrol monthly since January 2016, diesel since June 2015, kerosene (per litre) and cooking gas (per 12.5 kg refill) since November 2023 | Monthly, published 3–6 weeks after month end | Official, complete, slow |
 | **News signals** | Prices stated in news headlines, extracted by rule | Hours to days | A lead, not a measurement |
 | **Community reports** | Pump prices people report through a Telegram bot (pilot: Lagos, Abuja, Port Harcourt, Kano) | Last 72 hours | Only as good as its reporters |
 
@@ -45,7 +46,7 @@ today's date.
 | `/v1/national.json` | National average, three highest and lowest states, zone averages, MoM/YoY |
 | `/v1/states.json` | All states with slug, zone and latest price |
 | `/v1/prices/{state}.json` | One state: NBS figure, rank, change, full history, plus that state's news signals and community reports |
-| `/v1/fuels/{fuel}/latest.json` | Every state for the latest month; `fuel` is `pms` or `ago` |
+| `/v1/fuels/{fuel}/latest.json` | Every state for the latest month; `fuel` is `pms`, `ago`, `dpk` or `lpg` |
 | `/v1/fuels/{fuel}/history.json` / `.csv` | The whole monthly series |
 | `/v1/news.json` | News signals from the last 45 days |
 | `/v1/community.json` | Community reports from the last 72 hours (once the bot is connected) |

@@ -3,8 +3,8 @@
   "counts": {
     "quarantined": 3,
     "revision": 9,
-    "sheet_skipped": 1,
-    "warning": 57
+    "sheet_skipped": 4,
+    "warning": 99
   },
   "issues": [
     {
@@ -765,6 +765,300 @@
     },
     {
       "kind": "warning",
+      "source": "microdata-160-1141",
+      "file": "GAS_PRICE_WATCH_NOV_2024.xlsx",
+      "sheet": "LPG NOV 2024",
+      "detail": "Taraba 2023-11: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "microdata-160-1143",
+      "file": "GAS_PRICE_WATCH_DEC_2024.xlsx",
+      "sheet": "Sheet1",
+      "detail": "Taraba 2023-12: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "microdata-160-1172",
+      "file": "GAS_PRICE_WATCH_JAN_2025.xlsx",
+      "sheet": "LPG JAN 2025",
+      "detail": "Taraba 2024-01: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "microdata-160-1174",
+      "file": "GAS_PRICE_WATCH_FEB_2025.xlsx",
+      "sheet": "LPG FEB 2025",
+      "detail": "Taraba 2024-02: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "microdata-160-1223",
+      "file": "GAS_PRICE_WATCH_MARCH_2025.xlsx",
+      "sheet": "LPG MAR 2025",
+      "detail": "Taraba 2024-03: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "microdata-160-1225",
+      "file": "GAS_PRICE_WATCH_APRIL_2025.xlsx",
+      "sheet": "LPG APR 2025",
+      "detail": "Taraba 2024-04: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "microdata-160-1252",
+      "file": "GAS_PRICE_WATCH_May_2025.xlsx",
+      "sheet": "LPG MAY 2025",
+      "detail": "Taraba 2024-05: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "microdata-160-1267",
+      "file": "GAS_PRIC_WATCH_JUNE_2025.xlsx",
+      "sheet": "LPG JUNE 2025",
+      "detail": "Taraba 2024-06: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "microdata-160-1280",
+      "file": "GAS_PRICE_WATCH_JULY_2025.xlsx",
+      "sheet": "LPG_JULY_2025",
+      "detail": "Taraba 2024-07: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "microdata-160-1289",
+      "file": "GAS_PRICE_WATCH_AUGUST_2025___.xlsx",
+      "sheet": "LPG AUGUST 2025",
+      "detail": "Taraba 2024-08: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "microdata-160-1306",
+      "file": "GAS_PRICE_WATCH_SEPTEMBER_2025.xlsx",
+      "sheet": "LPG_SEPTEMBER_2025",
+      "detail": "Taraba 2024-09: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "microdata-160-1141",
+      "file": "GAS_PRICE_WATCH_NOV_2024.xlsx",
+      "sheet": "LPG NOV 2024",
+      "detail": "Taraba 2024-10: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "microdata-160-1320",
+      "file": "GAS_PRICE_WATCH_OCTOBER_2025.xlsx",
+      "sheet": "LPG OCTOBER_2025",
+      "detail": "Taraba 2024-10: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "microdata-160-1143",
+      "file": "GAS_PRICE_WATCH_DEC_2024.xlsx",
+      "sheet": "Sheet1",
+      "detail": "Taraba 2024-11: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "microdata-160-1348",
+      "file": "GAS_PRICE_WATCH_NOVEMBER_2025__.xlsx",
+      "sheet": "LPG NOVEMBER 2025",
+      "detail": "Taraba 2024-11: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "microdata-160-1141",
+      "file": "GAS_PRICE_WATCH_NOV_2024.xlsx",
+      "sheet": "LPG NOV 2024",
+      "detail": "Taraba 2024-11: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "microdata-160-1348",
+      "file": "GAS_PRICE_WATCH_DECEMBER_2025_.xlsx",
+      "sheet": "LPG DECEMBER 2025",
+      "detail": "Taraba 2024-12: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "microdata-160-1143",
+      "file": "GAS_PRICE_WATCH_DEC_2024.xlsx",
+      "sheet": "Sheet1",
+      "detail": "Taraba 2024-12: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "microdata-160-1172",
+      "file": "GAS_PRICE_WATCH_JAN_2025.xlsx",
+      "sheet": "LPG JAN 2025",
+      "detail": "Taraba 2024-12: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "microdata-160-1174",
+      "file": "GAS_PRICE_WATCH_FEB_2025.xlsx",
+      "sheet": "LPG FEB 2025",
+      "detail": "Taraba 2025-01: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "microdata-160-1172",
+      "file": "GAS_PRICE_WATCH_JAN_2025.xlsx",
+      "sheet": "LPG JAN 2025",
+      "detail": "Taraba 2025-01: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "microdata-160-1174",
+      "file": "GAS_PRICE_WATCH_FEB_2025.xlsx",
+      "sheet": "LPG FEB 2025",
+      "detail": "Taraba 2025-02: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "microdata-160-1223",
+      "file": "GAS_PRICE_WATCH_MARCH_2025.xlsx",
+      "sheet": "LPG MAR 2025",
+      "detail": "Taraba 2025-02: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "microdata-160-1225",
+      "file": "GAS_PRICE_WATCH_APRIL_2025.xlsx",
+      "sheet": "LPG APR 2025",
+      "detail": "Taraba 2025-03: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "microdata-160-1223",
+      "file": "GAS_PRICE_WATCH_MARCH_2025.xlsx",
+      "sheet": "LPG MAR 2025",
+      "detail": "Taraba 2025-03: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "microdata-160-1225",
+      "file": "GAS_PRICE_WATCH_APRIL_2025.xlsx",
+      "sheet": "LPG APR 2025",
+      "detail": "Taraba 2025-04: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "microdata-160-1252",
+      "file": "GAS_PRICE_WATCH_May_2025.xlsx",
+      "sheet": "LPG MAY 2025",
+      "detail": "Taraba 2025-04: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "microdata-160-1252",
+      "file": "GAS_PRICE_WATCH_May_2025.xlsx",
+      "sheet": "LPG MAY 2025",
+      "detail": "Taraba 2025-05: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "microdata-160-1267",
+      "file": "GAS_PRIC_WATCH_JUNE_2025.xlsx",
+      "sheet": "LPG JUNE 2025",
+      "detail": "Taraba 2025-05: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "microdata-160-1280",
+      "file": "GAS_PRICE_WATCH_JULY_2025.xlsx",
+      "sheet": "LPG_JULY_2025",
+      "detail": "Taraba 2025-06: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "microdata-160-1267",
+      "file": "GAS_PRIC_WATCH_JUNE_2025.xlsx",
+      "sheet": "LPG JUNE 2025",
+      "detail": "Taraba 2025-06: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "microdata-160-1289",
+      "file": "GAS_PRICE_WATCH_AUGUST_2025___.xlsx",
+      "sheet": "LPG AUGUST 2025",
+      "detail": "Taraba 2025-07: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "microdata-160-1280",
+      "file": "GAS_PRICE_WATCH_JULY_2025.xlsx",
+      "sheet": "LPG_JULY_2025",
+      "detail": "Taraba 2025-07: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "microdata-160-1289",
+      "file": "GAS_PRICE_WATCH_AUGUST_2025___.xlsx",
+      "sheet": "LPG AUGUST 2025",
+      "detail": "Taraba 2025-08: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "microdata-160-1306",
+      "file": "GAS_PRICE_WATCH_SEPTEMBER_2025.xlsx",
+      "sheet": "LPG_SEPTEMBER_2025",
+      "detail": "Taraba 2025-08: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "microdata-160-1320",
+      "file": "GAS_PRICE_WATCH_OCTOBER_2025.xlsx",
+      "sheet": "LPG OCTOBER_2025",
+      "detail": "Taraba 2025-09: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "microdata-160-1306",
+      "file": "GAS_PRICE_WATCH_SEPTEMBER_2025.xlsx",
+      "sheet": "LPG_SEPTEMBER_2025",
+      "detail": "Taraba 2025-09: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "microdata-160-1348",
+      "file": "GAS_PRICE_WATCH_NOVEMBER_2025__.xlsx",
+      "sheet": "LPG NOVEMBER 2025",
+      "detail": "Taraba 2025-10: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "microdata-160-1320",
+      "file": "GAS_PRICE_WATCH_OCTOBER_2025.xlsx",
+      "sheet": "LPG OCTOBER_2025",
+      "detail": "Taraba 2025-10: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "microdata-160-1348",
+      "file": "GAS_PRICE_WATCH_DECEMBER_2025_.xlsx",
+      "sheet": "LPG DECEMBER 2025",
+      "detail": "Taraba 2025-11: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "microdata-160-1348",
+      "file": "GAS_PRICE_WATCH_NOVEMBER_2025__.xlsx",
+      "sheet": "LPG NOVEMBER 2025",
+      "detail": "Taraba 2025-11: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
+      "source": "microdata-160-1348",
+      "file": "GAS_PRICE_WATCH_DECEMBER_2025_.xlsx",
+      "sheet": "LPG DECEMBER 2025",
+      "detail": "Taraba 2025-12: duplicate row, keeping the first"
+    },
+    {
+      "kind": "warning",
       "source": "legacy-diesel-oct-2017",
       "file": "DIESEL_oct_2017.xlsx",
       "sheet": "Diesel ",
@@ -776,6 +1070,27 @@
       "file": "DIESEL_sept_2017.xlsx",
       "sheet": "Diesel ",
       "detail": "Zamfara 2016-01: duplicate row, keeping the first"
+    },
+    {
+      "kind": "sheet_skipped",
+      "source": "legacy-kerosene-price-watch-oct-2018",
+      "file": "kerosene_price_watch_oct_2018.xlsx",
+      "sheet": "Gallon of Kerosene",
+      "detail": "cannot tell which table is priced per litre"
+    },
+    {
+      "kind": "sheet_skipped",
+      "source": "legacy-lpg-data-2018",
+      "file": "LPG_Data_2018.xlsx",
+      "sheet": "Distribution of truck...",
+      "detail": "no header row with month columns found"
+    },
+    {
+      "kind": "sheet_skipped",
+      "source": "legacy-lpg-data-2018",
+      "file": "LPG_Data_2018.xlsx",
+      "sheet": "LPG IMPORT",
+      "detail": "no header row with month columns found"
     },
     {
       "kind": "sheet_skipped",

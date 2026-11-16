@@ -23,13 +23,23 @@ import openpyxl
 
 from . import states
 
-# Fuels this parser publishes. LPG and kerosene workbooks use undated
-# "Average of ..." pivot headers and other units (kg, gallon); they are
-# recognised and skipped rather than guessed at.
-SUPPORTED_FUELS = ("pms", "ago")
+# Fuels this parser publishes. Kerosene and cooking-gas workbooks print two
+# tables side by side, one per unit (litre | gallon, 5 kg | 12.5 kg); only the
+# table in the unit below is read, and a sheet whose unit cannot be told is
+# skipped rather than guessed at.
+SUPPORTED_FUELS = ("pms", "ago", "dpk", "lpg")
+FUEL_UNIT = {"dpk": "litre", "lpg": "12.5kg"}  # fuel -> the one unit published
+_UNIT_RES = {
+    "litre": re.compile(r"\blit(?:re|er)s?\b|\bltrs?\b", re.I),
+    "gallon": re.compile(r"\bgallons?\b", re.I),
+    "12.5kg": re.compile(r"12(?:\.5)?\s*kg", re.I),  # Jan 2026 says "12KG"
+    "5kg": re.compile(r"(?<![\d.])5\s*kg", re.I),
+}
 
-PRICE_MIN = 20.0  # NGN per litre; guards against percentages / garbage cells
+# Guards against percentages and garbage cells (NGN per litre, or per cylinder for LPG).
+PRICE_MIN = 20.0
 PRICE_MAX = 20000.0
+PRICE_RANGE = {"lpg": (500.0, 150000.0)}
 MIN_STATES_PER_PERIOD = 30
 
 _MONTHS = {
@@ -43,7 +53,8 @@ _MONTH_RE = re.compile(
 )
 _YEAR_RE = re.compile(r"(?<!\d)(20\d{2})(?!\d)")
 _STATE_HEADINGS = {"state", "states", "statelabel", "statename"}
-_NATIONAL_LABELS = {"average", "national", "nationalaverage", "nigeria", "nationalavg"}
+_NATIONAL_LABELS = {"average", "national", "nationalaverage", "nigeria", "nationalavg",
+                    "grandtotal", "total"}
 
 
 @dataclass(frozen=True)
@@ -147,6 +158,13 @@ def _to_price(value: object) -> float | None:
 
 def _find_header(rows: list[tuple], max_year: int) -> tuple[int, list[tuple[int, str]]] | None:
     """Locate the header row. Returns (row index, [(column index, period), ...])."""
+    found = _find_header_runs(rows, max_year)
+    return (found[0], found[1][0]) if found else None
+
+
+def _find_header_runs(rows: list[tuple], max_year: int) -> tuple[int, list[list[tuple[int, str]]]] | None:
+    """Like _find_header, but return every contiguous run of month columns in
+    the header row (one per side-by-side table), left to right."""
     for r, row in enumerate(rows):
         dated = [(c, _cell_period(v, max_year)) for c, v in enumerate(row)]
         dated = [(c, p) for c, p in dated if p]
@@ -158,21 +176,54 @@ def _find_header(rows: list[tuple], max_year: int) -> tuple[int, list[tuple[int,
             labels = {states.normalize(v) for v in row if isinstance(v, str)}
             if not labels & _STATE_HEADINGS:
                 continue
-        # Keep only the contiguous run starting at the first date cell, so a
-        # second table further right on the sheet is never mixed in.
-        run = [dated[0]]
+        # Split into contiguous runs, so a second table further right on the
+        # sheet is never mixed into the first.
+        runs = [[dated[0]]]
         for c, p in dated[1:]:
-            if c == run[-1][0] + 1:
-                run.append((c, p))
+            if c == runs[-1][-1][0] + 1:
+                runs[-1].append((c, p))
             else:
-                break
-        if run[0][0] >= 1:
-            return r, run
+                runs.append([(c, p)])
+        runs = [run for run in runs if run[0][0] >= 1]
+        if runs:
+            return r, runs
     return None
 
 
-def _row_label(row: tuple, first_date_col: int) -> str | None:
-    for v in row[:first_date_col]:
+def _units_in(text: str) -> set[str]:
+    return {u for u, rx in _UNIT_RES.items() if rx.search(text)}
+
+
+def _pick_unit_run(fuel: str, rows: list[tuple], header_row: int,
+                   runs: list[list[tuple[int, str]]], names: tuple[str, ...]
+                   ) -> tuple[int, list[tuple[int, str]]] | str:
+    """Choose the table holding FUEL_UNIT[fuel]. Returns (label start column,
+    run) or the reason none could be chosen."""
+    want = FUEL_UNIT[fuel]
+    labelled = []
+    for i, run in enumerate(runs):
+        start = runs[i - 1][-1][0] + 1 if i else 0
+        end = run[-1][0]
+        text = " ".join(
+            str(v) for row in rows[max(0, header_row - 4):header_row + 1]
+            for v in row[start:end + 1] if isinstance(v, str)
+        )
+        labelled.append((start, run, _units_in(text)))
+    for start, run, units in labelled:
+        if units == {want}:
+            return start, run
+    if any(units for _, _, units in labelled):
+        return f"no {want} table on this sheet"
+    # No unit over the tables: accept a lone table when the sheet or file name
+    # names exactly the wanted unit.
+    named = set().union(*(_units_in(n) for n in names))
+    if len(runs) == 1 and named == {want}:
+        return 0, runs[0]
+    return f"cannot tell which table is priced per {want}"
+
+
+def _row_label(row: tuple, first_date_col: int, start: int = 0) -> str | None:
+    for v in row[start:first_date_col]:
         if isinstance(v, str) and v.strip():
             return v.strip()
     return None
@@ -196,12 +247,20 @@ def parse_sheet(title: str, rows: list[tuple], filename: str, today: dt.date | N
         result.skipped = f"fuel '{fuel}' is not supported yet"
         return result
 
-    header = _find_header(rows, max_year)
-    if header is None:
+    found = _find_header_runs(rows, max_year)
+    if found is None:
         result.skipped = "no header row with month columns found"
         return result
-    header_row, date_cols = header
+    header_row, runs = found
+    label_start, date_cols = 0, runs[0]
+    if fuel in FUEL_UNIT:
+        picked = _pick_unit_run(fuel, rows, header_row, runs, (title, intro, filename))
+        if isinstance(picked, str):
+            result.skipped = picked
+            return result
+        label_start, date_cols = picked
     first_date_col = date_cols[0][0]
+    price_min, price_max = PRICE_RANGE.get(fuel, (PRICE_MIN, PRICE_MAX))
 
     seen_periods: dict[str, int] = {}
     for c, p in date_cols:
@@ -213,7 +272,7 @@ def parse_sheet(title: str, rows: list[tuple], filename: str, today: dt.date | N
     per_period: dict[str, dict[str, float]] = {p: {} for p in seen_periods}
     states_seen: set[str] = set()
     for row in rows[header_row + 1:]:
-        label = _row_label(row, first_date_col)
+        label = _row_label(row, first_date_col, label_start)
         if label is None:
             continue
         state = states.lookup(label)
@@ -226,9 +285,9 @@ def parse_sheet(title: str, rows: list[tuple], filename: str, today: dt.date | N
             price = _to_price(row[c]) if c < len(row) else None
             if price is None:
                 continue
-            if not (PRICE_MIN <= price <= PRICE_MAX):
+            if not (price_min <= price <= price_max):
                 result.warnings.append(
-                    f"{label} {period}: value {price!r} outside {PRICE_MIN}-{PRICE_MAX}, dropped"
+                    f"{label} {period}: value {price!r} outside {price_min}-{price_max}, dropped"
                 )
                 continue
             if is_national:

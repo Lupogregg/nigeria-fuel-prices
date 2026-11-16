@@ -82,10 +82,38 @@ def test_stale_header_is_flagged_for_quarantine():
     assert sheet.name_mismatch is True
 
 
-def test_unsupported_fuel_is_skipped_not_guessed():
-    wb = parse("gas_2024_03.xlsx", "GAS_PRICE_WATCH_MARCH_2024.xlsx")
-    assert wb.observations == []
-    assert all(s.skipped for s in wb.sheets)
+def test_cooking_gas_reads_the_12_5kg_table_not_the_5kg_one():
+    (sheet,) = parse("gas_2024_03.xlsx", "GAS_PRICE_WATCH_MARCH_2024.xlsx").sheets
+    assert sheet.fuel == "lpg"
+    assert sheet.periods == ["2023-03", "2024-02", "2024-03"]
+    assert len(sheet.observations) == 3 * 37
+    # NBS press figure for refilling a 12.5 kg cylinder, March 2024: N15,929.04
+    assert sheet.national["2024-03"] == pytest.approx(15929.04, abs=0.005)
+    assert mean(sheet, "2024-03") == pytest.approx(sheet.national["2024-03"], rel=0.01)
+
+
+def test_cooking_gas_12kg_label_typo_is_read_as_12_5kg():
+    (sheet,) = parse("lpg_2026_01.xlsx", "GAS_PRICE_WATCH_JANUARY_2026_table.xlsx").sheets
+    assert sheet.skipped is None
+    assert sheet.report_period == "2026-01"
+    assert all(o.price > 10000 for o in sheet.observations)  # not the 5 kg table
+
+
+def test_kerosene_reads_the_litre_table_not_the_gallon_one():
+    (sheet,) = parse("dpk_2026_05.xlsx", "HOUSEHOLD KEROSENE MAY 2026.xlsx").sheets
+    assert sheet.fuel == "dpk"
+    assert sheet.report_period == "2026-05"
+    assert len(sheet.observations) == 3 * 37
+    assert sheet.national["2026-05"] == pytest.approx(2971.94, abs=0.005)
+    assert all(o.price < 5000 for o in sheet.observations)  # gallons are ~4x
+
+
+def test_two_unit_sheet_without_unit_labels_is_skipped_not_guessed():
+    rows = [("", "Jan-26", "Feb-26", "", "", "Jan-26", "Feb-26")]
+    rows += [(st.name, 1000.0, 1100.0, "", st.name, 4000.0, 4400.0) for st in states.STATES]
+    s = nbs_parse.parse_sheet("Sheet1", rows, "KEROSENE FEB 2026.xlsx", TODAY)
+    assert s.observations == []
+    assert "litre" in s.skipped
 
 
 @pytest.mark.parametrize("text,expected", [

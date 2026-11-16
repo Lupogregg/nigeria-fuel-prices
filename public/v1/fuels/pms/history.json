@@ -8,7 +8,7 @@
     "series": "Premium Motor Spirit (petrol) Price Watch (monthly state average retail prices)",
     "url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/157"
   },
-  "data_updated_at": "2026-11-11T10:12:46Z",
+  "data_updated_at": "2026-11-15T21:59:34Z",
   "note": "Arrays line up with `periods`; null means NBS published no figure.",
   "periods": [
     "2016-01",

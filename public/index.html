@@ -34,7 +34,7 @@
 <body>
 <main>
   <h1>Nigeria Fuel Prices API</h1>
-  <p class="muted">Free, static JSON. State-by-state petrol and diesel prices from the National Bureau of Statistics.</p>
+  <p class="muted">Free, static JSON. State-by-state petrol, diesel, kerosene and cooking gas prices from the National Bureau of Statistics.</p>
 
   <div class="tiles" id="tiles"><div class="tile"><div class="k">Loading latest figures…</div></div></div>
 
@@ -47,7 +47,7 @@
     <tr><td><a href="v1/national.json">/v1/national.json</a></td><td>National average, highest and lowest states, zone averages</td></tr>
     <tr><td><a href="v1/states.json">/v1/states.json</a></td><td>All 36 states + FCT with their latest price</td></tr>
     <tr><td><a href="v1/prices/lagos.json">/v1/prices/{state}.json</a></td><td>One state: latest figure, rank, change, full history</td></tr>
-    <tr><td><a href="v1/fuels/pms/latest.json">/v1/fuels/{fuel}/latest.json</a></td><td>Every state for the latest month (<code>pms</code> or <code>ago</code>)</td></tr>
+    <tr><td><a href="v1/fuels/pms/latest.json">/v1/fuels/{fuel}/latest.json</a></td><td>Every state for the latest month (<code>pms</code>, <code>ago</code>, <code>dpk</code> or <code>lpg</code>)</td></tr>
     <tr><td><a href="v1/fuels/pms/history.json">/v1/fuels/{fuel}/history.json</a></td><td>Full monthly series, also as <a href="v1/fuels/pms/history.csv">CSV</a></td></tr>
     <tr><td><a href="v1/news.json">/v1/news.json</a></td><td>Prices stated in recent news headlines. Leads, not measurements; never mixed into the NBS figures</td></tr>
     <tr><td>/v1/community.json</td><td>Pump prices reported through the Telegram bot in the last 72 hours (appears once the bot is connected)</td></tr>

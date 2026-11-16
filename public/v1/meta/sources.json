@@ -1172,6 +1172,19 @@
       ]
     },
     {
+      "key": "legacy-kerosene-price-watch-oct-2018",
+      "origin_url": "https://www.nigerianstat.gov.ng/resource/kerosene%20price%20watch%20oct%202018.xlsx",
+      "retrieved_via": "wayback",
+      "wayback_timestamp": "20241120101311",
+      "fetched_at": "2026-11-15T21:59:34Z",
+      "files": [
+        {
+          "name": "kerosene_price_watch_oct_2018.xlsx",
+          "sha256": "c9149332cf7acc2a48e3d20bdc5599c4e5529c42d15161fa144c1a922bc52fb6"
+        }
+      ]
+    },
+    {
       "key": "legacy-pms-apr-2024",
       "origin_url": "https://www.nigerianstat.gov.ng/resource/PMS_APR_2024.xlsx",
       "retrieved_via": "wayback",
@@ -2814,6 +2827,451 @@
         {
           "name": "DIESEL_MAY_2026.xlsx",
           "sha256": "04f395bf3a1f79fa74d0009e87507235f535cad0ad0a856963bcfc0d921f81f0"
+        }
+      ]
+    },
+    {
+      "key": "microdata-159-1133",
+      "origin_url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/159/download/1133",
+      "retrieved_via": "nbs",
+      "wayback_timestamp": null,
+      "fetched_at": "2026-11-15T21:52:05Z",
+      "files": [
+        {
+          "name": "HOUSEHOLD_KEROSENE_NOV_2024.xlsx",
+          "sha256": "16c55613b2d557c4f7e4eafdda76f124792ab9b67b8af75070db2ecfb5114763"
+        }
+      ]
+    },
+    {
+      "key": "microdata-159-1135",
+      "origin_url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/159/download/1135",
+      "retrieved_via": "nbs",
+      "wayback_timestamp": null,
+      "fetched_at": "2026-11-15T21:52:06Z",
+      "files": [
+        {
+          "name": "HOUSEHOLD_KEROSENE_DEC_2024.xlsx",
+          "sha256": "4d44bc0c55203599ef93e837dbdf87203de094e184c6de46f741cf96250a0e7e"
+        }
+      ]
+    },
+    {
+      "key": "microdata-159-1176",
+      "origin_url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/159/download/1176",
+      "retrieved_via": "nbs",
+      "wayback_timestamp": null,
+      "fetched_at": "2026-11-15T21:52:10Z",
+      "files": [
+        {
+          "name": "HOUSEHOLD_KEROSENE_JAN_2025.xlsx",
+          "sha256": "f061a89793785cdce95beab83444e6b1dc937ff2260c6e48afcbca8192ab8790"
+        }
+      ]
+    },
+    {
+      "key": "microdata-159-1178",
+      "origin_url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/159/download/1178",
+      "retrieved_via": "nbs",
+      "wayback_timestamp": null,
+      "fetched_at": "2026-11-15T21:52:13Z",
+      "files": [
+        {
+          "name": "HOUSEHOLD_KEROSENE_Feb_2025.xlsx",
+          "sha256": "3caade910cd3a64d3a6272b5d429445477352cb1f3889edf189a4613b3555b05"
+        }
+      ]
+    },
+    {
+      "key": "microdata-159-1219",
+      "origin_url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/159/download/1219",
+      "retrieved_via": "nbs",
+      "wayback_timestamp": null,
+      "fetched_at": "2026-11-15T21:52:17Z",
+      "files": [
+        {
+          "name": "HOUSEHOLD_KEROSENE_Mar_2025.xlsx",
+          "sha256": "1b2fef3a64fb06e5b0cd980491c9657aaf62fbebf62dc0f69149b5f5a428ec5d"
+        }
+      ]
+    },
+    {
+      "key": "microdata-159-1221",
+      "origin_url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/159/download/1221",
+      "retrieved_via": "nbs",
+      "wayback_timestamp": null,
+      "fetched_at": "2026-11-15T21:52:19Z",
+      "files": [
+        {
+          "name": "HOUSEHOLD_KEROSENE_Apr_2025.xlsx",
+          "sha256": "808abce0a792498f0f3b36a0a4a56607ef4ce561791cf8517f10e24f6dae95b2"
+        }
+      ]
+    },
+    {
+      "key": "microdata-159-1250",
+      "origin_url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/159/download/1250",
+      "retrieved_via": "nbs",
+      "wayback_timestamp": null,
+      "fetched_at": "2026-11-15T21:52:21Z",
+      "files": [
+        {
+          "name": "HOUSEHOLD_KEROSENE_MAY_2025.xlsx",
+          "sha256": "27ebbcde42219800afad6352fab23d08c1d46a52ddc5ee81895c688825e2eeac"
+        }
+      ]
+    },
+    {
+      "key": "microdata-159-1265",
+      "origin_url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/159/download/1265",
+      "retrieved_via": "nbs",
+      "wayback_timestamp": null,
+      "fetched_at": "2026-11-15T21:52:23Z",
+      "files": [
+        {
+          "name": "HOUSEHOLD_KEROSENE_JUNE_2025.xlsx",
+          "sha256": "ea203990828ff20f008eeab7ceac03143f7be7da7640bcc1e7c8847c992353ff"
+        }
+      ]
+    },
+    {
+      "key": "microdata-159-1281",
+      "origin_url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/159/download/1281",
+      "retrieved_via": "nbs",
+      "wayback_timestamp": null,
+      "fetched_at": "2026-11-15T21:52:48Z",
+      "files": [
+        {
+          "name": "HOUSEHOLD_KEROSENE_JULY_2025.xlsx",
+          "sha256": "349133ddbba9cd42685e4b3aad2f35f23287f15500734ef21d59f67acdd757e2"
+        }
+      ]
+    },
+    {
+      "key": "microdata-159-1288",
+      "origin_url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/159/download/1288",
+      "retrieved_via": "nbs",
+      "wayback_timestamp": null,
+      "fetched_at": "2026-11-15T21:53:08Z",
+      "files": [
+        {
+          "name": "HOUSEHOLD_KEROSENE_AUGUST_2025__.xlsx",
+          "sha256": "e36035083a6a4cb712d16d529b3825dd10eb145ba68e1c655af874f3a2922a5d"
+        }
+      ]
+    },
+    {
+      "key": "microdata-159-1305",
+      "origin_url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/159/download/1305",
+      "retrieved_via": "nbs",
+      "wayback_timestamp": null,
+      "fetched_at": "2026-11-15T21:53:49Z",
+      "files": [
+        {
+          "name": "HOUSEHOLD_KEROSENE_SEPTEMBER_2025.xlsx",
+          "sha256": "5a6885ffabe0c3c860cce4d4ba311fabba86a57cd7943fcdc4572745861013a0"
+        }
+      ]
+    },
+    {
+      "key": "microdata-159-1329",
+      "origin_url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/159/download/1329",
+      "retrieved_via": "nbs",
+      "wayback_timestamp": null,
+      "fetched_at": "2026-11-15T21:54:42Z",
+      "files": [
+        {
+          "name": "HOUSEHOLD_KEROSENE_OCTOBER_2025___1_.xlsx",
+          "sha256": "b807719a783a4dd79a917e2332fa0d733aa72b635964232be1933fe18e5012ad"
+        }
+      ]
+    },
+    {
+      "key": "microdata-159-1347",
+      "origin_url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/159/download/1347",
+      "retrieved_via": "nbs",
+      "wayback_timestamp": null,
+      "fetched_at": "2026-11-15T21:55:49Z",
+      "files": [
+        {
+          "name": "HOUSEHOLD_KEROSENE_NOVEMBER_2025__.xlsx",
+          "sha256": "2ae51d23814b97c8ac6a6e48343fbe302026ce58775dcce653c72207171b5072"
+        },
+        {
+          "name": "HOUSEHOLD_KEROSENE_DECEMBER_2025__.xlsx",
+          "sha256": "e3aa3b7a46e34eaba937add32277ddbb226ee874a6230627f193dce18919298f"
+        }
+      ]
+    },
+    {
+      "key": "microdata-159-1363",
+      "origin_url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/159/download/1363",
+      "retrieved_via": "nbs",
+      "wayback_timestamp": null,
+      "fetched_at": "2026-11-15T21:56:38Z",
+      "files": [
+        {
+          "name": "HOUSEHOLD__KEROSENE__JANUARY_2026__.xlsx",
+          "sha256": "ef324befbfd661450bd8beed44250e9dad0461ea3a61ad431be16192fec593b2"
+        }
+      ]
+    },
+    {
+      "key": "microdata-159-1404",
+      "origin_url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/159/download/1404",
+      "retrieved_via": "nbs",
+      "wayback_timestamp": null,
+      "fetched_at": "2026-11-15T21:56:48Z",
+      "files": [
+        {
+          "name": "NHK_FEB26.xlsx",
+          "sha256": "02efe2f867f5cc5fafbd0bcb61d46e912433147c050f2c959212adfe27afb770"
+        },
+        {
+          "name": "NHK_Fare_watch_Mar2026.xlsx",
+          "sha256": "1f84d96f6856d017d46139daf59aa99c9657647081e6d8b3715f7914de12c3c9"
+        }
+      ]
+    },
+    {
+      "key": "microdata-159-1412",
+      "origin_url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/159/download/1412",
+      "retrieved_via": "nbs",
+      "wayback_timestamp": null,
+      "fetched_at": "2026-11-15T21:56:51Z",
+      "files": [
+        {
+          "name": "LITRE_AND_GALLON_HOUSEHOLD_KEROSENE_APRIL_2026.xlsx",
+          "sha256": "1d7261187553d88a8643e9f3d00af9ab8ba3ef7b54ea21f4495b2f8238b25fdb"
+        }
+      ]
+    },
+    {
+      "key": "microdata-159-1426",
+      "origin_url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/159/download/1426",
+      "retrieved_via": "nbs",
+      "wayback_timestamp": null,
+      "fetched_at": "2026-11-15T21:56:53Z",
+      "files": [
+        {
+          "name": "HOUSEHOLD_KEROSENE_MAY_2026.xlsx",
+          "sha256": "0e1a652f12f694c36b3fcbf3df6de7510947181427917140dc2019107b63262c"
+        }
+      ]
+    },
+    {
+      "key": "microdata-160-1141",
+      "origin_url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/160/download/1141",
+      "retrieved_via": "nbs",
+      "wayback_timestamp": null,
+      "fetched_at": "2026-11-15T21:56:55Z",
+      "files": [
+        {
+          "name": "GAS_PRICE_WATCH_NOV_2024.xlsx",
+          "sha256": "263f1f3079bf00a14f33e5d3491ab3a7a0885d44d0cbf9a9c719726848212b65"
+        }
+      ]
+    },
+    {
+      "key": "microdata-160-1143",
+      "origin_url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/160/download/1143",
+      "retrieved_via": "nbs",
+      "wayback_timestamp": null,
+      "fetched_at": "2026-11-15T21:56:57Z",
+      "files": [
+        {
+          "name": "GAS_PRICE_WATCH_DEC_2024.xlsx",
+          "sha256": "9f5fcdbee000f79532ba64ada71cc293f41af0e08b787dc6b08f604ba897d11b"
+        }
+      ]
+    },
+    {
+      "key": "microdata-160-1172",
+      "origin_url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/160/download/1172",
+      "retrieved_via": "nbs",
+      "wayback_timestamp": null,
+      "fetched_at": "2026-11-15T21:56:59Z",
+      "files": [
+        {
+          "name": "GAS_PRICE_WATCH_JAN_2025.xlsx",
+          "sha256": "46b523d77d3ff8954705f7b2cbd42af1785fc0780258d44cc77a51dec9438047"
+        }
+      ]
+    },
+    {
+      "key": "microdata-160-1174",
+      "origin_url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/160/download/1174",
+      "retrieved_via": "nbs",
+      "wayback_timestamp": null,
+      "fetched_at": "2026-11-15T21:57:00Z",
+      "files": [
+        {
+          "name": "GAS_PRICE_WATCH_FEB_2025.xlsx",
+          "sha256": "02622387f4c85457a8b02c92083bdc7ed20cfeeb5b7420ab8d4a5b6ba29bfa6e"
+        }
+      ]
+    },
+    {
+      "key": "microdata-160-1223",
+      "origin_url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/160/download/1223",
+      "retrieved_via": "nbs",
+      "wayback_timestamp": null,
+      "fetched_at": "2026-11-15T21:57:02Z",
+      "files": [
+        {
+          "name": "GAS_PRICE_WATCH_MARCH_2025.xlsx",
+          "sha256": "a511d6f1ba9badcdbb66d0a28a3059ba6edae2a6f993e07691ea11066d8c30b4"
+        }
+      ]
+    },
+    {
+      "key": "microdata-160-1225",
+      "origin_url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/160/download/1225",
+      "retrieved_via": "nbs",
+      "wayback_timestamp": null,
+      "fetched_at": "2026-11-15T21:57:04Z",
+      "files": [
+        {
+          "name": "GAS_PRICE_WATCH_APRIL_2025.xlsx",
+          "sha256": "b1ce64298007f051966183ae601ac7f57cebb7ea6e495d718abd529dcc3fb934"
+        }
+      ]
+    },
+    {
+      "key": "microdata-160-1252",
+      "origin_url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/160/download/1252",
+      "retrieved_via": "nbs",
+      "wayback_timestamp": null,
+      "fetched_at": "2026-11-15T21:57:06Z",
+      "files": [
+        {
+          "name": "GAS_PRICE_WATCH_May_2025.xlsx",
+          "sha256": "bbf1f6991722d9c5341413ed29674fb419a3402ec5fd3f31dfad3b4e13818419"
+        }
+      ]
+    },
+    {
+      "key": "microdata-160-1267",
+      "origin_url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/160/download/1267",
+      "retrieved_via": "nbs",
+      "wayback_timestamp": null,
+      "fetched_at": "2026-11-15T21:57:08Z",
+      "files": [
+        {
+          "name": "GAS_PRIC_WATCH_JUNE_2025.xlsx",
+          "sha256": "800d86708f9a53d1e39bb234a8c6483685c7a57af166a8b40b5ac58673815f05"
+        }
+      ]
+    },
+    {
+      "key": "microdata-160-1280",
+      "origin_url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/160/download/1280",
+      "retrieved_via": "nbs",
+      "wayback_timestamp": null,
+      "fetched_at": "2026-11-15T21:57:17Z",
+      "files": [
+        {
+          "name": "GAS_PRICE_WATCH_JULY_2025.xlsx",
+          "sha256": "f97a2d3e54e5f49985186ec3e08709f395472bf87cee7e713607c5fdb7612e96"
+        }
+      ]
+    },
+    {
+      "key": "microdata-160-1289",
+      "origin_url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/160/download/1289",
+      "retrieved_via": "nbs",
+      "wayback_timestamp": null,
+      "fetched_at": "2026-11-15T21:57:22Z",
+      "files": [
+        {
+          "name": "GAS_PRICE_WATCH_AUGUST_2025___.xlsx",
+          "sha256": "875ccc67b74627be87e80cefaccd50900d6f83c91ae07dc3f1363ef42aab7468"
+        }
+      ]
+    },
+    {
+      "key": "microdata-160-1306",
+      "origin_url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/160/download/1306",
+      "retrieved_via": "nbs",
+      "wayback_timestamp": null,
+      "fetched_at": "2026-11-15T21:57:26Z",
+      "files": [
+        {
+          "name": "GAS_PRICE_WATCH_SEPTEMBER_2025.xlsx",
+          "sha256": "8c078cb39025848bedc1053afea83d2e3ae0a989e504b1c418650a9e0cd073f3"
+        }
+      ]
+    },
+    {
+      "key": "microdata-160-1320",
+      "origin_url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/160/download/1320",
+      "retrieved_via": "nbs",
+      "wayback_timestamp": null,
+      "fetched_at": "2026-11-15T21:57:30Z",
+      "files": [
+        {
+          "name": "GAS_PRICE_WATCH_OCTOBER_2025.xlsx",
+          "sha256": "66fa4d7933fac4b42cf6654063035ee882bcc5437a633e6b167b1ae9e2d39b42"
+        }
+      ]
+    },
+    {
+      "key": "microdata-160-1348",
+      "origin_url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/160/download/1348",
+      "retrieved_via": "nbs",
+      "wayback_timestamp": null,
+      "fetched_at": "2026-11-15T21:57:34Z",
+      "files": [
+        {
+          "name": "GAS_PRICE_WATCH_DECEMBER_2025_.xlsx",
+          "sha256": "b1f64e8c0329a1de5f58a573243692d1811327ae81766d2a6649142b01948b14"
+        },
+        {
+          "name": "GAS_PRICE_WATCH_NOVEMBER_2025__.xlsx",
+          "sha256": "d9cefe12639b4f428eb659cbea46f353a1f0691fdd066aee0a995fc1631645d1"
+        }
+      ]
+    },
+    {
+      "key": "microdata-160-1362",
+      "origin_url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/160/download/1362",
+      "retrieved_via": "nbs",
+      "wayback_timestamp": null,
+      "fetched_at": "2026-11-15T21:57:38Z",
+      "files": [
+        {
+          "name": "GAS_PRICE_WATCH_JANUARY_2026_table.xlsx",
+          "sha256": "25c61053e80bfe78fa65d85b544c1ca863f969b78f6f59b8cd5e84f92383ed06"
+        }
+      ]
+    },
+    {
+      "key": "microdata-160-1400",
+      "origin_url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/160/download/1400",
+      "retrieved_via": "nbs",
+      "wayback_timestamp": null,
+      "fetched_at": "2026-11-15T21:57:43Z",
+      "files": [
+        {
+          "name": "GAS_Price_Watch_March_2026_table.xlsx",
+          "sha256": "fc2c38ca8c4d23a012b7504e4ff7ffd57598675578ba249a8fead66e93da892c"
+        },
+        {
+          "name": "GAS_PRICE_WATCH_FEBRUARY_2026_table.xlsx",
+          "sha256": "031a8595aa4d1acc1ede76c09311267e23bcde52e623930a8e3085cfb8ccba3b"
+        }
+      ]
+    },
+    {
+      "key": "microdata-160-1413",
+      "origin_url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/160/download/1413",
+      "retrieved_via": "nbs",
+      "wayback_timestamp": null,
+      "fetched_at": "2026-11-15T21:57:47Z",
+      "files": [
+        {
+          "name": "GAS_PRICE_WATCH_APRIL_2026_table.xlsx",
+          "sha256": "4713bdf4630740d40c3f36f8f3d8d2473ee1a9ffc0b2f47e0e7a1aa99706c5fa"
         }
       ]
     }
