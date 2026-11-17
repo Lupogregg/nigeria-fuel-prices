@@ -1544,7 +1544,7 @@
         "price": 1355.0,
         "unit": "NGN/litre",
         "price_type": "pump",
-        "price_type_inferred": true,
+        "price_type_inferred": false,
         "state": "Lagos",
         "state_slug": "lagos",
         "place": "Lagos",
@@ -1553,7 +1553,7 @@
         "direction": "down",
         "previous_price": null,
         "first_reported_at": "2026-11-09T15:48:51Z",
-        "last_reported_at": "2026-11-09T15:48:51Z",
+        "last_reported_at": "2026-11-11T09:49:55Z",
         "outlets": 2,
         "nbs_reference": {
           "price": 1561.22,
@@ -1571,6 +1571,41 @@
             "title": "NNPC Cuts Petrol Price to ₦1,325 in Abuja, ₦1,355 in Lagos as Pump Prices Vary Across Stations",
             "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE82bVlSbHRWNTFkYmQ3aFIybTRSMDZtZ2NBRm5BalRWV3NIRHdZVFVxTUxEaXNSSzBIR2hqaURRQ0NXN0VsU3V2VnhibTRrUGV1cTJFRjkzQ1hxTEh0SVJWV1JhUUc4Qk9SRi04WUhhUTlFS3E0UnROWA?oc=5",
             "published_at": "2026-11-09T15:48:51Z"
+          },
+          {
+            "outlet": "The Trumpet Newspaper",
+            "title": "NNPC Petrol Price Reduction in Abuja: ₦1,325 Per Litre, Lagos ₦1,355 (New Pump Prices)",
+            "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE82bVlSbHRWNTFkYmQ3aFIybTRSMDZtZ2NBRm5BalRWV3NIRHdZVFVxTUxEaXNSSzBIR2hqaURRQ0NXN0VsU3V2VnhibTRrUGV1cTJFRjkzQ1hxTEh0SVJWV1JhUUc4Qk9SRi04WUhhUTlFS3E0UnROWA?oc=5",
+            "published_at": "2026-11-11T09:49:55Z"
+          }
+        ]
+      },
+      {
+        "fuel": "pms",
+        "price": 1325.0,
+        "unit": "NGN/litre",
+        "price_type": "pump",
+        "price_type_inferred": false,
+        "state": "Lagos",
+        "state_slug": "lagos",
+        "place": "Lagos",
+        "marketer": "nnpc",
+        "marketer_label": "NNPC",
+        "direction": "down",
+        "previous_price": null,
+        "first_reported_at": "2026-11-11T09:49:55Z",
+        "last_reported_at": "2026-11-11T09:49:55Z",
+        "outlets": 1,
+        "nbs_reference": {
+          "price": 1561.22,
+          "period": "2026-05"
+        },
+        "headlines": [
+          {
+            "outlet": "The Trumpet Newspaper",
+            "title": "NNPC Petrol Price Reduction in Abuja: ₦1,325 Per Litre, Lagos ₦1,355 (New Pump Prices)",
+            "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE82bVlSbHRWNTFkYmQ3aFIybTRSMDZtZ2NBRm5BalRWV3NIRHdZVFVxTUxEaXNSSzBIR2hqaURRQ0NXN0VsU3V2VnhibTRrUGV1cTJFRjkzQ1hxTEh0SVJWV1JhUUc4Qk9SRi04WUhhUTlFS3E0UnROWA?oc=5",
+            "published_at": "2026-11-11T09:49:55Z"
           }
         ]
       },
