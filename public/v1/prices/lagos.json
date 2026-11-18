@@ -1536,9 +1536,38 @@
     }
   },
   "news_signals": {
-    "as_of": "2026-11-17",
+    "as_of": "2026-11-18",
     "note": "Prices stated in news headlines, extracted by rule. They are leads, not measurements: a headline may quote one station, one city or a wholesale price. Several outlets carrying the same figure often means one story was republished. Never blended with the NBS averages.",
     "signals": [
+      {
+        "fuel": "pms",
+        "price": 1289.0,
+        "unit": "NGN/litre",
+        "price_type": "pump",
+        "price_type_inferred": true,
+        "state": "Lagos",
+        "state_slug": "lagos",
+        "place": "Lagos",
+        "marketer": null,
+        "marketer_label": null,
+        "direction": "down",
+        "previous_price": null,
+        "first_reported_at": "2026-11-18T00:30:50Z",
+        "last_reported_at": "2026-11-18T00:30:50Z",
+        "outlets": 1,
+        "nbs_reference": {
+          "price": 1561.22,
+          "period": "2026-05"
+        },
+        "headlines": [
+          {
+            "outlet": "The Sun Nigeria",
+            "title": "Petrol drops to N1,289/litre in Lagos as crude oil price falls",
+            "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNjl6dWtGdl8tRGo0N0h1ejgyNVcwbVJrRHJEVnpPZkVvSDhuSVdWSU5UdEJwbThrcGFOSTVYZ2F3X1h1ZU1xMWczY2ZJSlVUQWxIRThKVkNlSW9SVHhuQXFpc1BwQUZoTi1YV1Jzc2t3QzFzN05QQnFaeTVwX0VHWVhuU2wzX0k?oc=5",
+            "published_at": "2026-11-18T00:30:50Z"
+          }
+        ]
+      },
       {
         "fuel": "pms",
         "price": 1355.0,
