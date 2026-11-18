@@ -4,13 +4,66 @@
   "note": "Prices stated in news headlines, extracted by rule. They are leads, not measurements: a headline may quote one station, one city or a wholesale price. Several outlets carrying the same figure often means one story was republished. Never blended with the NBS averages.",
   "method": "rule-based extraction from headlines; only high-confidence claims are published",
   "counts": {
-    "headlines_stored": 77,
-    "headlines_in_window": 77,
-    "claims_published": 29,
-    "claims_withheld_low_confidence": 8,
+    "headlines_stored": 80,
+    "headlines_in_window": 80,
+    "claims_published": 31,
+    "claims_withheld_low_confidence": 9,
     "claims_rejected_implausible": 1
   },
   "signals": [
+    {
+      "fuel": "pms",
+      "price": 1159.0,
+      "unit": "NGN/litre",
+      "price_type": "ex_depot",
+      "price_type_inferred": false,
+      "state": null,
+      "state_slug": null,
+      "place": null,
+      "marketer": "dangote",
+      "marketer_label": "Dangote Refinery",
+      "direction": "down",
+      "previous_price": null,
+      "first_reported_at": "2026-11-16T07:16:12Z",
+      "last_reported_at": "2026-11-18T09:43:21Z",
+      "outlets": 5,
+      "nbs_reference": {
+        "price": 1596.25,
+        "period": "2026-05"
+      },
+      "headlines": [
+        {
+          "outlet": "The Gazelle News",
+          "title": "Dangote Refinery Reduces Petrol Price to N1,159 per litre",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQdFMzRTBsVExkbktGSXc0LVdEQ3k3TEZSUnoyNXZ2ODJlTFhibWtFaGdTU3hVSDhieGEwTHBZWjhSb3hhYlpxb09lenRzcm1ldnJHY2pDbXVvbjNKcmJORTNxZEZMWC1MMmE3UDhIYUl5MlN2VXRjX2hrMFR3dl83NnJmbF9JUHdLOHdXdVZ1b3kxdw?oc=5",
+          "published_at": "2026-11-16T07:16:12Z"
+        },
+        {
+          "outlet": "Brand Icon Image",
+          "title": "Dangote Refinery Slashes Petrol Gantry Price by N51 to N1,159 Per Litre",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPSWlzSnh4UDVjUGl4azlHSVZJdml3ZUNxTU5qNGJPTWNfRzdrNmZrSlA4eF9OWUUwdFJiWm1FMGM5NmJTQUVHaC1MY0xNN2RBX0FlRTdTZWlOS2M0MlRiblJhZGNSdkRQa1dURFNNRzlxZnlneXMtQnI4SU9hdEtMYmRfRlN3emxTTnc?oc=5",
+          "published_at": "2026-11-16T13:26:00Z"
+        },
+        {
+          "outlet": "MSME Africa",
+          "title": "Dangote Refinery Reduces Petrol Price by N51 to N1,159 Per Litre",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQN1lpZVJmcG8zRnJuY1Frd1d3ckVVMHRwX3dmZmQ5bHNnMDhvc1BES3NVWmZXaG1uZTROR3FVVlNDdk1zV0dMaDU0OXAzc29KdTFPUHB2VVE0RGJFZ3FQaks4czRQUVhDb2RKQmYwczhuSXJYRzhIdG52TVMwaUlaSTBMVEY3Q3R1V0NlNkRHc3N6cWtDSURMeQ?oc=5",
+          "published_at": "2026-11-16T18:10:02Z"
+        },
+        {
+          "outlet": "thestreetjournal.org",
+          "title": "Dangote Refinery cuts petrol price by ₦51 to ₦1,159 per litre",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQa181anllS3RLVUN3ZHF2MWUwNE5hNmh1ZG1ZRENja0IyVHVpeDYzVGFiR0JJUXBDLXN6eG5YZ0hsdzBRMEdQeHRQajJkQ3hEck51MUJEX2NkUmY4NUdySlJXUm5nX29vWkZGcTdCVlBaOUlHRUcwWjdTYlNNR3BTTWczV0k4TnFjMENSWE91S3lZTGJzai1JRTBpaTg2UENIX2d5bHlXa3ZJUQ?oc=5",
+          "published_at": "2026-11-16T19:26:38Z"
+        },
+        {
+          "outlet": "MSME Africa",
+          "title": "Petrol Prices Drop Again in Nigeria: New NNPC, MRS and AP Prices as Dangote Cuts Fuel Price to ₦1,159",
+          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQTjFZVWlQMlRTN0V2RjhIaXRid2RFWTlheW5IYk5hMkJmVWhtamZaQVFhZHVMeVdONVpaLVlXZEZJQzlQNGV3MXYybDd6LTJiY3R6Q2dVR0pBdzhYeTM4b2tkSjRXZGUwY054Tzg1QUtaUnF4bUFEelFzODktMDM3UkpPUi1vN3RPTk9RS3loVGtlTXVFak9yb0J2aVhlRUJoVlNGLWhZRnk0UjZOdXNiMU1NYmMxcEt2bUdmNlViSnFSSk1ocUhTNy1pbDJpNlBIMXc?oc=5",
+          "published_at": "2026-11-17T18:09:46Z"
+        }
+      ]
+    },
     {
       "fuel": "pms",
       "price": 1289.0,
@@ -37,53 +90,6 @@
           "title": "Petrol drops to N1,289/litre in Lagos as crude oil price falls",
           "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNjl6dWtGdl8tRGo0N0h1ejgyNVcwbVJrRHJEVnpPZkVvSDhuSVdWSU5UdEJwbThrcGFOSTVYZ2F3X1h1ZU1xMWczY2ZJSlVUQWxIRThKVkNlSW9SVHhuQXFpc1BwQUZoTi1YV1Jzc2t3QzFzN05QQnFaeTVwX0VHWVhuU2wzX0k?oc=5",
           "published_at": "2026-11-18T00:30:50Z"
-        }
-      ]
-    },
-    {
-      "fuel": "pms",
-      "price": 1159.0,
-      "unit": "NGN/litre",
-      "price_type": "ex_depot",
-      "price_type_inferred": false,
-      "state": null,
-      "state_slug": null,
-      "place": null,
-      "marketer": "dangote",
-      "marketer_label": "Dangote Refinery",
-      "direction": "down",
-      "previous_price": null,
-      "first_reported_at": "2026-11-16T07:16:12Z",
-      "last_reported_at": "2026-11-17T18:09:46Z",
-      "outlets": 3,
-      "nbs_reference": {
-        "price": 1596.25,
-        "period": "2026-05"
-      },
-      "headlines": [
-        {
-          "outlet": "The Gazelle News",
-          "title": "Dangote Refinery Reduces Petrol Price to N1,159 per litre",
-          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQdFMzRTBsVExkbktGSXc0LVdEQ3k3TEZSUnoyNXZ2ODJlTFhibWtFaGdTU3hVSDhieGEwTHBZWjhSb3hhYlpxb09lenRzcm1ldnJHY2pDbXVvbjNKcmJORTNxZEZMWC1MMmE3UDhIYUl5MlN2VXRjX2hrMFR3dl83NnJmbF9JUHdLOHdXdVZ1b3kxdw?oc=5",
-          "published_at": "2026-11-16T07:16:12Z"
-        },
-        {
-          "outlet": "Brand Icon Image",
-          "title": "Dangote Refinery Slashes Petrol Gantry Price by N51 to N1,159 Per Litre",
-          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPSWlzSnh4UDVjUGl4azlHSVZJdml3ZUNxTU5qNGJPTWNfRzdrNmZrSlA4eF9OWUUwdFJiWm1FMGM5NmJTQUVHaC1MY0xNN2RBX0FlRTdTZWlOS2M0MlRiblJhZGNSdkRQa1dURFNNRzlxZnlneXMtQnI4SU9hdEtMYmRfRlN3emxTTnc?oc=5",
-          "published_at": "2026-11-16T13:26:00Z"
-        },
-        {
-          "outlet": "MSME Africa",
-          "title": "Dangote Refinery Reduces Petrol Price by N51 to N1,159 Per Litre",
-          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQN1lpZVJmcG8zRnJuY1Frd1d3ckVVMHRwX3dmZmQ5bHNnMDhvc1BES3NVWmZXaG1uZTROR3FVVlNDdk1zV0dMaDU0OXAzc29KdTFPUHB2VVE0RGJFZ3FQaks4czRQUVhDb2RKQmYwczhuSXJYRzhIdG52TVMwaUlaSTBMVEY3Q3R1V0NlNkRHc3N6cWtDSURMeQ?oc=5",
-          "published_at": "2026-11-16T18:10:02Z"
-        },
-        {
-          "outlet": "MSME Africa",
-          "title": "Petrol Prices Drop Again in Nigeria: New NNPC, MRS and AP Prices as Dangote Cuts Fuel Price to ₦1,159",
-          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQTjFZVWlQMlRTN0V2RjhIaXRid2RFWTlheW5IYk5hMkJmVWhtamZaQVFhZHVMeVdONVpaLVlXZEZJQzlQNGV3MXYybDd6LTJiY3R6Q2dVR0pBdzhYeTM4b2tkSjRXZGUwY054Tzg1QUtaUnF4bUFEelFzODktMDM3UkpPUi1vN3RPTk9RS3loVGtlTXVFak9yb0J2aVhlRUJoVlNGLWhZRnk0UjZOdXNiMU1NYmMxcEt2bUdmNlViSnFSSk1ocUhTNy1pbDJpNlBIMXc?oc=5",
-          "published_at": "2026-11-17T18:09:46Z"
         }
       ]
     },
