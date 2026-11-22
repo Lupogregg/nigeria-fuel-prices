@@ -1,11 +1,11 @@
 {
-  "as_of": "2026-11-21",
+  "as_of": "2026-11-22",
   "window_days": 45,
   "note": "Prices stated in news headlines, extracted by rule. They are leads, not measurements: a headline may quote one station, one city or a wholesale price. Several outlets carrying the same figure often means one story was republished. Never blended with the NBS averages.",
   "method": "rule-based extraction from headlines; only high-confidence claims are published",
   "counts": {
-    "headlines_stored": 85,
-    "headlines_in_window": 85,
+    "headlines_stored": 88,
+    "headlines_in_window": 88,
     "claims_published": 32,
     "claims_withheld_low_confidence": 11,
     "claims_rejected_implausible": 2
