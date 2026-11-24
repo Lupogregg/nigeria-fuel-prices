@@ -4,10 +4,10 @@
   "note": "Prices stated in news headlines, extracted by rule. They are leads, not measurements: a headline may quote one station, one city or a wholesale price. Several outlets carrying the same figure often means one story was republished. Never blended with the NBS averages.",
   "method": "rule-based extraction from headlines; only high-confidence claims are published",
   "counts": {
-    "headlines_stored": 91,
-    "headlines_in_window": 91,
-    "claims_published": 32,
-    "claims_withheld_low_confidence": 12,
+    "headlines_stored": 95,
+    "headlines_in_window": 95,
+    "claims_published": 34,
+    "claims_withheld_low_confidence": 14,
     "claims_rejected_implausible": 2
   },
   "signals": [
@@ -25,8 +25,8 @@
       "direction": "down",
       "previous_price": null,
       "first_reported_at": "2026-11-20T15:03:16Z",
-      "last_reported_at": "2026-11-20T15:03:16Z",
-      "outlets": 1,
+      "last_reported_at": "2026-11-23T07:54:05Z",
+      "outlets": 2,
       "nbs_reference": {
         "price": 1596.25,
         "period": "2026-05"
@@ -37,6 +37,12 @@
           "title": "Dangote cuts petrol price to N1,070 per litre",
           "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE81U2ZiMEZKMm1GLXZsOW1pQ2hkLXhPZERqbmN2QlUyR0tMTG90V0c2X255SlQ1SGRSZWdMeGdlQkdDdmxzT2pnTTR6ZEdCZXUwa1VZYlNWR0dYdVYxOFR2Y3JsYndVVFRYVmhiWGo2Z0wteXVrNkNicDkwM2tWUQ?oc=5",
           "published_at": "2026-11-20T15:03:16Z"
+        },
+        {
+          "outlet": "The Trumpet Newspaper",
+          "title": "Dangote Refinery Cuts Petrol Price by ₦60 to ₦1,070 Per Litre",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOdWxSUHpraUFla2FfdlpKRTBnYW5yZHVHNXQ5bkNRRVhfOGZsR2hyczFidVU1T1dST1Q5ck8zVkVwWTBiVmw1a1Z5QmxkZDJxWi1sZDFuZ25kcXRra2J3OFFWTFM2ZUNEU0ExZHkwTjNVQXM5dzNTMEdGLUI0dlRvejdRTlBhV2ZEYlVPdGJVLU02YnlOVk93aU91Y0JSNmhN?oc=5",
+          "published_at": "2026-11-23T07:54:05Z"
         }
       ]
     },
@@ -119,6 +125,35 @@
           "title": "Petrol drops to N1,289/litre in Lagos as crude oil price falls",
           "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNjl6dWtGdl8tRGo0N0h1ejgyNVcwbVJrRHJEVnpPZkVvSDhuSVdWSU5UdEJwbThrcGFOSTVYZ2F3X1h1ZU1xMWczY2ZJSlVUQWxIRThKVkNlSW9SVHhuQXFpc1BwQUZoTi1YV1Jzc2t3QzFzN05QQnFaeTVwX0VHWVhuU2wzX0k?oc=5",
           "published_at": "2026-11-18T00:30:50Z"
+        }
+      ]
+    },
+    {
+      "fuel": "pms",
+      "price": 1067.0,
+      "unit": "NGN/litre",
+      "price_type": "ex_depot",
+      "price_type_inferred": true,
+      "state": null,
+      "state_slug": null,
+      "place": null,
+      "marketer": "dangote",
+      "marketer_label": "Dangote Refinery",
+      "direction": "down",
+      "previous_price": null,
+      "first_reported_at": "2026-11-17T09:47:05Z",
+      "last_reported_at": "2026-11-17T09:47:05Z",
+      "outlets": 1,
+      "nbs_reference": {
+        "price": 1596.25,
+        "period": "2026-05"
+      },
+      "headlines": [
+        {
+          "outlet": "Legit News",
+          "title": "N1,067/Litre: Petrol landing cost crashes as Dangote cuts PMS prices",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQR0xoTnBXcU43SGxfNFFWcFdpejNHX1dGSDFhbndGdTFTZ2E1dzFvTXExUEdtNm5raVRZb2Q3cDAzVGwwYXMtSFJVN0cteEpIMzZiUUs0X2QxMWVKRU13bG96Mm5QaXRTSjVWVWFCSHhaT3ROZjBlUDFOVzJ1UTV6Z3YwbmxRSExQTTlrSjI5d21DZU5maUQ5S3QwMHMtZm80ZWFKSUpKRnVwUzRoaVFuUk1SQndQdUtJb1o3aG9DdV9tQQ?oc=5",
+          "published_at": "2026-11-17T09:47:05Z"
         }
       ]
     },
