@@ -4,13 +4,42 @@
   "note": "Prices stated in news headlines, extracted by rule. They are leads, not measurements: a headline may quote one station, one city or a wholesale price. Several outlets carrying the same figure often means one story was republished. Never blended with the NBS averages.",
   "method": "rule-based extraction from headlines; only high-confidence claims are published",
   "counts": {
-    "headlines_stored": 97,
-    "headlines_in_window": 97,
-    "claims_published": 34,
-    "claims_withheld_low_confidence": 14,
+    "headlines_stored": 101,
+    "headlines_in_window": 101,
+    "claims_published": 35,
+    "claims_withheld_low_confidence": 15,
     "claims_rejected_implausible": 2
   },
   "signals": [
+    {
+      "fuel": "pms",
+      "price": 1295.0,
+      "unit": "NGN/litre",
+      "price_type": "pump",
+      "price_type_inferred": false,
+      "state": null,
+      "state_slug": null,
+      "place": null,
+      "marketer": "mrs",
+      "marketer_label": "MRS",
+      "direction": "down",
+      "previous_price": null,
+      "first_reported_at": "2026-11-24T13:47:30Z",
+      "last_reported_at": "2026-11-24T13:47:30Z",
+      "outlets": 1,
+      "nbs_reference": {
+        "price": 1596.25,
+        "period": "2026-05"
+      },
+      "headlines": [
+        {
+          "outlet": "Nigerian Bulletin",
+          "title": "MRS Cuts Petrol Price Again by N70/Litre, Reduces Pump Price to N1,295",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQbVRVMUs0Z0lnaGliNWlwaW9YMnd6UkwxVEFTTUtwbzFPY0pSR3IxYWlUNVFoMkJrX2pJb0N1QnJEbm9MeXN6R2VNOVlvLXNldmdfU2ZPQ19pMjRNQ3BfRHhzWkRlbUhjbF9xMmJpd3BVNHREM3RvUU92VUwyUURoRXJIU0NIWVNSY3RkUVNSRHlRbmVzSzREYW9raWVyQXRtcVAtRW85b1RzLTV4U3c?oc=5",
+          "published_at": "2026-11-24T13:47:30Z"
+        }
+      ]
+    },
     {
       "fuel": "pms",
       "price": 1070.0,
