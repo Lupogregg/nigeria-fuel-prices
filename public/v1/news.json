@@ -4,13 +4,48 @@
   "note": "Prices stated in news headlines, extracted by rule. They are leads, not measurements: a headline may quote one station, one city or a wholesale price. Several outlets carrying the same figure often means one story was republished. Never blended with the NBS averages.",
   "method": "rule-based extraction from headlines; only high-confidence claims are published",
   "counts": {
-    "headlines_stored": 103,
-    "headlines_in_window": 103,
-    "claims_published": 37,
+    "headlines_stored": 107,
+    "headlines_in_window": 107,
+    "claims_published": 39,
     "claims_withheld_low_confidence": 15,
     "claims_rejected_implausible": 2
   },
   "signals": [
+    {
+      "fuel": "pms",
+      "price": 1295.0,
+      "unit": "NGN/litre",
+      "price_type": "pump",
+      "price_type_inferred": false,
+      "state": null,
+      "state_slug": null,
+      "place": null,
+      "marketer": "mrs",
+      "marketer_label": "MRS",
+      "direction": "down",
+      "previous_price": null,
+      "first_reported_at": "2026-11-24T13:47:30Z",
+      "last_reported_at": "2026-11-25T11:50:01Z",
+      "outlets": 2,
+      "nbs_reference": {
+        "price": 1596.25,
+        "period": "2026-05"
+      },
+      "headlines": [
+        {
+          "outlet": "Nigerian Bulletin",
+          "title": "MRS Cuts Petrol Price Again by N70/Litre, Reduces Pump Price to N1,295",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQbVRVMUs0Z0lnaGliNWlwaW9YMnd6UkwxVEFTTUtwbzFPY0pSR3IxYWlUNVFoMkJrX2pJb0N1QnJEbm9MeXN6R2VNOVlvLXNldmdfU2ZPQ19pMjRNQ3BfRHhzWkRlbUhjbF9xMmJpd3BVNHREM3RvUU92VUwyUURoRXJIU0NIWVNSY3RkUVNSRHlRbmVzSzREYW9raWVyQXRtcVAtRW85b1RzLTV4U3c?oc=5",
+          "published_at": "2026-11-24T13:47:30Z"
+        },
+        {
+          "outlet": "TheRadar",
+          "title": "MRS cuts Abuja petrol to ₦1,295. What Abuja, Lagos and Ogun pumps were last charging",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTWExTmx1TWZzSE1ieHJhVWhCV21vNEo2MGlKbUZheGd5ODNFOWlIOVR3SWNBdnM0cHhURF9NZWRrbmZnZmVFYzRzSTMzVHVxbTFMazZuTi0tN1p2aVNQS0wwbzh4MzlfaGlERGRhTkVzZ2dGMjVBV2xqNzBaNHQtOUFlWW50VEp0dDVUdHdlUW53M19BdDJ5YmJWX0J3TEw2d2U4RU1tbkF4X0tiUjY5TlhJWjA?oc=5",
+          "published_at": "2026-11-25T11:50:01Z"
+        }
+      ]
+    },
     {
       "fuel": "pms",
       "price": 1055.0,
@@ -54,8 +89,8 @@
       "direction": "down",
       "previous_price": null,
       "first_reported_at": "2026-11-25T04:37:20Z",
-      "last_reported_at": "2026-11-25T04:37:20Z",
-      "outlets": 1,
+      "last_reported_at": "2026-11-25T06:22:00Z",
+      "outlets": 2,
       "nbs_reference": {
         "price": 1596.25,
         "period": "2026-05"
@@ -66,35 +101,12 @@
           "title": "Depot Petrol Prices Fall To N1,055/Litre As Retail Prices Moderate",
           "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPQ0YtRjRRZXRlTVU0WHBlT0tfd2pncl90bmU4ejJ1YVRYMmw4VVlqVm1BS3ZOWmNvMHRVYUJidVlLVnJHVk5xdEM4cWxtXzZZNGg0UlozdVVzX2hBLUE1a1F4bDFPb0UzVUE1dXctcy03X3V5M1FUQ2g4Y3VjVW9zRkRucWViM0hmUVlaZEtVM2ZoZw?oc=5",
           "published_at": "2026-11-25T04:37:20Z"
-        }
-      ]
-    },
-    {
-      "fuel": "pms",
-      "price": 1295.0,
-      "unit": "NGN/litre",
-      "price_type": "pump",
-      "price_type_inferred": false,
-      "state": null,
-      "state_slug": null,
-      "place": null,
-      "marketer": "mrs",
-      "marketer_label": "MRS",
-      "direction": "down",
-      "previous_price": null,
-      "first_reported_at": "2026-11-24T13:47:30Z",
-      "last_reported_at": "2026-11-24T13:47:30Z",
-      "outlets": 1,
-      "nbs_reference": {
-        "price": 1596.25,
-        "period": "2026-05"
-      },
-      "headlines": [
+        },
         {
-          "outlet": "Nigerian Bulletin",
-          "title": "MRS Cuts Petrol Price Again by N70/Litre, Reduces Pump Price to N1,295",
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQbVRVMUs0Z0lnaGliNWlwaW9YMnd6UkwxVEFTTUtwbzFPY0pSR3IxYWlUNVFoMkJrX2pJb0N1QnJEbm9MeXN6R2VNOVlvLXNldmdfU2ZPQ19pMjRNQ3BfRHhzWkRlbUhjbF9xMmJpd3BVNHREM3RvUU92VUwyUURoRXJIU0NIWVNSY3RkUVNSRHlRbmVzSzREYW9raWVyQXRtcVAtRW85b1RzLTV4U3c?oc=5",
-          "published_at": "2026-11-24T13:47:30Z"
+          "outlet": "Head Topics",
+          "title": "Depot Petrol Prices Fall To N1,055/Litre As Retail Prices Moderate",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOQUFuRzUyb1FZalgtMXZ2VmNPS0piSlcta3FfMnV1Nk1McjJreFpWM0FxeHh6aEhyWTRnTGZuaVVtNUM1VTlPVGdXWWN5SE9HQkVWZUcwUTk4M2ZRSzhYTW1rbVkyOWM5Y09ESDljRzN5WWQ3QmN6bVdZWUY5SEhfaEtjYmhhVm03VVZXNzdoRlJhTlplejlwQmNQRG9adw?oc=5",
+          "published_at": "2026-11-25T06:22:00Z"
         }
       ]
     },
