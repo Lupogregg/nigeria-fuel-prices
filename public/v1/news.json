@@ -1,16 +1,74 @@
 {
-  "as_of": "2026-11-24",
+  "as_of": "2026-11-25",
   "window_days": 45,
   "note": "Prices stated in news headlines, extracted by rule. They are leads, not measurements: a headline may quote one station, one city or a wholesale price. Several outlets carrying the same figure often means one story was republished. Never blended with the NBS averages.",
   "method": "rule-based extraction from headlines; only high-confidence claims are published",
   "counts": {
-    "headlines_stored": 101,
-    "headlines_in_window": 101,
-    "claims_published": 35,
+    "headlines_stored": 103,
+    "headlines_in_window": 103,
+    "claims_published": 37,
     "claims_withheld_low_confidence": 15,
     "claims_rejected_implausible": 2
   },
   "signals": [
+    {
+      "fuel": "pms",
+      "price": 1055.0,
+      "unit": "NGN/litre",
+      "price_type": "pump",
+      "price_type_inferred": false,
+      "state": "Lagos",
+      "state_slug": "lagos",
+      "place": "Lagos",
+      "marketer": null,
+      "marketer_label": null,
+      "direction": "down",
+      "previous_price": null,
+      "first_reported_at": "2026-11-25T07:11:39Z",
+      "last_reported_at": "2026-11-25T07:11:39Z",
+      "outlets": 1,
+      "nbs_reference": {
+        "price": 1561.22,
+        "period": "2026-05"
+      },
+      "headlines": [
+        {
+          "outlet": "Legit News",
+          "title": "Petrol Prices Crash as Five Lagos Depots Sell at N1,055, Filling Stations Slash Pump Rates",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQS0p4eDV3aG95WmFtdFYwMVVsMU1tM1RMaXZTS3R0Z1YxbjFEMFA5OUE1ZWRkVEJneC1BRHRpREtWTmVVUW9mWW9EMHJZc0ItdDRfV2dRT1BiOWF3QmlNd1QtWnZKOHhleVdSemJMWXFEdERhNFNQUF9vaDZJZ2l3andvcS13WVRIRXFfUEFwMUdGaThDbUdjbUc4Q1dnVHVSTXNaTHRKSEI5dVkzUVZXZWtuMmVycjBna1dEb0pMQndrWjNuTjRJZTNkbw?oc=5",
+          "published_at": "2026-11-25T07:11:39Z"
+        }
+      ]
+    },
+    {
+      "fuel": "pms",
+      "price": 1055.0,
+      "unit": "NGN/litre",
+      "price_type": "ex_depot",
+      "price_type_inferred": false,
+      "state": null,
+      "state_slug": null,
+      "place": null,
+      "marketer": null,
+      "marketer_label": null,
+      "direction": "down",
+      "previous_price": null,
+      "first_reported_at": "2026-11-25T04:37:20Z",
+      "last_reported_at": "2026-11-25T04:37:20Z",
+      "outlets": 1,
+      "nbs_reference": {
+        "price": 1596.25,
+        "period": "2026-05"
+      },
+      "headlines": [
+        {
+          "outlet": "LEADERSHIP Newspapers",
+          "title": "Depot Petrol Prices Fall To N1,055/Litre As Retail Prices Moderate",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPQ0YtRjRRZXRlTVU0WHBlT0tfd2pncl90bmU4ejJ1YVRYMmw4VVlqVm1BS3ZOWmNvMHRVYUJidVlLVnJHVk5xdEM4cWxtXzZZNGg0UlozdVVzX2hBLUE1a1F4bDFPb0UzVUE1dXctcy03X3V5M1FUQ2g4Y3VjVW9zRkRucWViM0hmUVlaZEtVM2ZoZw?oc=5",
+          "published_at": "2026-11-25T04:37:20Z"
+        }
+      ]
+    },
     {
       "fuel": "pms",
       "price": 1295.0,
