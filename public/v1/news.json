@@ -1,12 +1,12 @@
 {
-  "as_of": "2026-11-25",
+  "as_of": "2026-11-26",
   "window_days": 45,
   "note": "Prices stated in news headlines, extracted by rule. They are leads, not measurements: a headline may quote one station, one city or a wholesale price. Several outlets carrying the same figure often means one story was republished. Never blended with the NBS averages.",
   "method": "rule-based extraction from headlines; only high-confidence claims are published",
   "counts": {
-    "headlines_stored": 107,
+    "headlines_stored": 110,
     "headlines_in_window": 107,
-    "claims_published": 39,
+    "claims_published": 38,
     "claims_withheld_low_confidence": 15,
     "claims_rejected_implausible": 2
   },
@@ -43,6 +43,35 @@
           "title": "MRS cuts Abuja petrol to ₦1,295. What Abuja, Lagos and Ogun pumps were last charging",
           "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTWExTmx1TWZzSE1ieHJhVWhCV21vNEo2MGlKbUZheGd5ODNFOWlIOVR3SWNBdnM0cHhURF9NZWRrbmZnZmVFYzRzSTMzVHVxbTFMazZuTi0tN1p2aVNQS0wwbzh4MzlfaGlERGRhTkVzZ2dGMjVBV2xqNzBaNHQtOUFlWW50VEp0dDVUdHdlUW53M19BdDJ5YmJWX0J3TEw2d2U4RU1tbkF4X0tiUjY5TlhJWjA?oc=5",
           "published_at": "2026-11-25T11:50:01Z"
+        }
+      ]
+    },
+    {
+      "fuel": "pms",
+      "price": 1055.0,
+      "unit": "NGN/litre",
+      "price_type": "ex_depot",
+      "price_type_inferred": false,
+      "state": "Lagos",
+      "state_slug": "lagos",
+      "place": "Lagos",
+      "marketer": null,
+      "marketer_label": null,
+      "direction": "down",
+      "previous_price": null,
+      "first_reported_at": "2026-11-25T10:32:01Z",
+      "last_reported_at": "2026-11-25T10:32:01Z",
+      "outlets": 1,
+      "nbs_reference": {
+        "price": 1596.25,
+        "period": "2026-05"
+      },
+      "headlines": [
+        {
+          "outlet": "Financial Watch",
+          "title": "Lagos Petrol Depot Prices Drop to N1,055 Per Litre",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOZGtlSWFuOEJoa0VhYWp5T01tVk9yZ3VieURGTjk0WjM0SlRuLWRsRUw4Ynp0YkhvS2swT2VfVFB3Z3M2bkcwQVBfaUNoVzhrUjlNWjQ3R0JSVjNacmNHLTMwMUxXZW55bThFV0JrM1JXT3dTWVJZSWZzMF96U2RYQnZBa3VHVXlLRWZkMF9OV1Zkb0pJS3fSAZYBQVVfeXFMTmRrZUlhbjhCaGtFYWFqeU9NbVZPcmd1YnlERk45NFozNEpUbi1kbEVMOGJ6dGJIb0trME9lX1RQd2dzNm5HMEFQX2lDaFc4a1I5TVo0N0dCUlYzWnJjRy0zMDFMV2VueW04RVdCazNSV093U1lSWUlmczBfelNkWEJ2QWt1R1V5S0VmZDBfTldWZG9KSUt3?oc=5",
+          "published_at": "2026-11-25T10:32:01Z"
         }
       ]
     },
@@ -595,14 +624,20 @@
       "marketer_label": "NNPC",
       "direction": "up",
       "previous_price": null,
-      "first_reported_at": "2026-10-18T07:00:00Z",
+      "first_reported_at": "2026-10-16T07:00:00Z",
       "last_reported_at": "2026-10-19T07:00:00Z",
-      "outlets": 2,
+      "outlets": 3,
       "nbs_reference": {
         "price": 1596.25,
         "period": "2026-05"
       },
       "headlines": [
+        {
+          "outlet": "Nigerian Bulletin",
+          "title": "NNPCL Raises Petrol Price to ₦1,405 Per Litre Amid Fuel Discount Dispute",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNd0tJOEhKVlJzZ2RMel9vQ3ZudndnbW11dENfSjJqYUlMckl3d2I0NmVWb1lwcEpSMlhyZHNtcHREamoya3pFTTZ3YktkRFVhakxacEV6Q3hVMkpfelpmTnE1cFBLVDhLal9rRDFaTE1lXy1vQm04bUw0R2lQVzN4TU9sV3NheGh2ZzRodF95T0RQQ3JFRVJ1OXVmQ2NLeUFYZEY4OGczNDloSWUza3hNQWIwb0pJb2xlT2wxUA?oc=5",
+          "published_at": "2026-10-16T07:00:00Z"
+        },
         {
           "outlet": "Arise News",
           "title": "NNPC Raises Petrol Price To ₦1,405 Amid Fuel Discount Controversy",
@@ -614,47 +649,6 @@
           "title": "N1,405: NNPC Increases Petrol Price by N30, Marketers Release New Rates",
           "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQNXg5czVhNTE4RUxaWlMyS1d6S18zcmJZNGF0eXA5MlhwRXM3bTkyV04zRS1tSUt3ME5ORTJ6cngxbnBiMUY1SjFjbm5rSWlFUm9JVTFZaW5fYkxod3hqWndldV9WWlVtSVVDU1AtVncyVG5RY3JtazRKSVJ4aWpUTkdvb1hrbWNHa1hPX2s5ZnVORHVCSEVSYy1welk3cTU3ODB0RFlaalZvYkJfckNuUnJ3TFFOWnU5dkRZM1hPOFUzVnZ3RUNN?oc=5",
           "published_at": "2026-10-19T07:00:00Z"
-        }
-      ]
-    },
-    {
-      "fuel": "pms",
-      "price": 1405.0,
-      "unit": "NGN/litre",
-      "price_type": "pump",
-      "price_type_inferred": true,
-      "state": null,
-      "state_slug": null,
-      "place": null,
-      "marketer": "nnpc",
-      "marketer_label": "NNPC",
-      "direction": "up",
-      "previous_price": null,
-      "first_reported_at": "2026-10-12T07:00:00Z",
-      "last_reported_at": "2026-10-16T07:00:00Z",
-      "outlets": 3,
-      "nbs_reference": {
-        "price": 1596.25,
-        "period": "2026-05"
-      },
-      "headlines": [
-        {
-          "outlet": "Legit News",
-          "title": "N1,405: NNPC New Petrol Price Higher Than Other Filling Stations",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPMHJHbUlZMFBDSVlPUGo2WGJ6N2VzT1dEYmZ4amhvVnNJcTRMY2dNay0zYzVIZW9MaUtrdTV2ZmlvaDM0QV9Qd21ia0hsODZVbkxJWERyT2VpYklJemJGQ3hTSEVRZ0V4TlRJNF9fd3hKNlpFUHpXNXFXWGlaeThEcDMtalVnT2IyY1g0TjBoUUstYkppbkRQQWI4Zw?oc=5",
-          "published_at": "2026-10-12T07:00:00Z"
-        },
-        {
-          "outlet": "Tribune Online",
-          "title": "‘Discounted’ fuel price: Nigerians decry NNPCL’s sale of fuel at N1,405",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQYmxROWd1alZVOVJtR2pYVklCb1NEVmdyNW0xcUYwcXlPeGZuUGRrNmZQOTRRNGk3QUJXSjRlTHJWdlg1SjdJQTIxMkUtVklvZkRWRk14LWZOMzJrSGUxcGxSeEZINkI5MVFoNjU3aWEyQ2hHc0UwQlAtM1NZOFJTQ0xjdmxKSjhkNmpTc1lvbGdpOERkSjZmVmJzWQ?oc=5",
-          "published_at": "2026-10-12T07:00:00Z"
-        },
-        {
-          "outlet": "Nigerian Bulletin",
-          "title": "NNPCL Raises Petrol Price to ₦1,405 Per Litre Amid Fuel Discount Dispute",
-          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNd0tJOEhKVlJzZ2RMel9vQ3ZudndnbW11dENfSjJqYUlMckl3d2I0NmVWb1lwcEpSMlhyZHNtcHREamoya3pFTTZ3YktkRFVhakxacEV6Q3hVMkpfelpmTnE1cFBLVDhLal9rRDFaTE1lXy1vQm04bUw0R2lQVzN4TU9sV3NheGh2ZzRodF95T0RQQ3JFRVJ1OXVmQ2NLeUFYZEY4OGczNDloSWUza3hNQWIwb0pJb2xlT2wxUA?oc=5",
-          "published_at": "2026-10-16T07:00:00Z"
         }
       ]
     },

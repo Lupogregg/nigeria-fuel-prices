@@ -1536,9 +1536,38 @@
     }
   },
   "news_signals": {
-    "as_of": "2026-11-25",
+    "as_of": "2026-11-26",
     "note": "Prices stated in news headlines, extracted by rule. They are leads, not measurements: a headline may quote one station, one city or a wholesale price. Several outlets carrying the same figure often means one story was republished. Never blended with the NBS averages.",
     "signals": [
+      {
+        "fuel": "pms",
+        "price": 1055.0,
+        "unit": "NGN/litre",
+        "price_type": "ex_depot",
+        "price_type_inferred": false,
+        "state": "Lagos",
+        "state_slug": "lagos",
+        "place": "Lagos",
+        "marketer": null,
+        "marketer_label": null,
+        "direction": "down",
+        "previous_price": null,
+        "first_reported_at": "2026-11-25T10:32:01Z",
+        "last_reported_at": "2026-11-25T10:32:01Z",
+        "outlets": 1,
+        "nbs_reference": {
+          "price": 1596.25,
+          "period": "2026-05"
+        },
+        "headlines": [
+          {
+            "outlet": "Financial Watch",
+            "title": "Lagos Petrol Depot Prices Drop to N1,055 Per Litre",
+            "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOZGtlSWFuOEJoa0VhYWp5T01tVk9yZ3VieURGTjk0WjM0SlRuLWRsRUw4Ynp0YkhvS2swT2VfVFB3Z3M2bkcwQVBfaUNoVzhrUjlNWjQ3R0JSVjNacmNHLTMwMUxXZW55bThFV0JrM1JXT3dTWVJZSWZzMF96U2RYQnZBa3VHVXlLRWZkMF9OV1Zkb0pJS3fSAZYBQVVfeXFMTmRrZUlhbjhCaGtFYWFqeU9NbVZPcmd1YnlERk45NFozNEpUbi1kbEVMOGJ6dGJIb0trME9lX1RQd2dzNm5HMEFQX2lDaFc4a1I5TVo0N0dCUlYzWnJjRy0zMDFMV2VueW04RVdCazNSV093U1lSWUlmczBfelNkWEJ2QWt1R1V5S0VmZDBfTldWZG9KSUt3?oc=5",
+            "published_at": "2026-11-25T10:32:01Z"
+          }
+        ]
+      },
       {
         "fuel": "pms",
         "price": 1055.0,
