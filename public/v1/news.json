@@ -4,13 +4,66 @@
   "note": "Prices stated in news headlines, extracted by rule. They are leads, not measurements: a headline may quote one station, one city or a wholesale price. Several outlets carrying the same figure often means one story was republished. Never blended with the NBS averages.",
   "method": "rule-based extraction from headlines; only high-confidence claims are published",
   "counts": {
-    "headlines_stored": 110,
-    "headlines_in_window": 107,
-    "claims_published": 38,
-    "claims_withheld_low_confidence": 15,
-    "claims_rejected_implausible": 2
+    "headlines_stored": 125,
+    "headlines_in_window": 122,
+    "claims_published": 46,
+    "claims_withheld_low_confidence": 16,
+    "claims_rejected_implausible": 3
   },
   "signals": [
+    {
+      "fuel": "ago",
+      "price": 1595.0,
+      "unit": "NGN/litre",
+      "price_type": "ex_depot",
+      "price_type_inferred": true,
+      "state": null,
+      "state_slug": null,
+      "place": null,
+      "marketer": "dangote",
+      "marketer_label": "Dangote Refinery",
+      "direction": "down",
+      "previous_price": null,
+      "first_reported_at": "2026-11-26T09:06:00Z",
+      "last_reported_at": "2026-11-26T18:06:37Z",
+      "outlets": 8,
+      "nbs_reference": {
+        "price": 3277.47,
+        "period": "2026-05"
+      },
+      "headlines": [
+        {
+          "outlet": "TVC News",
+          "title": "Dangote Reduces Diesel Price To N1,595 Per Litre",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9pQVhoU2cxd2thRG5ETjBsUHY2eXhOVVBkMVY5MnhubHE0VTF0MURtR3pXUUI3M2hvN2wwNHg0SWFzM2tPMzBGbVgyUHlYS2Y5STRjV1BXWG15VDZDLVZjckVveXVPU1NzeWoyQ0dwQkk1bVVraF81M1hBaw?oc=5",
+          "published_at": "2026-11-26T09:06:00Z"
+        },
+        {
+          "outlet": "Business News Nigeria",
+          "title": "Dangote refinery cuts diesel price by N125 to N1,595 per litre",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPa3RNMm1VX1pZZjZRQXd2NkkzaENldVpLd0hKY0hTUXlMTGxoQ1oxV2ptdGlrYkJoNGZVYU5VSWZ2aDd4VFBGQ3lYMzBwM1F6VTFvQVNHcTJFbjhqUHRwUnhlckZXQU5kMlZYYTJXUVYxdktHZXp6RlY0N0d3X2tZd1J4TnN3dnVPX1BWcGI5dnZwM1VzUTl5X0Z4WWRjVlJzUlZlMUEzTQ?oc=5",
+          "published_at": "2026-11-26T09:56:33Z"
+        },
+        {
+          "outlet": "Nigerian Bulletin",
+          "title": "Dangote Refinery Cuts Diesel Price by ₦125 Per Litre to ₦1,595",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOTTNlUDBHUzRuaUVKQURYclFqVFFCVE5VakJjazc2UHkwblBYZmI3cGQ0bjZidHMtWFV0WndXQVIzYWNScnQ2TDhqYWczQjNza0c2Ylg5Slk2QW93NUxCN1g2TTRjZ0YtVnYwX20xczFlU2NTcXp2SkplZTl0M2ZiaW1TZThJem5wTHR2bksyN0NTMGM4TFRIODkya0ItcU9yRzZHeXUxNVRWTi04eElvLVgzVlhLNDBHYmc?oc=5",
+          "published_at": "2026-11-26T10:10:29Z"
+        },
+        {
+          "outlet": "Daily Report Nigeria",
+          "title": "Dangote Refinery Slashes Diesel Price By ₦125, New Rate Hits ₦1,595",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOZzNqTWt0Wm1mR3F3NHpPQ1NjYmFKVXlXcFdnMTktXzQyQkxvNW55NzZRT1VkSnV6TWhjVHUtRVJ2S1FxUFZkMXh2YklZR0VYWURwb2ZrRng4NzAyS0lhaWVZZ0dTWTFicW1Ja2k2MWUwYjlUYjNvQm1YTkFMcG9fcTlXR2ZfVWpjcU5GWHZkVjV1WEd1TklSeGhpRms2R0tMeF94Q1MyeTk?oc=5",
+          "published_at": "2026-11-26T11:20:23Z"
+        },
+        {
+          "outlet": "NewsGhana",
+          "title": "Dangote diesel price falls to ₦1,595 after withdrawn cut",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOelpOaTdvZFg5UEdrYkp2XzNVTGxweVNvVzNPT2NXSzRYYjNTbnc5aXp6S2UweFFZLTN1dFVrN3pQaWp1b05ZdEJtZF9LcDQ4WTNIQkJNRzNtMDdWc2tuSkM3M05VZmRQV0VqUF84UnRURmpKeXRudU95bm5mZktXYmZtOVNvZTl5elFrdnRBTmFNcm8?oc=5",
+          "published_at": "2026-11-26T14:45:27Z"
+        }
+      ]
+    },
     {
       "fuel": "pms",
       "price": 1295.0,
