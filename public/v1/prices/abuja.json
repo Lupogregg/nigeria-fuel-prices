@@ -1541,6 +1541,35 @@
     "signals": [
       {
         "fuel": "pms",
+        "price": 1240.0,
+        "unit": "NGN/litre",
+        "price_type": "pump",
+        "price_type_inferred": true,
+        "state": "FCT",
+        "state_slug": "fct",
+        "place": "Abuja",
+        "marketer": "nnpc",
+        "marketer_label": "NNPC",
+        "direction": "down",
+        "previous_price": null,
+        "first_reported_at": "2026-11-27T14:08:10Z",
+        "last_reported_at": "2026-11-27T14:08:10Z",
+        "outlets": 1,
+        "nbs_reference": {
+          "price": 1602.64,
+          "period": "2026-05"
+        },
+        "headlines": [
+          {
+            "outlet": "Real Broadcasting Network",
+            "title": "NNPCL Reduces Petrol Price to N1,240 Per Litre in Abuja",
+            "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZXhpVHgwZy1HbDBqU2U4d1FMVmc1WFJEeDVXOUcxMjhJZHFiVHBPY0pqTTNlaUxTM21CN0w2RENlay0xcG00c1QxWUE4YkFUTHFpR01EU1ViQXY0R3dNM1BIVzd5eHpZODFZN0dsZGdhSHR0X09DZ0VUaWpaQ3cwU3BSczRHT1lfTWdFQUh2VDQxa2Nx?oc=5",
+            "published_at": "2026-11-27T14:08:10Z"
+          }
+        ]
+      },
+      {
+        "fuel": "pms",
         "price": 1325.0,
         "unit": "NGN/litre",
         "price_type": "pump",
