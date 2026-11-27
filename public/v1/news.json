@@ -1,13 +1,13 @@
 {
-  "as_of": "2026-11-26",
+  "as_of": "2026-11-27",
   "window_days": 45,
   "note": "Prices stated in news headlines, extracted by rule. They are leads, not measurements: a headline may quote one station, one city or a wholesale price. Several outlets carrying the same figure often means one story was republished. Never blended with the NBS averages.",
   "method": "rule-based extraction from headlines; only high-confidence claims are published",
   "counts": {
-    "headlines_stored": 125,
-    "headlines_in_window": 122,
-    "claims_published": 46,
-    "claims_withheld_low_confidence": 16,
+    "headlines_stored": 134,
+    "headlines_in_window": 128,
+    "claims_published": 48,
+    "claims_withheld_low_confidence": 17,
     "claims_rejected_implausible": 3
   },
   "signals": [
@@ -16,7 +16,7 @@
       "price": 1595.0,
       "unit": "NGN/litre",
       "price_type": "ex_depot",
-      "price_type_inferred": true,
+      "price_type_inferred": false,
       "state": null,
       "state_slug": null,
       "place": null,
@@ -25,8 +25,8 @@
       "direction": "down",
       "previous_price": null,
       "first_reported_at": "2026-11-26T09:06:00Z",
-      "last_reported_at": "2026-11-26T18:06:37Z",
-      "outlets": 8,
+      "last_reported_at": "2026-11-27T08:00:01Z",
+      "outlets": 10,
       "nbs_reference": {
         "price": 3277.47,
         "period": "2026-05"
