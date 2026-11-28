@@ -1536,7 +1536,7 @@
     }
   },
   "news_signals": {
-    "as_of": "2026-11-27",
+    "as_of": "2026-11-28",
     "note": "Prices stated in news headlines, extracted by rule. They are leads, not measurements: a headline may quote one station, one city or a wholesale price. Several outlets carrying the same figure often means one story was republished. Never blended with the NBS averages.",
     "signals": []
   }

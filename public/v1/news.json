@@ -1,12 +1,12 @@
 {
-  "as_of": "2026-11-27",
+  "as_of": "2026-11-28",
   "window_days": 45,
   "note": "Prices stated in news headlines, extracted by rule. They are leads, not measurements: a headline may quote one station, one city or a wholesale price. Several outlets carrying the same figure often means one story was republished. Never blended with the NBS averages.",
   "method": "rule-based extraction from headlines; only high-confidence claims are published",
   "counts": {
-    "headlines_stored": 136,
-    "headlines_in_window": 130,
-    "claims_published": 50,
+    "headlines_stored": 138,
+    "headlines_in_window": 131,
+    "claims_published": 51,
     "claims_withheld_low_confidence": 17,
     "claims_rejected_implausible": 3
   },
@@ -172,12 +172,18 @@
       "previous_price": null,
       "first_reported_at": "2026-11-25T07:11:39Z",
       "last_reported_at": "2026-11-25T07:11:39Z",
-      "outlets": 1,
+      "outlets": 2,
       "nbs_reference": {
         "price": 1561.22,
         "period": "2026-05"
       },
       "headlines": [
+        {
+          "outlet": "Legit.ng",
+          "title": "Petrol Prices Crash as Five Lagos Depots Sell at N1,055, Filling Stations Slash Pump Rates",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQS0p4eDV3aG95WmFtdFYwMVVsMU1tM1RMaXZTS3R0Z1YxbjFEMFA5OUE1ZWRkVEJneC1BRHRpREtWTmVVUW9mWW9EMHJZc0ItdDRfV2dRT1BiOWF3QmlNd1QtWnZKOHhleVdSemJMWXFEdERhNFNQUF9vaDZJZ2l3andvcS13WVRIRXFfUEFwMUdGaThDbUdjbUc4Q1dnVHVSTXNaTHRKSEI5dVkzUVZXZWtuMmVycjBna1dEb0pMQndrWjNuTjRJZTNkbw?oc=5",
+          "published_at": "2026-11-25T07:11:39Z"
+        },
         {
           "outlet": "Legit News",
           "title": "Petrol Prices Crash as Five Lagos Depots Sell at N1,055, Filling Stations Slash Pump Rates",
